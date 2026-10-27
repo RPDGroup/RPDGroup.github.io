@@ -1,0 +1,16 @@
+{
+  "sources": [
+    {
+      "url": "https://raw.githubusercontent.com/RPDGroup/DynoM/main/example/Test_Task/ADK/02_Inference/Output/test_gen/9R71/9R71_sample0.pdb",
+      "sha256": "11b8887754f938bbd96700b638e6faede0309263f2fe416d6bd42d74470c8e5c",
+      "bytes": 267948
+    },
+    {
+      "url": "https://raw.githubusercontent.com/RPDGroup/DynoM/main/example/Test_Task/ADK/02_Inference/Output/test_gen/9R71/9R71_sample1.pdb",
+      "sha256": "3ed353e5f7106243ca7b1e7ed7c068ae449cd338fb7aba2b6a0294031774b4a8",
+      "bytes": 267948
+    }
+  ],
+  "common_ca_atoms": 428,
+  "method": "Common C-alpha atoms; Kabsch alignment of sample 1 to sample 0; shared PCA projection and fixed camera rotation; Catmull-Rom interpolation for display. Static model outputs, not a trajectory."
+}
