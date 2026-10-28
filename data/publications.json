@@ -1,0 +1,846 @@
+{
+  "version": 1,
+  "checked_on": "2026-10-28",
+  "scholar_url": "https://scholar.google.com/citations?hl=zh-CN&user=xzW2DAgAAAAJ",
+  "selection": "Group member first/co-first or explicitly designated corresponding author. Original-source roles; no inference from last position.",
+  "group_names": [
+    "Zilin Ren",
+    "Yixiang Zhang",
+    "Qiantong Jin",
+    "Yiran Shi",
+    "Jialu Han",
+    "Xianyu Wang",
+    "Luyao Han",
+    "Ziyao Jin",
+    "Yuan Cheng",
+    "Pengjia Ma",
+    "Songyang Diao",
+    "Xin Yang",
+    "Ying Hu",
+    "Zhixiang Sui",
+    "Guofeng Yang",
+    "Yubin Liu",
+    "Yuxue Xia",
+    "Duo Liu",
+    "Qianyi Jia",
+    "Haolun Ban",
+    "Fangyuan Xing",
+    "Yufeng Zhou",
+    "Yanpeng Zhang",
+    "Xinyuan Zhao",
+    "Jie Zhu",
+    "Qiu Wang",
+    "Ke Ding",
+    "Yuandi Wen",
+    "Zixuan Li",
+    "Chuhan Tian",
+    "Jianting Gong",
+    "Yongbing Chen",
+    "Lili Jiang",
+    "Chunxiao Shi"
+  ],
+  "publications": [
+    {
+      "doi": "10.1093/bioinformatics/btae330",
+      "title": "CodonBERT: a BERT-based architecture tailored for codon optimization using the cross-attention mechanism",
+      "authors": [
+        "Zilin Ren",
+        "Lili Jiang",
+        "Yaxin Di",
+        "Dufei Zhang",
+        "Jianli Gong",
+        "Jianting Gong",
+        "Qiwei Jiang",
+        "Zhiguo Fu",
+        "Pingping Sun",
+        "Bo Zhou",
+        "Ming Ni"
+      ],
+      "year": 2024,
+      "journal": [
+        "Bioinformatics"
+      ],
+      "volume": "40",
+      "issue": "7",
+      "article_number": "btae330",
+      "crossref_checked": false,
+      "first_or_joint_first_authors": [
+        "Zilin Ren",
+        "Lili Jiang",
+        "Yaxin Di"
+      ],
+      "corresponding_authors": [
+        "Pingping Sun",
+        "Bo Zhou",
+        "Ming Ni"
+      ],
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/38788220/",
+        "https://academic.oup.com/bioinformatics/advance-article-pdf/doi/10.1093/bioinformatics/btae330/57890129/btae330.pdf"
+      ],
+      "evidence": "Publisher PDF names first three authors as equally contributing first authors; correspondence explicitly lists Sun, Zhou, Ni. Ren is not a corresponding author.",
+      "include": true
+    },
+    {
+      "doi": "10.1093/bioinformatics/btad646",
+      "title": "THPLM: a sequence-based deep learning framework for protein stability changes prediction upon point variations using pretrained protein language model",
+      "authors": [
+        "Jianting Gong",
+        "Lili Jiang",
+        "Yongbing Chen",
+        "Yixiang Zhang",
+        "Xue Li",
+        "Zhiqiang Ma",
+        "Zhiguo Fu",
+        "Fei He",
+        "Pingping Sun",
+        "Zilin Ren",
+        "Mingyao Tian"
+      ],
+      "year": 2023,
+      "journal": [
+        "Bioinformatics"
+      ],
+      "volume": "39",
+      "issue": "11",
+      "page": null,
+      "crossref_checked": true,
+      "first_or_joint_first_authors": [
+        "Jianting Gong"
+      ],
+      "corresponding_authors": [
+        "Pingping Sun",
+        "Zilin Ren",
+        "Mingyao Tian"
+      ],
+      "sources": [
+        "https://academic.oup.com/bioinformatics/article/39/11/btad646/7329098"
+      ],
+      "evidence": "Publisher author list and corresponding-author notes identify Ren as corresponding author and Gong as first listed author.",
+      "include": true,
+      "article_number": "btad646"
+    },
+    {
+      "doi": "10.1093/bib/bbae472",
+      "title": "NASTRA: accurate analysis of short tandem repeat markers by nanopore sequencing with repeat-structure-aware algorithm",
+      "authors": [
+        "Zilin Ren",
+        "Jiarong Zhang",
+        "Yixiang Zhang",
+        "Tingting Yang",
+        "Pingping Sun",
+        "Jiguo Xue",
+        "Xiaochen Bo",
+        "Bo Zhou",
+        "Jiangwei Yan",
+        "Ming Ni"
+      ],
+      "year": 2024,
+      "journal": [
+        "Briefings in Bioinformatics"
+      ],
+      "volume": "25",
+      "issue": "6",
+      "page": null,
+      "crossref_checked": true,
+      "first_or_joint_first_authors": [
+        "Zilin Ren",
+        "Jiarong Zhang",
+        "Yixiang Zhang"
+      ],
+      "corresponding_authors": [
+        "Zilin Ren",
+        "Bo Zhou",
+        "Jiangwei Yan",
+        "Ming Ni"
+      ],
+      "sources": [
+        "https://academic.oup.com/bib/article/25/6/bbae472/7774877"
+      ],
+      "evidence": "Publisher notes explicitly identify the three joint first authors and four corresponding authors.",
+      "include": true,
+      "article_number": "bbae472"
+    },
+    {
+      "doi": "10.1093/bib/bbae579",
+      "title": "DeepPFP: a multi-task-aware architecture for protein function prediction",
+      "authors": [
+        "Han Wang",
+        "Zilin Ren",
+        "Jinghong Sun",
+        "Yongbing Chen",
+        "Xiaochen Bo",
+        "JiGuo Xue",
+        "Jingyang Gao",
+        "Ming Ni"
+      ],
+      "year": 2025,
+      "journal": [
+        "Briefings in Bioinformatics"
+      ],
+      "volume": "26",
+      "issue": "1",
+      "page": null,
+      "crossref_checked": true,
+      "crossref_year": 2024,
+      "first_or_joint_first_authors": [
+        "Han Wang",
+        "Zilin Ren"
+      ],
+      "corresponding_authors": [
+        "Zilin Ren",
+        "Jiguo Xue",
+        "Jingyang Gao",
+        "Ming Ni"
+      ],
+      "sources": [
+        "https://academic.oup.com/bib/article/26/1/bbae579/7999072"
+      ],
+      "evidence": "Publisher notes explicitly identify Wang and Ren as equally contributing first authors and four corresponding authors. Publisher issue/year and publication date are 2025; Crossref published date-parts returned 2024, so use publisher year 2025.",
+      "include": true,
+      "article_number": "bbae579"
+    },
+    {
+      "doi": "10.1109/BIBM58861.2023.10385963",
+      "title": "PLMTHP: An Ensemble Framework for Tumor Homing Peptide Prediction based on Protein Language Model",
+      "authors": [
+        "Yongbing Chen",
+        "Han Qin",
+        "Xiaodan Cui",
+        "Tianhui Yang",
+        "Pingping Sun",
+        "Jianting Gong",
+        "Zilin Ren"
+      ],
+      "year": 2023,
+      "journal": [
+        "2023 IEEE International Conference on Bioinformatics and Biomedicine (BIBM)"
+      ],
+      "volume": null,
+      "issue": null,
+      "page": "841-846",
+      "crossref_checked": true,
+      "first_or_joint_first_authors": [
+        "Yongbing Chen"
+      ],
+      "corresponding_authors": null,
+      "sources": [
+        "https://doi.org/10.1109/BIBM58861.2023.10385963",
+        "https://api.crossref.org/works/10.1109/BIBM58861.2023.10385963"
+      ],
+      "evidence": "IEEE-deposited Crossref metadata verifies first-listed author Chen. Correspondence has not been independently verified; do not infer it from Ren being last.",
+      "include": true
+    },
+    {
+      "doi": "10.1142/S0219720025500209",
+      "title": "PLMABFW: A deep learning framework for predicting Antibody–Antigen interactions using protein language model",
+      "authors": [
+        "Yongbing Chen",
+        "Qianyi Jia",
+        "Xinyue Jia",
+        "Zhiguo Fu",
+        "Pingping Sun",
+        "Bo Li",
+        "Zilin Ren"
+      ],
+      "year": 2025,
+      "journal": [
+        "Journal of Bioinformatics and Computational Biology"
+      ],
+      "volume": "23",
+      "issue": "06",
+      "page": null,
+      "crossref_checked": true,
+      "first_or_joint_first_authors": [
+        "Yongbing Chen"
+      ],
+      "corresponding_authors": null,
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/41403223/",
+        "https://doi.org/10.1142/S0219720025500209"
+      ],
+      "evidence": "PubMed and publisher-deposited Crossref author list verify first-listed author Chen. Correspondence unverified; do not infer from last author.",
+      "include": true
+    },
+    {
+      "doi": "10.3934/era.2023276",
+      "title": "MTNA: A deep learning based predictor for identifying multiple types of N-terminal protein acetylated sites",
+      "authors": [
+        "Yongbing Chen",
+        "Wenyuan Qin",
+        "Tong Liu",
+        "Ruikun Li",
+        "Fei He",
+        "Ye Han",
+        "Zhiqiang Ma",
+        "Zilin Ren"
+      ],
+      "year": 2023,
+      "journal": [
+        "Electronic Research Archive"
+      ],
+      "volume": "31",
+      "issue": "9",
+      "page": "5442-5456",
+      "crossref_checked": false,
+      "first_or_joint_first_authors": [
+        "Yongbing Chen"
+      ],
+      "corresponding_authors": [
+        "Fei He",
+        "Ye Han",
+        "Zhiqiang Ma",
+        "Zilin Ren"
+      ],
+      "sources": [
+        "https://www.aimspress.com/aimspress-data/era/2023/9/PDF/era-31-09-276.pdf"
+      ],
+      "evidence": "Publisher PDF first page gives Chen first and explicit asterisks/correspondence for He, Han, Ma and Ren.",
+      "include": true
+    },
+    {
+      "doi": "10.3934/era.2023253",
+      "title": "Deciphering and identifying pan-cancer RAS pathway activation based on graph autoencoder and ClassifierChain",
+      "authors": [
+        "Jianting Gong",
+        "Yingwei Zhao",
+        "Xiantao Heng",
+        "Yongbing Chen",
+        "Pingping Sun",
+        "Fei He",
+        "Zhiqiang Ma",
+        "Zilin Ren"
+      ],
+      "year": 2023,
+      "journal": [
+        "Electronic Research Archive"
+      ],
+      "volume": "31",
+      "issue": "8",
+      "page": "4951-4967",
+      "crossref_checked": true,
+      "first_or_joint_first_authors": [
+        "Jianting Gong"
+      ],
+      "corresponding_authors": [
+        "Pingping Sun",
+        "Fei He",
+        "Zhiqiang Ma",
+        "Zilin Ren"
+      ],
+      "sources": [
+        "https://www.aimspress.com/article/doi/10.3934/era.2023253?viewType=HTML",
+        "https://www.aimspress.com/aimspress-data/era/2023/8/PDF/era-31-08-253.pdf"
+      ],
+      "evidence": "Publisher PDF first page gives Gong first and explicit correspondence for Sun, He, Ma and Ren.",
+      "include": true
+    },
+    {
+      "title": "A dataset of small protein conformational ensembles from all-atom molecular dynamics simulations",
+      "year": 2026,
+      "doi": "10.1038/s41597-026-07759-2",
+      "publication_type": "journal article",
+      "journal": "Scientific Data",
+      "authors": [
+        "Ying Hu",
+        "Xin Yang",
+        "Xinlei Zhu",
+        "Zhixiang Sui",
+        "Pingping Sun",
+        "Ming Ni",
+        "Xiaochen Bo",
+        "Longjia Jia",
+        "Zhiguo Fu",
+        "Zilin Ren"
+      ],
+      "co_first_authors": [
+        "Ying Hu",
+        "Xin Yang"
+      ],
+      "corresponding_authors": [
+        "Longjia Jia",
+        "Zhiguo Fu",
+        "Zilin Ren"
+      ],
+      "primary_url": "https://www.nature.com/articles/s41597-026-07759-2",
+      "evidence": "Publisher author notes explicitly name Ying Hu and Xin Yang as equal contributors; corresponding authors explicitly Longjia Jia, Zhiguo Fu or Zilin Ren. Published 2026-06-30.",
+      "first_or_joint_first_authors": [
+        "Ying Hu",
+        "Xin Yang"
+      ],
+      "sources": [
+        "https://www.nature.com/articles/s41597-026-07759-2"
+      ],
+      "include": true
+    },
+    {
+      "title": "Genome-guided generative adversarial learning enables nanopore adaptive sequencing",
+      "year": 2026,
+      "doi": "10.1038/s41467-026-73785-8",
+      "publication_type": "journal article",
+      "journal": "Nature Communications",
+      "volume": "17",
+      "article_number": "7097",
+      "authors": [
+        "Yixiang Zhang",
+        "Pingping Sun",
+        "Jiarong Zhang",
+        "Zhiguo Fu",
+        "Xiaochen Bo",
+        "Di Guan",
+        "Ming Ni",
+        "Zilin Ren"
+      ],
+      "co_first_authors": [
+        "Yixiang Zhang",
+        "Pingping Sun"
+      ],
+      "corresponding_authors": [
+        "Ming Ni",
+        "Zilin Ren"
+      ],
+      "primary_url": "https://www.nature.com/articles/s41467-026-73785-8",
+      "evidence": "Official article-in-press PDF title page explicitly equal contribution Yixiang Zhang and Pingping Sun, correspondence Ming Ni and Zilin Ren. Publisher final record volume 17, article 7097, published 2026-06-02, version of record 2026-07-23.",
+      "local_source": "genome.pdf",
+      "first_or_joint_first_authors": [
+        "Yixiang Zhang",
+        "Pingping Sun"
+      ],
+      "sources": [
+        "https://www.nature.com/articles/s41467-026-73785-8"
+      ],
+      "include": true
+    },
+    {
+      "title": "MuFaDDG: a sequence-based multiscale feature fusion framework for protein stability changes prediction",
+      "year": 2026,
+      "doi": "10.1093/bioinformatics/btag196",
+      "publication_type": "journal article",
+      "journal": "Bioinformatics",
+      "volume": "42",
+      "issue": "5",
+      "article_number": "btag196",
+      "authors": [
+        "Jianting Gong",
+        "Pengjia Ma",
+        "Zilin Ren",
+        "Si Li",
+        "Zhiguo Fu",
+        "Pingping Sun",
+        "Ming Ni",
+        "Xiaochen Bo"
+      ],
+      "co_first_authors": [
+        "Jianting Gong",
+        "Pengjia Ma"
+      ],
+      "corresponding_authors": [
+        "Pingping Sun",
+        "Ming Ni",
+        "Xiaochen Bo"
+      ],
+      "primary_url": "https://academic.oup.com/bioinformatics/article/42/5/btag196/8665236",
+      "evidence": "Publisher Author Notes: Jianting Gong and Pengjia Ma contributed equally. Correspondence Pingping Sun/Ming Ni/Xiaochen Bo. Zilin Ren is an additional author, NOT named corresponding. Published 29 April 2026. PubMed PMID 42057285 corroborates author order and DOI.",
+      "first_or_joint_first_authors": [
+        "Jianting Gong",
+        "Pengjia Ma"
+      ],
+      "sources": [
+        "https://academic.oup.com/bioinformatics/article/42/5/btag196/8665236"
+      ],
+      "include": true
+    },
+    {
+      "title": "Efficient exploration of conformational ensembles via protein interaction-informed deep learning",
+      "year": 2026,
+      "doi": "10.21203/rs.3.rs-9549778/v1",
+      "publication_type": "preprint",
+      "journal": "Research Square",
+      "authors": [
+        "Zilin Ren",
+        "Duo Liu",
+        "Qianyi Jia",
+        "Qiantong Jin",
+        "Yubin Liu",
+        "Chan Liu",
+        "Zhixiang Sui",
+        "Luyao Han",
+        "Yixiang Zhang",
+        "Xin Yang",
+        "Pingping Sun",
+        "Zhiguo Fu",
+        "Chengkun Wu",
+        "Ming Ni",
+        "Xiaochen Bo"
+      ],
+      "first_author": "Zilin Ren",
+      "co_first_authors": null,
+      "corresponding_authors": null,
+      "primary_url": "https://www.researchsquare.com/article/rs-9549778/v1",
+      "metadata_url": "https://api.crossref.org/works/10.21203/rs.3.rs-9549778/v1",
+      "evidence": "Crossref title, full author order and Zilin Ren ORCID 0000-0002-3621-1024 verified. Posted 2026-06-29. Group repository RPDGroup/DynoM corroborates title. Full-text author footnotes not accessible; equal contribution/correspondence UNKNOWN; do not infer. No journal publication verified.",
+      "first_or_joint_first_authors": [
+        "Zilin Ren"
+      ],
+      "sources": [
+        "https://www.researchsquare.com/article/rs-9549778/v1"
+      ],
+      "include": true
+    },
+    {
+      "title": "Multimodal AI unveils a billion-scale microbial enzyme atlas",
+      "year": 2026,
+      "doi": "10.21203/rs.3.rs-9629622/v1",
+      "publication_type": "preprint",
+      "journal": "Research Square",
+      "authors": [
+        "Ming Ni",
+        "Jianting Gong",
+        "Pengjia Ma",
+        "Wanyi Chen",
+        "Yibo Zhang",
+        "Lingchun Qiao",
+        "Xiaomin Zhang",
+        "Haoyue Gu",
+        "Junling Yang",
+        "Songyang Diao",
+        "Wanlin Liu",
+        "Zilin Ren",
+        "Yunming Fang",
+        "Xiaochen Bo",
+        "Tianwei Tan"
+      ],
+      "co_first_authors": [
+        "Ming Ni",
+        "Jianting Gong",
+        "Pengjia Ma"
+      ],
+      "corresponding_authors": [
+        "Xiaochen Bo"
+      ],
+      "primary_url": "https://www.researchsquare.com/article/rs-9629622/v1",
+      "evidence": "Official preprint manuscript title page gives this exact author order; cover/landing metadata incorrectly starts Xiaochen Bo. Manuscript line 19 explicitly equal contribution Ming Ni/Jianting Gong/Pengjia Ma; line 20 corresponding Xiaochen Bo. Zilin Ren is additional author, NOT corresponding. Posted 2026-06-18. No journal publication verified.",
+      "local_source": "atlas.pdf",
+      "first_or_joint_first_authors": [
+        "Ming Ni",
+        "Jianting Gong",
+        "Pengjia Ma"
+      ],
+      "sources": [
+        "https://www.researchsquare.com/article/rs-9629622/v1"
+      ],
+      "include": true
+    },
+    {
+      "title": "Forensic nanopore sequencing of STRs and SNPs using Verogen’s ForenSeq DNA Signature Prep Kit and MinION",
+      "year": 2021,
+      "journal": "International Journal of Legal Medicine",
+      "volume": "135",
+      "issue": "5",
+      "doi": "10.1007/s00414-021-02604-0",
+      "authors": [
+        "Zi-Lin Ren",
+        "Jia-Rong Zhang",
+        "Xiao-Meng Zhang",
+        "Xu Liu",
+        "Yan-Feng Lin",
+        "Hua Bai",
+        "Meng-Chun Wang",
+        "Feng Cheng",
+        "Jin-Ding Liu",
+        "Peng Li",
+        "Lei Kong",
+        "Xiao-Chen Bo",
+        "Sheng-Qi Wang",
+        "Ming Ni",
+        "Jiang-Wei Yan"
+      ],
+      "decision": "include",
+      "role": "First author",
+      "role_evidence": "Publisher author list begins Zi-Lin Ren; corresponding authors are Sheng-Qi Wang, Ming Ni and Jiang-Wei Yan.",
+      "sources": [
+        "https://link.springer.com/article/10.1007/s00414-021-02604-0"
+      ],
+      "include": true,
+      "evidence": "Publisher author list begins Zi-Lin Ren; corresponding authors are Sheng-Qi Wang, Ming Ni and Jiang-Wei Yan.",
+      "page": "1685–1693",
+      "first_or_joint_first_authors": [
+        "Zilin Ren"
+      ]
+    },
+    {
+      "title": "Model performance and interpretability of semi-supervised generative adversarial networks to predict oncogenic variants with unlabeled data",
+      "year": 2023,
+      "journal": "BMC Bioinformatics",
+      "volume": "23",
+      "doi": "10.1186/s12859-023-05141-2",
+      "authors": [
+        "Zilin Ren",
+        "Quan Li",
+        "Kajia Cao",
+        "Marilyn M. Li",
+        "Yunyun Zhou",
+        "Kai Wang"
+      ],
+      "decision": "include",
+      "role": "First author",
+      "role_evidence": "Publisher PDF author list begins Zilin Ren. Corresponding authors are Yunyun Zhou and Kai Wang.",
+      "sources": [
+        "https://bmcbioinformatics.biomedcentral.com/counter/pdf/10.1186/s12859-023-05141-2"
+      ],
+      "metadata_note": "Publisher correction 10.1186/s12859-023-05357-2 relocates article to Volume 23 Supplement 3 (2022):572; original article itself published 9 February2023. Preserve DOI and publication year2023; use corrected volume23 Suppl3:572 if formal citation.",
+      "include": true,
+      "evidence": "Publisher PDF author list begins Zilin Ren. Corresponding authors are Yunyun Zhou and Kai Wang.",
+      "page": "572",
+      "first_or_joint_first_authors": [
+        "Zilin Ren"
+      ],
+      "issue": "Suppl 3"
+    },
+    {
+      "title": "Characteristics and filtering of low-frequency artificial short deletion variations based on nanopore sequencing",
+      "year": 2025,
+      "journal": "GigaScience",
+      "volume": "14",
+      "doi": "10.1093/gigascience/giaf018",
+      "authors": [
+        "Fuqiang Ye",
+        "Juanjuan Zhu",
+        "Xiaomin Zhang",
+        "Jiarong Zhang",
+        "Zihan Xie",
+        "Tingting Yang",
+        "Yifang Han",
+        "Xiaohong Yang",
+        "Zilin Ren",
+        "Ming Ni"
+      ],
+      "decision": "include",
+      "role": "Corresponding author",
+      "role_evidence": "Publisher PDF marks Zilin Ren and Ming Ni with star and correspondence address. Co-first are Fuqiang Ye, Juanjuan Zhu, Xiaomin Zhang.",
+      "sources": [
+        "https://doi.org/10.1093/gigascience/giaf018"
+      ],
+      "include": true,
+      "evidence": "Publisher PDF marks Zilin Ren and Ming Ni with star and correspondence address. Co-first are Fuqiang Ye, Juanjuan Zhu, Xiaomin Zhang.",
+      "page": "giaf018",
+      "corresponding_authors": [
+        "Zilin Ren"
+      ],
+      "first_or_joint_first_authors": [
+        "Fuqiang Ye"
+      ],
+      "article_number": "giaf018"
+    },
+    {
+      "title": "Genomic-epidemiological analysis of 15 million SARS-CoV-2 genomes reveals accelerated fitness gain of JN.1 lineage",
+      "year": 2026,
+      "journal": "Virologica Sinica",
+      "volume": "41",
+      "issue": "2",
+      "doi": "10.1016/j.virs.2026.03.015",
+      "authors": [
+        "Zhong-yi Lei",
+        "Qian-tong Jin",
+        "Xiao-min Zhang",
+        "Xiao-chen Bo",
+        "Zi-lin Ren",
+        "Yi-gang Tong",
+        "Ming Ni"
+      ],
+      "decision": "include",
+      "role": "Corresponding author",
+      "role_evidence": "Publisher website explicitly lists Corresponding author: Zi-lin Ren, Yi-gang Tong, Ming Ni. PMC XML corroborates. Qian-tong Jin is second with no equal contribution mark.",
+      "sources": [
+        "https://www.virosin.org/en/article/doi/10.1016/j.virs.2026.03.015",
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13215966/fullTextXML"
+      ],
+      "include": true,
+      "evidence": "Publisher website explicitly lists Corresponding author: Zi-lin Ren, Yi-gang Tong, Ming Ni. PMC XML corroborates. Qian-tong Jin is second with no equal contribution mark.",
+      "page": "382–391",
+      "corresponding_authors": [
+        "Zilin Ren"
+      ],
+      "first_or_joint_first_authors": [
+        "Zhong-yi Lei"
+      ]
+    },
+    {
+      "title": "Rapid PCR-Based Nanopore Adaptive Sequencing Improves Sensitivity and Timeliness of Viral Clinical Detection and Genome Surveillance",
+      "year": 2022,
+      "journal": "Frontiers in Microbiology",
+      "volume": "13",
+      "doi": "10.3389/fmicb.2022.929241",
+      "authors": [
+        "Yanfeng Lin",
+        "Yan Dai",
+        "Yuqi Liu",
+        "Zhuli Ren",
+        "Hao Guo",
+        "Zhenzhong Li",
+        "Jinhui Li",
+        "Kaiying Wang",
+        "Lang Yang",
+        "Shuang Zhang",
+        "Hongbo Liu",
+        "Leili Jia",
+        "Ming Ni",
+        "Peng Li",
+        "Hongbin Song"
+      ],
+      "decision": "include",
+      "role": "Co-first author",
+      "role_evidence": "Original publisher PDF and PMC XML attach dagger to Yanfeng Lin, Yan Dai, Yuqi Liu, Zhuli Ren, Hao Guo; footnote says these authors contributed equally.",
+      "identity_note": "Original paper prints Zhuli Ren. User explicitly confirmed on2026-10-28 this is an original spelling error for Zilin Ren. Preserve printed author name and record user-confirmed identity mapping.",
+      "sources": [
+        "https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2022.929241/pdf",
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9244360/fullTextXML"
+      ],
+      "include": true,
+      "evidence": "Original publisher PDF and PMC XML attach dagger to Yanfeng Lin, Yan Dai, Yuqi Liu, Zhuli Ren, Hao Guo; footnote says these authors contributed equally.",
+      "page": "929241",
+      "first_or_joint_first_authors": [
+        "Yanfeng Lin",
+        "Yan Dai",
+        "Yuqi Liu",
+        "Zilin Ren",
+        "Hao Guo"
+      ]
+    },
+    {
+      "title": "A benchmark for evaluation of structure-based online tools for antibody-antigen binding affinity",
+      "year": 2024,
+      "journal": "Biophysical Chemistry",
+      "volume": "311",
+      "doi": "10.1016/j.bpc.2024.107253",
+      "authors": [
+        "Jiayi Xu",
+        "Jianting Gong",
+        "Xiaochen Bo",
+        "Yigang Tong",
+        "Zilin Ren",
+        "Ming Ni"
+      ],
+      "decision": "include",
+      "role_evidence": "Publisher-supplied PubMed metadata links Zilin Ren to an affiliation with Electronic address, alongside Yigang Tong and Ming Ni; accepted as explicit correspondence metadata.",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/38768531/"
+      ],
+      "role": "Corresponding author",
+      "include": true,
+      "evidence": "Publisher-supplied PubMed metadata links Zilin Ren to an affiliation with Electronic address, alongside Yigang Tong and Ming Ni; accepted as explicit correspondence metadata.",
+      "page": "107253",
+      "corresponding_authors": [
+        "Zilin Ren"
+      ],
+      "first_or_joint_first_authors": [
+        "Jiayi Xu"
+      ]
+    },
+    {
+      "title": "Integrating genomic epidemiology and deep mutational scanning data for prevalence forecasting of SARS-CoV-2 Omicron lineages",
+      "year": 2025,
+      "journal": "PLOS One",
+      "volume": "20",
+      "issue": "11",
+      "doi": "10.1371/journal.pone.0335520",
+      "authors": [
+        "Zhong-yi Lei",
+        "Xiao-min Zhang",
+        "Jia-lu Han",
+        "Ji-guo Xue",
+        "Jia-yi Xu",
+        "Zi-lin Ren",
+        "Yi-gang Tong",
+        "Xiao-chen Bo",
+        "Ming Ni"
+      ],
+      "decision": "include",
+      "role": "Corresponding author",
+      "role_evidence": "Publisher explicitly marks Zi-lin Ren, Yi-gang Tong, Xiao-chen Bo and Ming Ni as corresponding authors.",
+      "sources": [
+        "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0335520"
+      ],
+      "include": true,
+      "evidence": "Publisher explicitly marks Zi-lin Ren, Yi-gang Tong, Xiao-chen Bo and Ming Ni as corresponding authors.",
+      "page": "e0335520",
+      "corresponding_authors": [
+        "Zilin Ren"
+      ],
+      "first_or_joint_first_authors": [
+        "Zhong-yi Lei"
+      ]
+    },
+    {
+      "title": "A T cell-based ubiquitin-mediated mRNA vaccine provides cross-protection against H1N1 and B influenza viruses in mice",
+      "year": 2025,
+      "journal": "Current Research in Microbial Sciences",
+      "volume": "9",
+      "doi": "10.1016/j.crmicr.2025.100457",
+      "authors": [
+        "Yaxin Di",
+        "Ziliang Wang",
+        "Zilin Ren",
+        "Haixin Huang",
+        "Songhui Yang",
+        "Chenchao Zhang",
+        "Shibo Liang",
+        "Pengyuan Dong",
+        "Wanbo Tai",
+        "Xinyu Zhuang",
+        "Mingyao Tian"
+      ],
+      "decision": "include",
+      "role": "Co-first author",
+      "role_evidence": "Publisher-deposited PMC XML attaches equal-contribution footnote 1 to first four authors Yaxin Di, Ziliang Wang, Zilin Ren and Haixin Huang. Footnote explicitly says these authors contributed equally.",
+      "sources": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12392679/fullTextXML"
+      ],
+      "include": true,
+      "evidence": "Publisher-deposited PMC XML attaches equal-contribution footnote 1 to first four authors Yaxin Di, Ziliang Wang, Zilin Ren and Haixin Huang. Footnote explicitly says these authors contributed equally.",
+      "page": "100457",
+      "first_or_joint_first_authors": [
+        "Yaxin Di",
+        "Ziliang Wang",
+        "Zilin Ren",
+        "Haixin Huang"
+      ]
+    },
+    {
+      "title": "N-terminal PEGylation enhances organophosphorus hydrolase catalysis for a promising fast and long-acting prophylactic candidate",
+      "year": 2025,
+      "journal": "Journal of Hazardous Materials",
+      "volume": "488",
+      "doi": "10.1016/j.jhazmat.2025.137336",
+      "authors": [
+        "Ming Ma",
+        "Yanan Zhai",
+        "Qiantong Jin",
+        "Dan Wang",
+        "Shunye Wang",
+        "Zhuang Liu",
+        "Ziyang Wang",
+        "Chengcai Wang",
+        "Yanwei Xie",
+        "Zilin Ren",
+        "Xiang Gao",
+        "Jing Gao"
+      ],
+      "decision": "include",
+      "role": "Corresponding author",
+      "role_evidence": "Publisher-supplied PubMed metadata links Ren to affiliation3 with Electronic address; Xiang Gao and Jing Gao likewise have separate electronic correspondence addresses.",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/39889599/"
+      ],
+      "include": true,
+      "evidence": "Publisher-supplied PubMed metadata links Ren to affiliation3 with Electronic address; Xiang Gao and Jing Gao likewise have separate electronic correspondence addresses.",
+      "page": "137336",
+      "corresponding_authors": [
+        "Zilin Ren"
+      ],
+      "first_or_joint_first_authors": [
+        "Ming Ma"
+      ]
+    }
+  ]
+}

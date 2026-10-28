@@ -148,3 +148,14 @@ and profile-dialog closing/focus behavior on desktop and a narrow screen.
 For Activities changes, check every category, full-image preview, Previous/Next
 and arrow-key navigation, wrapping at the gallery ends, and focus after closing.
 Check that research figures still open without photograph-navigation controls.
+
+### Publications
+
+`data/publications.json` stores curated metadata, original-source role evidence, and source links, checked on 2026-10-28 against the user-provided Scholar profile. Include group-member first/co-first authorship or explicitly designated correspondence; do not infer correspondence from last author position. Peer-reviewed versions replace duplicate preprints; distinct preprints are labeled. Roles shown on the page refer to group members only. The original Rapid PCR paper spells Zilin Ren as “Zhuli Ren”; the user confirmed this spelling error on 2026-10-28, and the original printed author list is retained in the citation metadata. The BMC SGAN article uses the publisher's corrected volume/article number alongside its 2023 publication date.
+
+Regenerate after editing metadata:
+
+```sh
+python3 scripts/update-publications.py
+python3 scripts/update-publications.py --check
+```
