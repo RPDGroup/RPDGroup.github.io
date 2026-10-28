@@ -832,17 +832,6 @@
       "image": "assets/activities/photo-003-full.webp"
     },
     {
-      "id": "photo-004",
-      "category": "lab",
-      "title": "Working side by side",
-      "thumbnail": {
-        "src": "assets/activities/photo-004-thumb.webp",
-        "width": 720,
-        "height": 540
-      },
-      "image": "assets/activities/photo-004-full.webp"
-    },
-    {
       "id": "photo-005",
       "category": "together",
       "title": "Evening moments",
