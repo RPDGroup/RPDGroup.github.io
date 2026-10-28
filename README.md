@@ -45,6 +45,13 @@ Keep project descriptions and publication metadata grounded in their owning
 repositories. Home project cards and resource cards are static HTML; update both
 when adding or changing a project. Search indexes the resource cards themselves.
 
+The DynoDB database website at <https://ai4scenter-dynodb.nenu.edu.cn/> has a
+dedicated resource card for protein-complex MD trajectories and analysis
+results, alongside the existing DynoDB small-protein ensemble dataset and code
+links. The homepage DynoDB card and Research page also link to the database.
+Database scope is based on the website's public homepage and the group's
+supplied URL; no dataset counts are duplicated on this site.
+
 ## Member profiles
 
 The Members page follows the circular portrait directory and profile overlays of
