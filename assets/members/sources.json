@@ -771,6 +771,58 @@
         "bytes": 16060,
         "sha256": "9752098c8f831e20ae9c69e6816bacbef6b6eb515592288dc631de1ddadc1cd0"
       }
+    },
+    {
+      "member_id": "yufeng-zhou",
+      "source_filename": "yufengzhou.jpg",
+      "source_sha256": "5ced4ce1009569234228d53d69df6ea924012a651f51dc98d9e7b14f4c973bcc",
+      "source_width": 878,
+      "source_height": 1172,
+      "exif_orientation": 1,
+      "transform": "EXIF orientation, square portrait crop, downsize up to 640 px without upscaling; no retouching or generated content",
+      "crop_xyxy": [
+        90,
+        260,
+        790,
+        960
+      ],
+      "identity_source": "User-provided name and filename mapping, authorized to add to Members.",
+      "output": {
+        "file": "assets/members/yufeng-zhou.webp",
+        "width": 640,
+        "height": 640,
+        "format": "WebP",
+        "quality": 86,
+        "metadata_removed": true,
+        "bytes": 37240,
+        "sha256": "7fe6c5b9ad4a86b8d52644c7eecd50ebc1980606032ba4828dabad937ad43c84"
+      }
+    },
+    {
+      "member_id": "jianting-gong",
+      "source_filename": "jiantinggong.jpg",
+      "source_sha256": "de797a0252584f2629d67b088aaf73f2d712886204a887a4e0dd2a4fc1893ecc",
+      "source_width": 295,
+      "source_height": 413,
+      "exif_orientation": 1,
+      "transform": "EXIF orientation, square portrait crop, downsize up to 640 px without upscaling; no retouching or generated content",
+      "crop_xyxy": [
+        0,
+        0,
+        295,
+        295
+      ],
+      "identity_source": "User-provided name and filename mapping, authorized to add to Members.",
+      "output": {
+        "file": "assets/members/jianting-gong.webp",
+        "width": 295,
+        "height": 295,
+        "format": "WebP",
+        "quality": 86,
+        "metadata_removed": true,
+        "bytes": 8360,
+        "sha256": "77728dfce869cd87059a3782ba8c3bace18455994ce76f4142d8d2a867cd28eb"
+      }
     }
   ]
 }

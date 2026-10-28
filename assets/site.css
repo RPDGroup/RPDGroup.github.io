@@ -506,3 +506,5 @@ body.has-member-viewer { overflow: hidden; }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
 }
+
+.citation .model-figure img { max-height: none; width: 100%; height: auto; }

@@ -193,7 +193,8 @@
       "role": "Master's student",
       "group": "master",
       "status": "current",
-      "admission_year": 2025
+      "admission_year": 2025,
+      "photo": "assets/members/yufeng-zhou.webp"
     },
     {
       "id": "yanpeng-zhang",
@@ -272,7 +273,8 @@
       "name": "Jianting Gong",
       "role": "Alumni",
       "group": "alumni",
-      "status": "previous"
+      "status": "previous",
+      "photo": "assets/members/jianting-gong.webp"
     },
     {
       "id": "yongbing-chen",

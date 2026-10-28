@@ -371,7 +371,13 @@
       "sources": [
         "https://www.nature.com/articles/s41597-026-07759-2"
       ],
-      "include": true
+      "include": true,
+      "figure": {
+        "src": "assets/dynodb-workflow.webp",
+        "alt": "DynoDB dataset construction and simulation workflow",
+        "width": 1900,
+        "height": 1613
+      }
     },
     {
       "title": "Genome-guided generative adversarial learning enables nanopore adaptive sequencing",
@@ -623,7 +629,6 @@
       ],
       "include": true,
       "evidence": "Publisher PDF marks Zilin Ren and Ming Ni with star and correspondence address. Co-first are Fuqiang Ye, Juanjuan Zhu, Xiaomin Zhang.",
-      "page": "giaf018",
       "corresponding_authors": [
         "Zilin Ren"
       ],
