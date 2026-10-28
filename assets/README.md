@@ -30,6 +30,16 @@ no duplicate image files.
 The older `team-800.webp` and `team-1600.webp` encodings remain for compatibility
 with earlier revisions; current pages use only `team-upright-*`.
 
+## Member portraits
+
+`members/xinyuan-zhao.webp` is the portrait supplied by the user for Xinyuan
+Zhao, a master's student in the 2025 intake. It is a 640 × 640 square
+head-and-shoulders excerpt for the circular directory portrait and profile
+dialog, encoded as WebP at quality 86. No retouching is applied. Embedded
+metadata is removed, and the supplied photograph remains unchanged.
+`members/sources.json` records the input filename and hash, original dimensions,
+crop rectangle, and output encoding and hash.
+
 ## Activity photo journal
 
 The Activities page contains 105 images: 44 from `photos-2026(2).pptx`,

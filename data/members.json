@@ -185,6 +185,15 @@
       "admission_year": 2025
     },
     {
+      "id": "xinyuan-zhao",
+      "name": "Xinyuan Zhao",
+      "role": "Master's student",
+      "group": "master",
+      "status": "current",
+      "admission_year": 2025,
+      "photo": "assets/members/xinyuan-zhao.webp"
+    },
+    {
       "id": "jie-zhu",
       "name": "Jie Zhu",
       "role": "Master's student",
