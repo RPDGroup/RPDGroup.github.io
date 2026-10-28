@@ -40,6 +40,292 @@
       "image": "assets/activities/upload-007-full.webp"
     },
     {
+      "id": "upload-025",
+      "category": "together",
+      "title": "Graduation ceremony",
+      "thumbnail": {
+        "src": "assets/activities/upload-025-thumb.webp",
+        "width": 720,
+        "height": 462
+      },
+      "image": "assets/activities/upload-025-full.webp"
+    },
+    {
+      "id": "upload-026",
+      "category": "lab",
+      "title": "Working through a problem together",
+      "thumbnail": {
+        "src": "assets/activities/upload-026-thumb.webp",
+        "width": 720,
+        "height": 405
+      },
+      "image": "assets/activities/upload-026-full.webp"
+    },
+    {
+      "id": "upload-027",
+      "category": "lab",
+      "title": "A day at the lab",
+      "thumbnail": {
+        "src": "assets/activities/upload-027-thumb.webp",
+        "width": 720,
+        "height": 540
+      },
+      "image": "assets/activities/upload-027-full.webp"
+    },
+    {
+      "id": "upload-028",
+      "category": "academic",
+      "title": "Biomolecular structure conference, 2024",
+      "thumbnail": {
+        "src": "assets/activities/upload-028-thumb.webp",
+        "width": 720,
+        "height": 540
+      },
+      "image": "assets/activities/upload-028-full.webp"
+    },
+    {
+      "id": "upload-029",
+      "category": "academic",
+      "title": "At the 2024 biomolecular structure conference",
+      "thumbnail": {
+        "src": "assets/activities/upload-029-thumb.webp",
+        "width": 720,
+        "height": 540
+      },
+      "image": "assets/activities/upload-029-full.webp"
+    },
+    {
+      "id": "upload-030",
+      "category": "academic",
+      "title": "Academic committee appointment",
+      "thumbnail": {
+        "src": "assets/activities/upload-030-thumb.webp",
+        "width": 720,
+        "height": 540
+      },
+      "image": "assets/activities/upload-030-full.webp"
+    },
+    {
+      "id": "upload-031",
+      "category": "together",
+      "title": "A walk through the forest",
+      "thumbnail": {
+        "src": "assets/activities/upload-031-thumb.webp",
+        "width": 720,
+        "height": 327
+      },
+      "image": "assets/activities/upload-031-full.webp"
+    },
+    {
+      "id": "upload-032",
+      "category": "lab",
+      "title": "Conversations at the whiteboard",
+      "thumbnail": {
+        "src": "assets/activities/upload-032-thumb.webp",
+        "width": 720,
+        "height": 328
+      },
+      "image": "assets/activities/upload-032-full.webp"
+    },
+    {
+      "id": "upload-033",
+      "category": "lab",
+      "title": "A moment at the workstation",
+      "thumbnail": {
+        "src": "assets/activities/upload-033-thumb.webp",
+        "width": 437,
+        "height": 960
+      },
+      "image": "assets/activities/upload-033-full.webp"
+    },
+    {
+      "id": "upload-034",
+      "category": "together",
+      "title": "A group outing to the hilltop",
+      "thumbnail": {
+        "src": "assets/activities/upload-034-thumb.webp",
+        "width": 720,
+        "height": 328
+      },
+      "image": "assets/activities/upload-034-full.webp"
+    },
+    {
+      "id": "upload-035",
+      "category": "together",
+      "title": "Celebrating a birthday together",
+      "thumbnail": {
+        "src": "assets/activities/upload-035-thumb.webp",
+        "width": 540,
+        "height": 960
+      },
+      "image": "assets/activities/upload-035-full.webp"
+    },
+    {
+      "id": "upload-036",
+      "category": "together",
+      "title": "Outdoor team activities",
+      "thumbnail": {
+        "src": "assets/activities/upload-036-thumb.webp",
+        "width": 720,
+        "height": 540
+      },
+      "image": "assets/activities/upload-036-full.webp"
+    },
+    {
+      "id": "upload-037",
+      "category": "lab",
+      "title": "Together in the lab",
+      "thumbnail": {
+        "src": "assets/activities/upload-037-thumb.webp",
+        "width": 720,
+        "height": 540
+      },
+      "image": "assets/activities/upload-037-full.webp"
+    },
+    {
+      "id": "upload-038",
+      "category": "together",
+      "title": "A candid moment together",
+      "thumbnail": {
+        "src": "assets/activities/upload-038-thumb.webp",
+        "width": 720,
+        "height": 960
+      },
+      "image": "assets/activities/upload-038-full.webp"
+    },
+    {
+      "id": "upload-039",
+      "category": "together",
+      "title": "A group selfie",
+      "thumbnail": {
+        "src": "assets/activities/upload-039-thumb.webp",
+        "width": 720,
+        "height": 540
+      },
+      "image": "assets/activities/upload-039-full.webp"
+    },
+    {
+      "id": "upload-040",
+      "category": "together",
+      "title": "Together in the lift",
+      "thumbnail": {
+        "src": "assets/activities/upload-040-thumb.webp",
+        "width": 720,
+        "height": 960
+      },
+      "image": "assets/activities/upload-040-full.webp"
+    },
+    {
+      "id": "upload-041",
+      "category": "together",
+      "title": "Under the evening sky",
+      "thumbnail": {
+        "src": "assets/activities/upload-041-thumb.webp",
+        "width": 720,
+        "height": 960
+      },
+      "image": "assets/activities/upload-041-full.webp"
+    },
+    {
+      "id": "upload-042",
+      "category": "together",
+      "title": "An evening performance",
+      "thumbnail": {
+        "src": "assets/activities/upload-042-thumb.webp",
+        "width": 720,
+        "height": 540
+      },
+      "image": "assets/activities/upload-042-full.webp"
+    },
+    {
+      "id": "upload-043",
+      "category": "together",
+      "title": "A day out with the group",
+      "thumbnail": {
+        "src": "assets/activities/upload-043-thumb.webp",
+        "width": 720,
+        "height": 540
+      },
+      "image": "assets/activities/upload-043-full.webp"
+    },
+    {
+      "id": "upload-044",
+      "category": "together",
+      "title": "Celebrating Teachers' Day",
+      "thumbnail": {
+        "src": "assets/activities/upload-044-thumb.webp",
+        "width": 720,
+        "height": 540
+      },
+      "image": "assets/activities/upload-044-full.webp"
+    },
+    {
+      "id": "upload-045",
+      "category": "together",
+      "title": "A team outing",
+      "thumbnail": {
+        "src": "assets/activities/upload-045-thumb.webp",
+        "width": 720,
+        "height": 540
+      },
+      "image": "assets/activities/upload-045-full.webp"
+    },
+    {
+      "id": "upload-046",
+      "category": "together",
+      "title": "A meal together",
+      "thumbnail": {
+        "src": "assets/activities/upload-046-thumb.webp",
+        "width": 720,
+        "height": 541
+      },
+      "image": "assets/activities/upload-046-full.webp"
+    },
+    {
+      "id": "upload-047",
+      "category": "together",
+      "title": "Games on the picnic blanket",
+      "thumbnail": {
+        "src": "assets/activities/upload-047-thumb.webp",
+        "width": 720,
+        "height": 960
+      },
+      "image": "assets/activities/upload-047-full.webp"
+    },
+    {
+      "id": "upload-048",
+      "category": "lab",
+      "title": "A cat at the lab",
+      "thumbnail": {
+        "src": "assets/activities/upload-048-thumb.webp",
+        "width": 720,
+        "height": 960
+      },
+      "image": "assets/activities/upload-048-full.webp"
+    },
+    {
+      "id": "upload-049",
+      "category": "together",
+      "title": "A sunset selfie",
+      "thumbnail": {
+        "src": "assets/activities/upload-049-thumb.webp",
+        "width": 720,
+        "height": 405
+      },
+      "image": "assets/activities/upload-049-full.webp"
+    },
+    {
+      "id": "upload-050",
+      "category": "together",
+      "title": "A sketch of a group moment",
+      "thumbnail": {
+        "src": "assets/activities/upload-050-thumb.webp",
+        "width": 720,
+        "height": 404
+      },
+      "image": "assets/activities/upload-050-full.webp"
+    },
+    {
       "id": "upload-005",
       "category": "together",
       "title": "A meal with the group",
