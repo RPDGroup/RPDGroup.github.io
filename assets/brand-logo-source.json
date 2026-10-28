@@ -1,10 +1,45 @@
 {
-  "source": "User-supplied official logo",
-  "source_filename": "codex-clipboard-9c91b510-42b5-4e3a-9273-bac5255151bf.png",
-  "sha256": "d2a589bdd87df8ecdf13ec2f7bda63fda75fb7445b985226e3188382aec8dc48",
-  "dimensions": [
-    200,
-    200
+  "source": "https://github.com/SIITW/SIITW/blob/main/assets/dyno-hero.webp",
+  "download_url": "https://raw.githubusercontent.com/SIITW/SIITW/main/assets/dyno-hero.webp",
+  "git_blob_sha": "a9e0dbb0cea22db4acb1c9987508223a052a3a09",
+  "source_sha256": "af8a71fe67cc30f18e7c7c40dd87495333e0c9360f748124c21fddd26991830b",
+  "source_dimensions": [
+    640,
+    639
   ],
-  "method": "Original PNG copied without editing, cropping, recoloring, or regeneration."
+  "method": "Resize the complete supplied image and center it on a transparent square. Preserve the full frame, colors, and transparency. No crop, recoloring, or generative editing.",
+  "outputs": [
+    {
+      "file": "assets/brand-logo.webp",
+      "width": 256,
+      "height": 256,
+      "bytes": 64746,
+      "sha256": "43397a02b142a79e619f12181feddb1eb5bccbcae47d8bae8d05031dc34eed74"
+    },
+    {
+      "file": "assets/brand-icon-32.png",
+      "width": 32,
+      "height": 32,
+      "bytes": 3495,
+      "sha256": "5a60f9491824c97a8822ed9850eb4275bf815e980320e71a963b71c0db0750cd"
+    },
+    {
+      "file": "assets/brand-touch-icon.png",
+      "width": 180,
+      "height": 180,
+      "bytes": 78822,
+      "sha256": "edc904615d01014d22d95db3544c6e311b7780ae9565124bd2573591c7e14aad"
+    }
+  ],
+  "previous_logo": {
+    "file": "assets/brand-logo.png",
+    "source": "User-supplied official logo",
+    "source_filename": "codex-clipboard-9c91b510-42b5-4e3a-9273-bac5255151bf.png",
+    "sha256": "d2a589bdd87df8ecdf13ec2f7bda63fda75fb7445b985226e3188382aec8dc48",
+    "dimensions": [
+      200,
+      200
+    ],
+    "method": "Original PNG copied without editing, cropping, recoloring, or regeneration."
+  }
 }
