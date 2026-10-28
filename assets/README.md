@@ -25,6 +25,23 @@ tiles to fit their frames; image files themselves are not cropped.
 The older `team-800.webp` and `team-1600.webp` encodings remain for compatibility
 with earlier revisions; current pages use only `team-upright-*`.
 
+## Activity photo journal
+
+The Activities page contains 48 photographs from `photos-2026(2).pptx`.
+It reuses the five homepage photo encodings where possible and adds 43 pairs
+of web-sized images in `activities/`. A small 166 × 163 thumbnail and the
+presentation's award/administrative document images are outside this photo
+journal. The original presentation and extracted source media remain unchanged.
+
+`activities/sources.json` records every photograph's embedded-media path, slide,
+source hash, PowerPoint picture transform, web dimensions, and output hashes.
+Image orientation follows EXIF plus the presentation's right-angle rotations
+and flips. In particular, image 25 uses the presentation's vertical flip and
+image 39 uses its 90-degree clockwise rotation. Full web images are not cropped,
+redrawn, or generated. Gallery thumbnails preserve image proportions; homepage
+preview frames may crop their display. Captions describe the visible scene
+without inferring missing event dates, locations, or individual identities.
+
 ## Original model architecture figures
 
 - `dynom-model.webp`: the complete existing

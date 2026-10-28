@@ -1,0 +1,538 @@
+{
+  "version": 1,
+  "featured": [
+    "photo-046",
+    "photo-037",
+    "photo-016"
+  ],
+  "photos": [
+    {
+      "id": "photo-046",
+      "category": "academic",
+      "title": "Bioinformatics and systems biology",
+      "thumbnail": {
+        "src": "assets/activities/photo-046-thumb.webp",
+        "width": 720,
+        "height": 540
+      },
+      "image": "assets/activities/photo-046-full.webp"
+    },
+    {
+      "id": "photo-009",
+      "category": "lab",
+      "title": "Ideas at the whiteboard",
+      "thumbnail": {
+        "src": "assets/activities/photo-009-thumb.webp",
+        "width": 720,
+        "height": 328
+      },
+      "image": "assets/activities/photo-009-full.webp"
+    },
+    {
+      "id": "photo-016",
+      "category": "together",
+      "title": "Graduation together",
+      "thumbnail": {
+        "src": "assets/activities/photo-016-thumb.webp",
+        "width": 720,
+        "height": 405
+      },
+      "image": "assets/activities/photo-016-full.webp"
+    },
+    {
+      "id": "photo-042",
+      "category": "academic",
+      "title": "Academic conference",
+      "thumbnail": {
+        "src": "assets/photos/conference-group-640.webp",
+        "width": 640,
+        "height": 427
+      },
+      "image": "assets/photos/conference-group-1280.webp"
+    },
+    {
+      "id": "photo-001",
+      "category": "lab",
+      "title": "Research discussions",
+      "thumbnail": {
+        "src": "assets/photos/research-discussion-640.webp",
+        "width": 640,
+        "height": 480
+      },
+      "image": "assets/photos/research-discussion-1280.webp"
+    },
+    {
+      "id": "photo-027",
+      "category": "together",
+      "title": "A team gathering",
+      "thumbnail": {
+        "src": "assets/photos/group-gathering-640.webp",
+        "width": 640,
+        "height": 480
+      },
+      "image": "assets/photos/group-gathering-1280.webp"
+    },
+    {
+      "id": "photo-035",
+      "category": "academic",
+      "title": "Conference discussion",
+      "thumbnail": {
+        "src": "assets/activities/photo-035-thumb.webp",
+        "width": 720,
+        "height": 373
+      },
+      "image": "assets/activities/photo-035-full.webp"
+    },
+    {
+      "id": "photo-036",
+      "category": "lab",
+      "title": "Working through ideas",
+      "thumbnail": {
+        "src": "assets/photos/working-together-640.webp",
+        "width": 640,
+        "height": 854
+      },
+      "image": "assets/photos/working-together-1280.webp"
+    },
+    {
+      "id": "photo-022",
+      "category": "together",
+      "title": "A walk together",
+      "thumbnail": {
+        "src": "assets/activities/photo-022-thumb.webp",
+        "width": 720,
+        "height": 540
+      },
+      "image": "assets/activities/photo-022-full.webp"
+    },
+    {
+      "id": "photo-043",
+      "category": "academic",
+      "title": "Conference conversations",
+      "thumbnail": {
+        "src": "assets/activities/photo-043-thumb.webp",
+        "width": 720,
+        "height": 540
+      },
+      "image": "assets/activities/photo-043-full.webp"
+    },
+    {
+      "id": "photo-006",
+      "category": "together",
+      "title": "Birthday gathering",
+      "thumbnail": {
+        "src": "assets/activities/photo-006-thumb.webp",
+        "width": 720,
+        "height": 391
+      },
+      "image": "assets/activities/photo-006-full.webp"
+    },
+    {
+      "id": "photo-030",
+      "category": "academic",
+      "title": "Research presentation",
+      "thumbnail": {
+        "src": "assets/activities/photo-030-thumb.webp",
+        "width": 720,
+        "height": 540
+      },
+      "image": "assets/activities/photo-030-full.webp"
+    },
+    {
+      "id": "photo-002",
+      "category": "lab",
+      "title": "A day at the lab",
+      "thumbnail": {
+        "src": "assets/activities/photo-002-thumb.webp",
+        "width": 720,
+        "height": 540
+      },
+      "image": "assets/activities/photo-002-full.webp"
+    },
+    {
+      "id": "photo-003",
+      "category": "lab",
+      "title": "At the workstation",
+      "thumbnail": {
+        "src": "assets/activities/photo-003-thumb.webp",
+        "width": 720,
+        "height": 405
+      },
+      "image": "assets/activities/photo-003-full.webp"
+    },
+    {
+      "id": "photo-004",
+      "category": "lab",
+      "title": "Working side by side",
+      "thumbnail": {
+        "src": "assets/activities/photo-004-thumb.webp",
+        "width": 720,
+        "height": 540
+      },
+      "image": "assets/activities/photo-004-full.webp"
+    },
+    {
+      "id": "photo-005",
+      "category": "together",
+      "title": "Evening moments",
+      "thumbnail": {
+        "src": "assets/activities/photo-005-thumb.webp",
+        "width": 720,
+        "height": 540
+      },
+      "image": "assets/activities/photo-005-full.webp"
+    },
+    {
+      "id": "photo-007",
+      "category": "lab",
+      "title": "A research conversation",
+      "thumbnail": {
+        "src": "assets/activities/photo-007-thumb.webp",
+        "width": 720,
+        "height": 540
+      },
+      "image": "assets/activities/photo-007-full.webp"
+    },
+    {
+      "id": "photo-008",
+      "category": "lab",
+      "title": "Around the office",
+      "thumbnail": {
+        "src": "assets/activities/photo-008-thumb.webp",
+        "width": 540,
+        "height": 960
+      },
+      "image": "assets/activities/photo-008-full.webp"
+    },
+    {
+      "id": "photo-010",
+      "category": "lab",
+      "title": "Sharing ideas",
+      "thumbnail": {
+        "src": "assets/activities/photo-010-thumb.webp",
+        "width": 720,
+        "height": 328
+      },
+      "image": "assets/activities/photo-010-full.webp"
+    },
+    {
+      "id": "photo-011",
+      "category": "together",
+      "title": "Graduation moment",
+      "thumbnail": {
+        "src": "assets/activities/photo-011-thumb.webp",
+        "width": 540,
+        "height": 960
+      },
+      "image": "assets/activities/photo-011-full.webp"
+    },
+    {
+      "id": "photo-012",
+      "category": "lab",
+      "title": "A day at the office",
+      "thumbnail": {
+        "src": "assets/activities/photo-012-thumb.webp",
+        "width": 540,
+        "height": 960
+      },
+      "image": "assets/activities/photo-012-full.webp"
+    },
+    {
+      "id": "photo-013",
+      "category": "lab",
+      "title": "Working together",
+      "thumbnail": {
+        "src": "assets/activities/photo-013-thumb.webp",
+        "width": 720,
+        "height": 328
+      },
+      "image": "assets/activities/photo-013-full.webp"
+    },
+    {
+      "id": "photo-014",
+      "category": "together",
+      "title": "Birthday celebration",
+      "thumbnail": {
+        "src": "assets/activities/photo-014-thumb.webp",
+        "width": 540,
+        "height": 960
+      },
+      "image": "assets/activities/photo-014-full.webp"
+    },
+    {
+      "id": "photo-015",
+      "category": "together",
+      "title": "Graduation memories",
+      "thumbnail": {
+        "src": "assets/activities/photo-015-thumb.webp",
+        "width": 720,
+        "height": 960
+      },
+      "image": "assets/activities/photo-015-full.webp"
+    },
+    {
+      "id": "photo-017",
+      "category": "together",
+      "title": "Graduation day",
+      "thumbnail": {
+        "src": "assets/activities/photo-017-thumb.webp",
+        "width": 720,
+        "height": 960
+      },
+      "image": "assets/activities/photo-017-full.webp"
+    },
+    {
+      "id": "photo-018",
+      "category": "together",
+      "title": "A group selfie",
+      "thumbnail": {
+        "src": "assets/activities/photo-018-thumb.webp",
+        "width": 720,
+        "height": 541
+      },
+      "image": "assets/activities/photo-018-full.webp"
+    },
+    {
+      "id": "photo-019",
+      "category": "together",
+      "title": "An evening together",
+      "thumbnail": {
+        "src": "assets/activities/photo-019-thumb.webp",
+        "width": 720,
+        "height": 540
+      },
+      "image": "assets/activities/photo-019-full.webp"
+    },
+    {
+      "id": "photo-020",
+      "category": "together",
+      "title": "Graduation memories",
+      "thumbnail": {
+        "src": "assets/activities/photo-020-thumb.webp",
+        "width": 720,
+        "height": 960
+      },
+      "image": "assets/activities/photo-020-full.webp"
+    },
+    {
+      "id": "photo-021",
+      "category": "together",
+      "title": "New Year gathering",
+      "thumbnail": {
+        "src": "assets/activities/photo-021-thumb.webp",
+        "width": 720,
+        "height": 540
+      },
+      "image": "assets/activities/photo-021-full.webp"
+    },
+    {
+      "id": "photo-023",
+      "category": "together",
+      "title": "Flowers and memories",
+      "thumbnail": {
+        "src": "assets/activities/photo-023-thumb.webp",
+        "width": 720,
+        "height": 960
+      },
+      "image": "assets/activities/photo-023-full.webp"
+    },
+    {
+      "id": "photo-024",
+      "category": "together",
+      "title": "Time around the table",
+      "thumbnail": {
+        "src": "assets/activities/photo-024-thumb.webp",
+        "width": 720,
+        "height": 405
+      },
+      "image": "assets/activities/photo-024-full.webp"
+    },
+    {
+      "id": "photo-025",
+      "category": "together",
+      "title": "A group selfie",
+      "thumbnail": {
+        "src": "assets/activities/photo-025-thumb.webp",
+        "width": 720,
+        "height": 540
+      },
+      "image": "assets/activities/photo-025-full.webp"
+    },
+    {
+      "id": "photo-026",
+      "category": "together",
+      "title": "Together in the hallway",
+      "thumbnail": {
+        "src": "assets/activities/photo-026-thumb.webp",
+        "width": 720,
+        "height": 540
+      },
+      "image": "assets/activities/photo-026-full.webp"
+    },
+    {
+      "id": "photo-028",
+      "category": "together",
+      "title": "A day outdoors",
+      "thumbnail": {
+        "src": "assets/activities/photo-028-thumb.webp",
+        "width": 720,
+        "height": 960
+      },
+      "image": "assets/activities/photo-028-full.webp"
+    },
+    {
+      "id": "photo-031",
+      "category": "academic",
+      "title": "At the lectern",
+      "thumbnail": {
+        "src": "assets/photos/research-presentation-640.webp",
+        "width": 640,
+        "height": 853
+      },
+      "image": "assets/photos/research-presentation-1280.webp"
+    },
+    {
+      "id": "photo-032",
+      "category": "academic",
+      "title": "Academic presentation",
+      "thumbnail": {
+        "src": "assets/activities/photo-032-thumb.webp",
+        "width": 720,
+        "height": 960
+      },
+      "image": "assets/activities/photo-032-full.webp"
+    },
+    {
+      "id": "photo-033",
+      "category": "academic",
+      "title": "Sharing research",
+      "thumbnail": {
+        "src": "assets/activities/photo-033-thumb.webp",
+        "width": 720,
+        "height": 540
+      },
+      "image": "assets/activities/photo-033-full.webp"
+    },
+    {
+      "id": "photo-034",
+      "category": "academic",
+      "title": "Research seminar",
+      "thumbnail": {
+        "src": "assets/activities/photo-034-thumb.webp",
+        "width": 720,
+        "height": 540
+      },
+      "image": "assets/activities/photo-034-full.webp"
+    },
+    {
+      "id": "photo-037",
+      "category": "lab",
+      "title": "Group discussion",
+      "thumbnail": {
+        "src": "assets/activities/photo-037-thumb.webp",
+        "width": 720,
+        "height": 540
+      },
+      "image": "assets/activities/photo-037-full.webp"
+    },
+    {
+      "id": "photo-038",
+      "category": "lab",
+      "title": "An exchange of ideas",
+      "thumbnail": {
+        "src": "assets/activities/photo-038-thumb.webp",
+        "width": 720,
+        "height": 540
+      },
+      "image": "assets/activities/photo-038-full.webp"
+    },
+    {
+      "id": "photo-039",
+      "category": "academic",
+      "title": "Conference memories",
+      "thumbnail": {
+        "src": "assets/activities/photo-039-thumb.webp",
+        "width": 720,
+        "height": 960
+      },
+      "image": "assets/activities/photo-039-full.webp"
+    },
+    {
+      "id": "photo-040",
+      "category": "academic",
+      "title": "Conference group photo",
+      "thumbnail": {
+        "src": "assets/activities/photo-040-thumb.webp",
+        "width": 720,
+        "height": 540
+      },
+      "image": "assets/activities/photo-040-full.webp"
+    },
+    {
+      "id": "photo-041",
+      "category": "academic",
+      "title": "A research talk",
+      "thumbnail": {
+        "src": "assets/activities/photo-041-thumb.webp",
+        "width": 720,
+        "height": 481
+      },
+      "image": "assets/activities/photo-041-full.webp"
+    },
+    {
+      "id": "photo-044",
+      "category": "academic",
+      "title": "At the conference",
+      "thumbnail": {
+        "src": "assets/activities/photo-044-thumb.webp",
+        "width": 720,
+        "height": 480
+      },
+      "image": "assets/activities/photo-044-full.webp"
+    },
+    {
+      "id": "photo-045",
+      "category": "academic",
+      "title": "Presenting research",
+      "thumbnail": {
+        "src": "assets/activities/photo-045-thumb.webp",
+        "width": 720,
+        "height": 540
+      },
+      "image": "assets/activities/photo-045-full.webp"
+    },
+    {
+      "id": "photo-047",
+      "category": "academic",
+      "title": "Campus moment",
+      "thumbnail": {
+        "src": "assets/activities/photo-047-thumb.webp",
+        "width": 720,
+        "height": 540
+      },
+      "image": "assets/activities/photo-047-full.webp"
+    },
+    {
+      "id": "photo-048",
+      "category": "academic",
+      "title": "Listening and exchanging ideas",
+      "thumbnail": {
+        "src": "assets/activities/photo-048-thumb.webp",
+        "width": 720,
+        "height": 480
+      },
+      "image": "assets/activities/photo-048-full.webp"
+    },
+    {
+      "id": "photo-049",
+      "category": "academic",
+      "title": "Conference moments",
+      "thumbnail": {
+        "src": "assets/activities/photo-049-thumb.webp",
+        "width": 720,
+        "height": 540
+      },
+      "image": "assets/activities/photo-049-full.webp"
+    }
+  ]
+}

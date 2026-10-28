@@ -134,21 +134,55 @@
     const image = viewer.querySelector('.media-viewer-image');
     const title = document.getElementById('media-viewer-title');
     const source = viewer.querySelector('.media-viewer-source');
+    const galleryNavigation = viewer.querySelector('.media-viewer-navigation');
+    const previous = viewer.querySelector('.media-previous');
+    const next = viewer.querySelector('.media-next');
+    const counter = viewer.querySelector('.media-counter');
     let trigger;
+    let gallery = [];
+    let galleryIndex = 0;
+
+    function displayMedia(link) {
+      image.src = link.href;
+      image.alt = link.querySelector('img')?.alt || link.dataset.title;
+      title.textContent = link.dataset.title;
+      source.href = link.dataset.source || link.href;
+      source.textContent = link.dataset.source ? 'Original figure on GitHub ↗' : 'Open photograph ↗';
+      if (galleryNavigation) galleryNavigation.hidden = gallery.length < 2;
+      viewer.classList.toggle('has-gallery', gallery.length > 1);
+      if (counter) counter.textContent = gallery.length > 1 ? `${galleryIndex + 1} / ${gallery.length}` : '';
+    }
+
+    function moveGallery(step) {
+      if (gallery.length < 2) return;
+      galleryIndex = (galleryIndex + step + gallery.length) % gallery.length;
+      displayMedia(gallery[galleryIndex]);
+    }
+
     for (const link of document.querySelectorAll('[data-media]')) {
       link.addEventListener('click', event => {
         if (event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
         event.preventDefault();
         trigger = link;
-        image.src = link.href;
-        image.alt = link.querySelector('img')?.alt || link.dataset.title;
-        title.textContent = link.dataset.title;
-        source.href = link.dataset.source || link.href;
-        source.textContent = link.dataset.source ? 'Original figure on GitHub ↗' : 'Open photograph ↗';
+        gallery = link.dataset.gallery
+          ? [...document.querySelectorAll('[data-media]')].filter(item => item.dataset.gallery === link.dataset.gallery && !item.closest('[hidden]'))
+          : [link];
+        galleryIndex = Math.max(0, gallery.indexOf(link));
+        displayMedia(link);
         document.body.classList.add('has-media-viewer');
         viewer.showModal();
+        viewer.scrollTop = 0;
       });
     }
+    previous?.addEventListener('click', () => moveGallery(-1));
+    next?.addEventListener('click', () => moveGallery(1));
+    viewer.addEventListener('keydown', event => {
+      if (gallery.length < 2 || event.metaKey || event.ctrlKey || event.altKey) return;
+      if (event.key === 'ArrowLeft' || event.key === 'ArrowRight') {
+        event.preventDefault();
+        moveGallery(event.key === 'ArrowLeft' ? -1 : 1);
+      }
+    });
     viewer.querySelector('.media-viewer-close').addEventListener('click', () => viewer.close());
     viewer.addEventListener('click', event => {
       if (event.target !== viewer) return;
@@ -157,7 +191,11 @@
     });
     viewer.addEventListener('close', () => {
       document.body.classList.remove('has-media-viewer');
+      viewer.classList.remove('has-gallery');
       image.removeAttribute('src');
+      gallery = [];
+      if (galleryNavigation) galleryNavigation.hidden = true;
+      if (counter) counter.textContent = '';
       trigger?.focus({ preventScroll: true });
     });
   }
