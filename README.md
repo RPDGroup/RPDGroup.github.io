@@ -4,6 +4,13 @@ A buildless GitHub Pages website. The `main` branch is published from the
 repository root at <https://rpdgroup.github.io/>. No npm install, framework, or
 third-party runtime is required.
 
+The layout takes cues from Baker Lab's photo-led homepage: a blue-purple
+masthead, compact navigation, a balanced photo collage, and simple research
+entries. Branding, photographs, project descriptions, and scientific figures
+belong to RPDGroup. Home, News, About, and Contact are grouped under Info; the
+logo also links home. Research, People, Publications, and Resources remain
+direct navigation links.
+
 ## Preview
 
 From the repository root:
@@ -13,8 +20,8 @@ python3 -m http.server 8766 --bind 127.0.0.1
 ```
 
 Open <http://127.0.0.1:8766/>. Check the homepage, the eight navigation destinations,
-the `#research/dynamics` deep link, resource search and category filters, and the
-mobile menu. JavaScript enhances routing and search; without it, all sections
+the `#research/dynamics` deep link, resource search and category filters, the
+Info dropdown, and the mobile menu. JavaScript enhances routing and search; without it, all sections
 remain readable and navigation uses native anchors.
 
 ## Edit
