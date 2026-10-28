@@ -9,7 +9,8 @@ masthead, compact navigation, a balanced photo collage, and simple research
 entries. Branding, photographs, project descriptions, and scientific figures
 belong to RPDGroup. Home, News, About, and Contact are grouped under Info; the
 logo also links home. Research, People, Publications, and Resources remain
-direct navigation links.
+direct navigation links. Activities has its own navigation entry and a
+three-photo preview on the homepage.
 
 ## Preview
 
@@ -19,7 +20,7 @@ From the repository root:
 python3 -m http.server 8766 --bind 127.0.0.1
 ```
 
-Open <http://127.0.0.1:8766/>. Check the homepage, the eight navigation destinations,
+Open <http://127.0.0.1:8766/>. Check the homepage, the nine navigation destinations,
 the `#research/dynamics` deep link, resource search and category filters, the
 Info dropdown, and the mobile menu. JavaScript enhances routing and search; without it, all sections
 remain readable and navigation uses native anchors.
@@ -32,6 +33,10 @@ remain readable and navigation uses native anchors.
 - `data/members.json`: public member profiles, in display order.
 - `scripts/update-members.py`: generate static member HTML after editing the data.
 - `assets/members.js`: member search, category filters, and profile dialogs.
+- `data/activities.json`: activity photographs, categories, and homepage selections.
+- `scripts/update-activities.py`: render the photo journal and refresh frontend asset versions.
+- `assets/activities.js`: activity category filtering.
+- `assets/activities/`: web encodings and source metadata for the activity journal.
 - `assets/photos/`: selected photographs from the supplied presentation, with source metadata.
 - `assets/README.md`: image sources and scientific illustration provenance.
 
@@ -61,12 +66,31 @@ as native expandable entries without JavaScript. JavaScript adds category and
 keyword filtering and a larger profile dialog. The generator escapes text and
 validates image paths and external links before changing the page.
 
+## Activity photographs
+
+The Activities page uses 48 photographs from the supplied presentation,
+organized as Lab life, Academic exchange, and Group moments. The homepage
+shows three selections. The gallery preserves complete image proportions;
+homepage previews may crop a frame. Opening a photograph shows the complete
+web image. Previous/Next buttons and the left/right arrow keys browse only
+the current category; closing the viewer restores focus to its opening link.
+
+Add photographs and their web-image paths to `data/activities.json`. Run
+`python3 scripts/update-activities.py` to regenerate the gallery and homepage
+selection. This also gives frontend CSS/JS content-based version URLs, so new
+HTML loads its matching assets. Run it after frontend asset edits as well.
+Do not invent event names, dates, places, or identities from a photo's file
+name or the presentation's title. Source metadata is in
+`assets/activities/sources.json`; original inputs remain outside the website.
+
 ## Checks
 
 ```sh
 node --check assets/site.js
 node --check assets/members.js
 python3 scripts/update-members.py --check
+python3 scripts/update-activities.py --check
+node --check assets/activities.js
 git diff --check
 ```
 
@@ -78,3 +102,6 @@ restore keyboard focus, and retain working image links without JavaScript.
 For member-directory changes, check category plus keyword filtering, empty
 results and reset, optional fields and missing photos, native disclosures,
 and profile-dialog closing/focus behavior on desktop and a narrow screen.
+For Activities changes, check every category, full-image preview, Previous/Next
+and arrow-key navigation, wrapping at the gallery ends, and focus after closing.
+Check that research figures still open without photograph-navigation controls.
