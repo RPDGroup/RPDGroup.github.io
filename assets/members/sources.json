@@ -667,6 +667,84 @@
         "bytes": 45636,
         "sha256": "65fbf08f64f566ec3b3300ba839fea3c3106484268d2e7e3c244be5c3c38bc1d"
       }
+    },
+    {
+      "member_id": "chuhan-tian",
+      "source_filename": "chuhantian.jpg",
+      "source_sha256": "cf44ceb6f4dd09ab125f790a4989e2ddcb9d8f5bf395c1c3b73f48edb305b5fd",
+      "source_width": 3056,
+      "source_height": 4080,
+      "exif_orientation": 1,
+      "transform": "EXIF orientation, square portrait crop, downsize up to 640 px without upscaling; no retouching or generated content",
+      "crop_xyxy": [
+        0,
+        200,
+        2500,
+        2700
+      ],
+      "identity_source": "User-provided name and filename mapping, authorized to add to Members.",
+      "output": {
+        "file": "assets/members/chuhan-tian.webp",
+        "width": 640,
+        "height": 640,
+        "format": "WebP",
+        "quality": 86,
+        "metadata_removed": true,
+        "bytes": 56326,
+        "sha256": "79caa5354388c0d1e69215e13e4f28d589402a2156d37a8be8ef408dcf57ee6c"
+      }
+    },
+    {
+      "member_id": "xin-yang",
+      "source_filename": "xinyang.jpg",
+      "source_sha256": "33f7e4fb45ff6e6537ed07f9aed43ac0d963a0ef25ff4d24860ca78fe4c56bb4",
+      "source_width": 1728,
+      "source_height": 2304,
+      "exif_orientation": 1,
+      "transform": "EXIF orientation, square portrait crop, downsize up to 640 px without upscaling; no retouching or generated content",
+      "crop_xyxy": [
+        0,
+        100,
+        1728,
+        1828
+      ],
+      "identity_source": "User-provided name and filename mapping, authorized to add to Members.",
+      "output": {
+        "file": "assets/members/xin-yang.webp",
+        "width": 640,
+        "height": 640,
+        "format": "WebP",
+        "quality": 86,
+        "metadata_removed": true,
+        "bytes": 65330,
+        "sha256": "a1b47ca079f4ec861ec66fb530d2029d1f763d25257dc5a751f17fb2e31dc0ce"
+      }
+    },
+    {
+      "member_id": "zhixiang-sui",
+      "source_filename": "zhixiangsui.jpg",
+      "source_sha256": "2426690bf353f930639d4a01112b6b5e045709bc79741086af0fd5ee82a14084",
+      "source_width": 6240,
+      "source_height": 4160,
+      "exif_orientation": 1,
+      "transform": "EXIF orientation, square portrait crop, downsize up to 640 px without upscaling; no retouching or generated content",
+      "crop_xyxy": [
+        2700,
+        1000,
+        4300,
+        2600
+      ],
+      "identity_source": "User-provided name and filename mapping, authorized to add to Members.",
+      "output": {
+        "file": "assets/members/zhixiang-sui.webp",
+        "width": 640,
+        "height": 640,
+        "format": "WebP",
+        "quality": 86,
+        "metadata_removed": true,
+        "bytes": 28676,
+        "sha256": "cbb1353a5e7f97a2c15a457d737aff5369fb98082a609089ef9eb0ea443164a3"
+      }
     }
   ]
 }
