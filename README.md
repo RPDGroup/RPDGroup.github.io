@@ -48,11 +48,12 @@ when adding or changing a project. Search indexes the resource cards themselves.
 ## Member profiles
 
 The Members page follows the circular portrait directory and profile overlays of
-<https://wglab.org/members.html>. It contains 33 confirmed names supplied by the
-group: one Leader, eight PhD students, twenty master's students, and four alumni.
+<https://wglab.org/members.html>. It contains 34 confirmed names supplied by the
+group: one Leader, eight PhD students, twenty-one master's students, and four alumni.
 All five students with a 2027 intake have already joined and have `current`
 status. Intake years describe academic admission, not future group membership.
-Individual portraits and biographies can be supplied later; missing portraits
+Xinyuan Zhao's supplied portrait accompanies the 2025 master's intake entry.
+Additional portraits and biographies can be supplied later; missing portraits
 use initials. The canonical route is `#members`; existing `#people` links still
 open the member directory.
 

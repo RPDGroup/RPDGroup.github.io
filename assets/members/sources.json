@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "portraits": [
+    {
+      "member_id": "xinyuan-zhao",
+      "source_filename": "codex-clipboard-c45ac2b9-e25a-4d93-97fc-12479d0e0941.jpg",
+      "source_sha256": "35f48aac9f0c3677b030a9343dbbcacc1900ba7317435557eef8faa0fd6a36b5",
+      "source_width": 1080,
+      "source_height": 1440,
+      "exif_orientation": 1,
+      "transform": "EXIF orientation, then square head-and-shoulders crop; no retouching or generated content",
+      "crop_xyxy": [
+        0,
+        0,
+        640,
+        640
+      ],
+      "output": {
+        "file": "assets/members/xinyuan-zhao.webp",
+        "width": 640,
+        "height": 640,
+        "format": "WebP",
+        "quality": 86,
+        "metadata_removed": true,
+        "bytes": 65884,
+        "sha256": "69d88f2ecb5da4cab155976aadf57aaddaad84f34e3f9601aa47ecd480517707"
+      }
+    }
+  ]
+}
