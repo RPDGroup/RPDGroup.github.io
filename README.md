@@ -68,7 +68,8 @@ validates image paths and external links before changing the page.
 
 ## Activity photographs
 
-The Activities page uses 48 photographs from the supplied presentation,
+The Activities page uses 61 photographs: 48 from the supplied presentation
+and 13 graduation photographs selected by the user from Photos. They are
 organized as Lab life, Academic exchange, and Group moments. The homepage
 shows three selections. The gallery preserves complete image proportions;
 homepage previews may crop a frame. Opening a photograph shows the complete
@@ -81,7 +82,8 @@ selection. This also gives frontend CSS/JS content-based version URLs, so new
 HTML loads its matching assets. Run it after frontend asset edits as well.
 Do not invent event names, dates, places, or identities from a photo's file
 name or the presentation's title. Source metadata is in
-`assets/activities/sources.json`; original inputs remain outside the website.
+`assets/activities/sources.json` and `assets/activities/album-sources.json`;
+original inputs remain outside the website.
 
 ## Checks
 

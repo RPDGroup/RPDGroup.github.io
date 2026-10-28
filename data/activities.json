@@ -3,9 +3,152 @@
   "featured": [
     "photo-046",
     "photo-037",
-    "photo-016"
+    "album-001"
   ],
   "photos": [
+    {
+      "id": "album-001",
+      "category": "together",
+      "title": "Celebrating graduation",
+      "thumbnail": {
+        "src": "assets/activities/album-001-thumb.webp",
+        "width": 720,
+        "height": 540
+      },
+      "image": "assets/activities/album-001-full.webp"
+    },
+    {
+      "id": "album-002",
+      "category": "together",
+      "title": "Graduation on the steps",
+      "thumbnail": {
+        "src": "assets/activities/album-002-thumb.webp",
+        "width": 720,
+        "height": 540
+      },
+      "image": "assets/activities/album-002-full.webp"
+    },
+    {
+      "id": "album-003",
+      "category": "together",
+      "title": "Graduates together",
+      "thumbnail": {
+        "src": "assets/activities/album-003-thumb.webp",
+        "width": 720,
+        "height": 480
+      },
+      "image": "assets/activities/album-003-full.webp"
+    },
+    {
+      "id": "album-004",
+      "category": "together",
+      "title": "A campus graduation moment",
+      "thumbnail": {
+        "src": "assets/activities/album-004-thumb.webp",
+        "width": 720,
+        "height": 540
+      },
+      "image": "assets/activities/album-004-full.webp"
+    },
+    {
+      "id": "album-005",
+      "category": "together",
+      "title": "Graduation memories on campus",
+      "thumbnail": {
+        "src": "assets/activities/album-005-thumb.webp",
+        "width": 720,
+        "height": 540
+      },
+      "image": "assets/activities/album-005-full.webp"
+    },
+    {
+      "id": "album-006",
+      "category": "together",
+      "title": "Graduation by the clock tower",
+      "thumbnail": {
+        "src": "assets/activities/album-006-thumb.webp",
+        "width": 720,
+        "height": 540
+      },
+      "image": "assets/activities/album-006-full.webp"
+    },
+    {
+      "id": "album-007",
+      "category": "together",
+      "title": "A cheerful graduation moment",
+      "thumbnail": {
+        "src": "assets/activities/album-007-thumb.webp",
+        "width": 720,
+        "height": 540
+      },
+      "image": "assets/activities/album-007-full.webp"
+    },
+    {
+      "id": "album-008",
+      "category": "together",
+      "title": "Celebrating together on campus",
+      "thumbnail": {
+        "src": "assets/activities/album-008-thumb.webp",
+        "width": 720,
+        "height": 540
+      },
+      "image": "assets/activities/album-008-full.webp"
+    },
+    {
+      "id": "album-009",
+      "category": "together",
+      "title": "Graduation in the sunshine",
+      "thumbnail": {
+        "src": "assets/activities/album-009-thumb.webp",
+        "width": 720,
+        "height": 540
+      },
+      "image": "assets/activities/album-009-full.webp"
+    },
+    {
+      "id": "album-010",
+      "category": "together",
+      "title": "Together at the school entrance",
+      "thumbnail": {
+        "src": "assets/activities/album-010-thumb.webp",
+        "width": 720,
+        "height": 540
+      },
+      "image": "assets/activities/album-010-full.webp"
+    },
+    {
+      "id": "album-011",
+      "category": "together",
+      "title": "A graduation gathering",
+      "thumbnail": {
+        "src": "assets/activities/album-011-thumb.webp",
+        "width": 720,
+        "height": 540
+      },
+      "image": "assets/activities/album-011-full.webp"
+    },
+    {
+      "id": "album-012",
+      "category": "together",
+      "title": "Graduation with friends",
+      "thumbnail": {
+        "src": "assets/activities/album-012-thumb.webp",
+        "width": 720,
+        "height": 480
+      },
+      "image": "assets/activities/album-012-full.webp"
+    },
+    {
+      "id": "album-013",
+      "category": "together",
+      "title": "A graduation group portrait",
+      "thumbnail": {
+        "src": "assets/activities/album-013-thumb.webp",
+        "width": 720,
+        "height": 480
+      },
+      "image": "assets/activities/album-013-full.webp"
+    },
     {
       "id": "photo-046",
       "category": "academic",

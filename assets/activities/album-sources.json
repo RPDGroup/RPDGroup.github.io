@@ -1,0 +1,435 @@
+{
+  "source": "13 photographs selected and supplied by the user from Photos",
+  "method": "Apply EXIF orientation, preserve the complete frame, remove embedded metadata, and encode WebP thumbnails at quality 74 and full views at quality 80. Never upscale the supplied image or change its contents.",
+  "photographs": [
+    {
+      "id": "album-001",
+      "source_filename": "40807E15-75FC-4B88-BD20-AB0D890F5724_1_105_c.jpeg",
+      "source_sha256": "d478547b929980c5b4f9e96911b02cce88fa85bb5de44064063de5ec4a3d2815",
+      "source_bytes": 255744,
+      "source_dimensions": [
+        1024,
+        768
+      ],
+      "source_exif_orientation": null,
+      "upright_dimensions": [
+        1024,
+        768
+      ],
+      "outputs": [
+        {
+          "file": "assets/activities/album-001-thumb.webp",
+          "width": 720,
+          "height": 540,
+          "quality": 74,
+          "bytes": 47338,
+          "sha256": "2f39b1dfb8bc195c25208092fbfcc5a0b65935fe67d1c8b31e172388e8593e74"
+        },
+        {
+          "file": "assets/activities/album-001-full.webp",
+          "width": 1024,
+          "height": 768,
+          "quality": 80,
+          "bytes": 99290,
+          "sha256": "850966940ba1dea79d89deaff0253b4f8e4aa9a881f83cd5beb88a6caba533e1"
+        }
+      ]
+    },
+    {
+      "id": "album-002",
+      "source_filename": "B14B4CEC-84EE-4407-9988-94D590729170_1_105_c.jpeg",
+      "source_sha256": "383aeab68d96b2dc74419715459ec884615fc8f9bf294577ce8f223808acd14d",
+      "source_bytes": 392575,
+      "source_dimensions": [
+        1024,
+        768
+      ],
+      "source_exif_orientation": null,
+      "upright_dimensions": [
+        1024,
+        768
+      ],
+      "outputs": [
+        {
+          "file": "assets/activities/album-002-thumb.webp",
+          "width": 720,
+          "height": 540,
+          "quality": 74,
+          "bytes": 82136,
+          "sha256": "c8561d1cc99ebe97aa1672c88f1cc747bdf1179e526a914f7ef9d892d24443d3"
+        },
+        {
+          "file": "assets/activities/album-002-full.webp",
+          "width": 1024,
+          "height": 768,
+          "quality": 80,
+          "bytes": 202926,
+          "sha256": "eb742193f719eab489382ecfcab6ca8467c2e059b0487ce81d2da159ed361318"
+        }
+      ]
+    },
+    {
+      "id": "album-003",
+      "source_filename": "7973F961-1301-4A3E-AA0B-FC5E29303DC2_1_105_c.jpeg",
+      "source_sha256": "cd4b25e19fb91a3dac7020b2bc9da6f6567ba7e91565109f975533e594003f66",
+      "source_bytes": 285265,
+      "source_dimensions": [
+        1086,
+        724
+      ],
+      "source_exif_orientation": 1,
+      "upright_dimensions": [
+        1086,
+        724
+      ],
+      "outputs": [
+        {
+          "file": "assets/activities/album-003-thumb.webp",
+          "width": 720,
+          "height": 480,
+          "quality": 74,
+          "bytes": 44652,
+          "sha256": "b5618a5315c7a4ad406ddc1425cfc2a8dae55faa1cf2e484221375b0ef69287f"
+        },
+        {
+          "file": "assets/activities/album-003-full.webp",
+          "width": 1086,
+          "height": 724,
+          "quality": 80,
+          "bytes": 109802,
+          "sha256": "a73512195858d58614cc3d35c25761a9dcff28ea9e487517b83ab621006d07a1"
+        }
+      ]
+    },
+    {
+      "id": "album-004",
+      "source_filename": "ECC3F734-47A2-48E7-BE90-66542B08F4AB_1_105_c.jpeg",
+      "source_sha256": "0b27bac9fac78dbadfa555a5ad0a549fe43ea84f8a82911cff7cdf8d2e731d06",
+      "source_bytes": 288622,
+      "source_dimensions": [
+        1024,
+        768
+      ],
+      "source_exif_orientation": 1,
+      "upright_dimensions": [
+        1024,
+        768
+      ],
+      "outputs": [
+        {
+          "file": "assets/activities/album-004-thumb.webp",
+          "width": 720,
+          "height": 540,
+          "quality": 74,
+          "bytes": 50640,
+          "sha256": "039ef8c7b7b1f1953cf354cd5ff6f82f839a84354b666f6e801f448fd16920c0"
+        },
+        {
+          "file": "assets/activities/album-004-full.webp",
+          "width": 1024,
+          "height": 768,
+          "quality": 80,
+          "bytes": 135648,
+          "sha256": "ff297ff13d0e72112ab45d2af8168ce0c13798f7ba7bef4c309035f37f7d807d"
+        }
+      ]
+    },
+    {
+      "id": "album-005",
+      "source_filename": "A7E215F3-90AE-4FF7-B422-29EF827010D2_1_105_c.jpeg",
+      "source_sha256": "e503ff4538c323ca973ca6ac464b9be135564622cfa935643e1d7a7fc4ff9bc4",
+      "source_bytes": 237988,
+      "source_dimensions": [
+        1024,
+        768
+      ],
+      "source_exif_orientation": 1,
+      "upright_dimensions": [
+        1024,
+        768
+      ],
+      "outputs": [
+        {
+          "file": "assets/activities/album-005-thumb.webp",
+          "width": 720,
+          "height": 540,
+          "quality": 74,
+          "bytes": 41202,
+          "sha256": "6e6f6bee45db280acbe91e57c62c56adc232ee332c33deb2f998d68d447ffe31"
+        },
+        {
+          "file": "assets/activities/album-005-full.webp",
+          "width": 1024,
+          "height": 768,
+          "quality": 80,
+          "bytes": 101022,
+          "sha256": "c60be366a08687acaee3d88e4078168b7fd279fe759d50d199fc77359ad498f2"
+        }
+      ]
+    },
+    {
+      "id": "album-006",
+      "source_filename": "D07AC68E-76DD-4B77-A08F-F5FE494D8A55_1_105_c.jpeg",
+      "source_sha256": "fc638532d079a9cfc61a39bd647cc538e6ff33181f384f301fce777201efc2f2",
+      "source_bytes": 277248,
+      "source_dimensions": [
+        1024,
+        768
+      ],
+      "source_exif_orientation": 1,
+      "upright_dimensions": [
+        1024,
+        768
+      ],
+      "outputs": [
+        {
+          "file": "assets/activities/album-006-thumb.webp",
+          "width": 720,
+          "height": 540,
+          "quality": 74,
+          "bytes": 50466,
+          "sha256": "071accca9c282d154d934452f81c32bf09df2d628d5e99c88c86bf601b63f3d1"
+        },
+        {
+          "file": "assets/activities/album-006-full.webp",
+          "width": 1024,
+          "height": 768,
+          "quality": 80,
+          "bytes": 126312,
+          "sha256": "97f90d10ae45d42af052e42a0d242e8d57ebd5a4532eda99b1bc0a8827b225a9"
+        }
+      ]
+    },
+    {
+      "id": "album-007",
+      "source_filename": "7942D7A8-E183-40C7-BCD9-A716EF02ED5E_1_105_c.jpeg",
+      "source_sha256": "4c9031c42140272830654cffd901f803c529c72797c01c4658ed1161b14ff32d",
+      "source_bytes": 270300,
+      "source_dimensions": [
+        1024,
+        768
+      ],
+      "source_exif_orientation": 1,
+      "upright_dimensions": [
+        1024,
+        768
+      ],
+      "outputs": [
+        {
+          "file": "assets/activities/album-007-thumb.webp",
+          "width": 720,
+          "height": 540,
+          "quality": 74,
+          "bytes": 48818,
+          "sha256": "6dad0d2246495698c6c655034b8eb7cb7f34edd62f81bc9682e134bf1de343b4"
+        },
+        {
+          "file": "assets/activities/album-007-full.webp",
+          "width": 1024,
+          "height": 768,
+          "quality": 80,
+          "bytes": 121872,
+          "sha256": "3532e4fe2fc7d7a996f1e5d5d408d8d6ceadc78a664d76fe7e407511a2ed9fd5"
+        }
+      ]
+    },
+    {
+      "id": "album-008",
+      "source_filename": "A1B48430-C089-4A80-ACA3-9D634EE4F7DB_1_105_c.jpeg",
+      "source_sha256": "ae007348976b4f8fbfd28a53db7deecf7f79ffdee900ad3dd5a298a0081cc17b",
+      "source_bytes": 297974,
+      "source_dimensions": [
+        1024,
+        768
+      ],
+      "source_exif_orientation": 1,
+      "upright_dimensions": [
+        1024,
+        768
+      ],
+      "outputs": [
+        {
+          "file": "assets/activities/album-008-thumb.webp",
+          "width": 720,
+          "height": 540,
+          "quality": 74,
+          "bytes": 55186,
+          "sha256": "0e5d67df9c79c2bbea17887395024f6e4f248868330797baf575326e21736668"
+        },
+        {
+          "file": "assets/activities/album-008-full.webp",
+          "width": 1024,
+          "height": 768,
+          "quality": 80,
+          "bytes": 139036,
+          "sha256": "5fe74e7207bebd588eba9a016ca81c9e91159f2cec5492ce16a780672a916fcb"
+        }
+      ]
+    },
+    {
+      "id": "album-009",
+      "source_filename": "90221DDF-FDFC-4FBB-BB96-F00C09F00F44_1_105_c.jpeg",
+      "source_sha256": "9486f016f4193984760b40bb2a4fe9102817bae3efaf125fa33b485a920e44da",
+      "source_bytes": 266971,
+      "source_dimensions": [
+        1024,
+        768
+      ],
+      "source_exif_orientation": 1,
+      "upright_dimensions": [
+        1024,
+        768
+      ],
+      "outputs": [
+        {
+          "file": "assets/activities/album-009-thumb.webp",
+          "width": 720,
+          "height": 540,
+          "quality": 74,
+          "bytes": 48596,
+          "sha256": "ac31a3d5bd8635c70515e6203ee1aee68c5cde4d85e3ba79057e5fcfd46ca3cd"
+        },
+        {
+          "file": "assets/activities/album-009-full.webp",
+          "width": 1024,
+          "height": 768,
+          "quality": 80,
+          "bytes": 120308,
+          "sha256": "b091c1a64cfce46c3961c43918b33a35e07b95fc3f3cd4437aaa9196310f998d"
+        }
+      ]
+    },
+    {
+      "id": "album-010",
+      "source_filename": "5F77712C-3849-4F4F-B252-10C7426EEFBE_1_105_c.jpeg",
+      "source_sha256": "bcbfd4475d98683df85ea503a7ac8eba5a843eb7cce2e9cd7774deae3b5130b8",
+      "source_bytes": 364202,
+      "source_dimensions": [
+        1024,
+        768
+      ],
+      "source_exif_orientation": 1,
+      "upright_dimensions": [
+        1024,
+        768
+      ],
+      "outputs": [
+        {
+          "file": "assets/activities/album-010-thumb.webp",
+          "width": 720,
+          "height": 540,
+          "quality": 74,
+          "bytes": 67078,
+          "sha256": "c0b247e95928ab723e4e9972d0a68ff1c9e423b05dd33990a2bed60717fa737a"
+        },
+        {
+          "file": "assets/activities/album-010-full.webp",
+          "width": 1024,
+          "height": 768,
+          "quality": 80,
+          "bytes": 175536,
+          "sha256": "2df94e43cd1cab429523e0fab895d33d66b2402d2bde327b97de42d3499fbe4b"
+        }
+      ]
+    },
+    {
+      "id": "album-011",
+      "source_filename": "4B3D8D13-C599-416E-808A-A5EFC0906E3F_1_105_c.jpeg",
+      "source_sha256": "504a5572a41668a9f126e30292d27d340a4efab6cfc2f3978d24a6b11b3c2f24",
+      "source_bytes": 322494,
+      "source_dimensions": [
+        1024,
+        768
+      ],
+      "source_exif_orientation": 1,
+      "upright_dimensions": [
+        1024,
+        768
+      ],
+      "outputs": [
+        {
+          "file": "assets/activities/album-011-thumb.webp",
+          "width": 720,
+          "height": 540,
+          "quality": 74,
+          "bytes": 63816,
+          "sha256": "6650567bf7c1db0eadba036f5ea8aac40a9a6c8058ebd0609991ae64ca28cd1e"
+        },
+        {
+          "file": "assets/activities/album-011-full.webp",
+          "width": 1024,
+          "height": 768,
+          "quality": 80,
+          "bytes": 144688,
+          "sha256": "f4d8e85ccacb6a7ff75cac770bc6250735406d7396c026eb5ab9eeced98646d2"
+        }
+      ]
+    },
+    {
+      "id": "album-012",
+      "source_filename": "35B830C6-F58C-4FA5-958D-F7CC27909D7A_1_105_c.jpeg",
+      "source_sha256": "e510c963ebd96dea7c0820c2b078219bdb985b512ad8ba6b8ff2fddd3cd7bc6e",
+      "source_bytes": 313776,
+      "source_dimensions": [
+        1086,
+        724
+      ],
+      "source_exif_orientation": 1,
+      "upright_dimensions": [
+        1086,
+        724
+      ],
+      "outputs": [
+        {
+          "file": "assets/activities/album-012-thumb.webp",
+          "width": 720,
+          "height": 480,
+          "quality": 74,
+          "bytes": 49820,
+          "sha256": "cd16c82092f84dab5d9aae285178d4a8d6af90761e0514e1e4e5d084ff94705e"
+        },
+        {
+          "file": "assets/activities/album-012-full.webp",
+          "width": 1086,
+          "height": 724,
+          "quality": 80,
+          "bytes": 135088,
+          "sha256": "1fd05c0b4f21d51639f7673c61af5939c4ef6e37d221d2781d49b23f874faf3c"
+        }
+      ]
+    },
+    {
+      "id": "album-013",
+      "source_filename": "086A0DBF-E6B9-4AFB-A89F-4AFAB63D9C99_1_105_c.jpeg",
+      "source_sha256": "a9b0903554fd779e74bbc308c6464a796ca76c7bc044cb2de20e5d439fa1412a",
+      "source_bytes": 272754,
+      "source_dimensions": [
+        1086,
+        724
+      ],
+      "source_exif_orientation": 1,
+      "upright_dimensions": [
+        1086,
+        724
+      ],
+      "outputs": [
+        {
+          "file": "assets/activities/album-013-thumb.webp",
+          "width": 720,
+          "height": 480,
+          "quality": 74,
+          "bytes": 37810,
+          "sha256": "b69182d6d0d1dcb83ac364ac22fb8673129b4522802e7af95846c62a1c331d1f"
+        },
+        {
+          "file": "assets/activities/album-013-full.webp",
+          "width": 1086,
+          "height": 724,
+          "quality": 80,
+          "bytes": 96846,
+          "sha256": "985a40ef2ac1fd64f073186011a18deb1a23794ff4106fd9640b16f76f990b50"
+        }
+      ]
+    }
+  ]
+}

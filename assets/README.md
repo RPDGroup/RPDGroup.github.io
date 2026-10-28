@@ -27,7 +27,8 @@ with earlier revisions; current pages use only `team-upright-*`.
 
 ## Activity photo journal
 
-The Activities page contains 48 photographs from `photos-2026(2).pptx`.
+The Activities page contains 61 photographs: 48 from `photos-2026(2).pptx`
+and 13 graduation photographs selected by the user from Photos.
 It reuses the five homepage photo encodings where possible and adds 43 pairs
 of web-sized images in `activities/`. A small 166 × 163 thumbnail and the
 presentation's award/administrative document images are outside this photo
@@ -41,6 +42,15 @@ image 39 uses its 90-degree clockwise rotation. Full web images are not cropped,
 redrawn, or generated. Gallery thumbnails preserve image proportions; homepage
 preview frames may crop their display. Captions describe the visible scene
 without inferring missing event dates, locations, or individual identities.
+
+`activities/album-sources.json` records the 13 supplied Photos filenames,
+input hashes and dimensions, and the web-image sizes, quality settings, and
+hashes. `album-001` through `album-013` each have a WebP thumbnail (up to
+720 × 960, quality 74) and a full view (up to 1600 × 1600, quality 80).
+Neither version upscales the supplied image. EXIF orientation is applied and
+embedded metadata is removed. Complete frames and the source files in Photos
+are preserved. These photographs appear first under Group moments, and one
+is included in the homepage selection.
 
 ## Original model architecture figures
 
