@@ -69,9 +69,9 @@ validates image paths and external links before changing the page.
 
 ## Activity photographs
 
-The Activities page uses 79 photographs: 44 from the supplied presentation,
-13 graduation photographs selected by the user from Photos, and 22 directly
-supplied photographs of academic exchanges and group activities. They are
+The Activities page uses 105 images: 44 from the supplied presentation,
+13 graduation photographs selected by the user from Photos, and 48 directly
+supplied images of academic exchanges, group activities, and related keepsakes. They are
 organized as Lab life, Academic exchange, and Group moments. Below the rotating
 wall, the homepage shows three selections. The gallery preserves complete image proportions;
 homepage previews may crop a frame. Opening a photograph shows the complete
@@ -87,6 +87,11 @@ name or the presentation's title. Source metadata is in
 `assets/activities/sources.json`, `assets/activities/album-sources.json`, and
 `assets/activities/upload-sources.json`;
 original inputs remain outside the website.
+
+The latest 27 supplied files add 26 images. The whiteboard photograph already
+listed as `photo-009` appears once; its additional source is recorded in the
+upload manifest. The appointment letter is rotated upright, and the supplied
+group sketch is included. The new batch follows the opening homepage collage.
 
 The homepage wall automatically includes every photograph in the activity
 data, in the same order, grouped into sets of up to three with no omissions

@@ -17,7 +17,7 @@ slide text, certificates, and original media files are not website assets.
 The original presentation remains unchanged. `photos/sources.json` records the
 selected embedded media, slide numbers, input hashes, and web encodings.
 
-The current homepage rotates all 79 activity photographs in 27 sets of up to three.
+The current homepage rotates all 105 activity images in 35 sets of three.
 The activity generator derives the wall directly from `data/activities.json`,
 so future additions and removals automatically update the rotation. Optional
 `homepage_focal_points` set supporting-tile focal points. Desktop places one complete large
@@ -32,9 +32,9 @@ with earlier revisions; current pages use only `team-upright-*`.
 
 ## Activity photo journal
 
-The Activities page contains 79 photographs: 44 from `photos-2026(2).pptx`,
-13 graduation photographs selected by the user from Photos, and 22 directly
-supplied photographs of academic exchanges and group activities.
+The Activities page contains 105 images: 44 from `photos-2026(2).pptx`,
+13 graduation photographs selected by the user from Photos, and 48 directly
+supplied images of academic exchanges, group activities, and related keepsakes.
 It reuses five earlier homepage photo encodings where possible and adds 39 pairs
 of web-sized images in `activities/`. A small 166 × 163 thumbnail and the
 presentation's award/administrative document images are outside this photo
@@ -55,7 +55,7 @@ hashes. `album-001` through `album-013` each have a WebP thumbnail (up to
 720 × 960, quality 74) and a full view (up to 1600 × 1600, quality 80).
 Neither version upscales the supplied image. EXIF orientation is applied and
 embedded metadata is removed. Complete frames and the source files in Photos
-are preserved. These photographs appear first under Group moments, and one
+are preserved. These photographs are included under Group moments, and one
 is included in the homepage selection.
 
 `activities/upload-sources.json` records directly supplied image attachments.
@@ -64,7 +64,7 @@ is included in the homepage selection.
 80. Embedded metadata is removed, and the supplied source image is preserved.
 It appears under Academic exchange.
 
-The 20 other selected direct uploads contain photographs of
+The 20 other photographs from the earlier direct-upload batch show
 sports, gatherings, graduation, a conference, and group outings. A repeated
 conference selfie in the message is included once. The same quality settings
 apply, with thumbnails bounded by 720 × 960 and full views by 1600 × 1600.
@@ -80,6 +80,15 @@ the existing `team-upright-800.webp` and `team-upright-1600.webp` encodings,
 preserving the complete frame and adding no duplicate image files. It appears
 first in the homepage rotation and in the activity journal. Its supplied PNG
 hash and the reused asset hashes are recorded in `upload-sources.json`.
+
+The next 27 supplied files add 26 images, `upload-025` through `upload-050`.
+`IMG_20230825_141358.jpg` matches `photo-009` and remains represented once;
+the upload manifest records the additional input under `duplicate_sources`.
+The new files use the same thumbnail and full-view bounds and quality settings
+as the earlier uploads, with no upscaling or cropping. The appointment letter
+is rotated 90 degrees counterclockwise for reading; the transform is recorded
+with its source hash. The group sketch and cat photograph are included.
+These encodings total 4,724,872 bytes, with the original 27 inputs preserved.
 
 ## Original model architecture figures
 
