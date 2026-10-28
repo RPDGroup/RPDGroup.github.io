@@ -459,6 +459,214 @@
         "bytes": 56694,
         "sha256": "5cc0c749f8232e966ed81cbcfead77c83b2f8b628c55850926444aa046fc9b80"
       }
+    },
+    {
+      "member_id": "jie-zhu",
+      "source_filename": "朱洁.jpg",
+      "source_sha256": "a464829ed7c49b480cbe789d4dfe78c815c3787190ac067a46deaf2a860f0a64",
+      "source_width": 1707,
+      "source_height": 1280,
+      "exif_orientation": 1,
+      "transform": "EXIF orientation, square portrait crop, downsize up to 640 px without upscaling; no retouching or generated content",
+      "crop_xyxy": [
+        480,
+        80,
+        1630,
+        1230
+      ],
+      "identity_source": "User-provided name and filename mapping, authorized to add to Members.",
+      "output": {
+        "file": "assets/members/jie-zhu.webp",
+        "width": 640,
+        "height": 640,
+        "format": "WebP",
+        "quality": 86,
+        "metadata_removed": true,
+        "bytes": 62814,
+        "sha256": "0d88b47366433e6e13196b8f2cbaf734b0a27efc8389cd3b62d4b101a0d40f96"
+      }
+    },
+    {
+      "member_id": "yiran-shi",
+      "source_filename": "史一然.jpg",
+      "source_sha256": "4d03194ca3a50fef3ee700dea0d1369591fb1496bf6c878cdbcff5acde71299f",
+      "source_width": 1684,
+      "source_height": 2242,
+      "exif_orientation": 1,
+      "transform": "EXIF orientation, square portrait crop, downsize up to 640 px without upscaling; no retouching or generated content",
+      "crop_xyxy": [
+        120,
+        190,
+        1560,
+        1630
+      ],
+      "identity_source": "User-provided name and filename mapping, authorized to add to Members.",
+      "output": {
+        "file": "assets/members/yiran-shi.webp",
+        "width": 640,
+        "height": 640,
+        "format": "WebP",
+        "quality": 86,
+        "metadata_removed": true,
+        "bytes": 37790,
+        "sha256": "33555d5648e82884a76f06212403d0d68fcfcf84cd89c0c19368d13df6d26107"
+      }
+    },
+    {
+      "member_id": "qiu-wang",
+      "source_filename": "王求.jpg",
+      "source_sha256": "bbab9df3edba57c0808c383e997f266bb23bda720cd0d8a41e676d71f143ee07",
+      "source_width": 1280,
+      "source_height": 1920,
+      "exif_orientation": 1,
+      "transform": "EXIF orientation, square portrait crop, downsize up to 640 px without upscaling; no retouching or generated content",
+      "crop_xyxy": [
+        50,
+        80,
+        1230,
+        1260
+      ],
+      "identity_source": "User-provided name and filename mapping, authorized to add to Members.",
+      "output": {
+        "file": "assets/members/qiu-wang.webp",
+        "width": 640,
+        "height": 640,
+        "format": "WebP",
+        "quality": 86,
+        "metadata_removed": true,
+        "bytes": 22886,
+        "sha256": "edb4460f7578a9c645ad9ba146ad07802ec534a4147cd7f414162bebeb8ab2f4"
+      }
+    },
+    {
+      "member_id": "haolun-ban",
+      "source_filename": "班颢伦.jpg",
+      "source_sha256": "0d27a2533e011970fa946af6a80d2cc0d24510c495e900c5f9f27a5d82f99ea4",
+      "source_width": 1279,
+      "source_height": 1706,
+      "exif_orientation": 1,
+      "transform": "EXIF orientation, square portrait crop, downsize up to 640 px without upscaling; no retouching or generated content",
+      "crop_xyxy": [
+        60,
+        60,
+        1220,
+        1220
+      ],
+      "identity_source": "User-provided name and filename mapping, authorized to add to Members.",
+      "output": {
+        "file": "assets/members/haolun-ban.webp",
+        "width": 640,
+        "height": 640,
+        "format": "WebP",
+        "quality": 86,
+        "metadata_removed": true,
+        "bytes": 18640,
+        "sha256": "f4facf0fb69e68a8ccdbb311a85a10359f80338fe7604ae37c35a0b85061ed08"
+      }
+    },
+    {
+      "member_id": "yanpeng-zhang",
+      "source_filename": "张彦鹏.jpg",
+      "source_sha256": "ca0534a904be01b9a82ca6a6c1b900428511f580547e3e9fd03c8a11b46988fb",
+      "source_width": 3933,
+      "source_height": 3932,
+      "exif_orientation": 1,
+      "transform": "EXIF orientation, square portrait crop, downsize up to 640 px without upscaling; no retouching or generated content",
+      "crop_xyxy": [
+        580,
+        70,
+        3380,
+        2870
+      ],
+      "identity_source": "User-provided name and filename mapping, authorized to add to Members.",
+      "output": {
+        "file": "assets/members/yanpeng-zhang.webp",
+        "width": 640,
+        "height": 640,
+        "format": "WebP",
+        "quality": 86,
+        "metadata_removed": true,
+        "bytes": 20418,
+        "sha256": "fd8dbd8a8647b117d1444f59aa037006496415473a19c313f30734afed1b5c3d"
+      }
+    },
+    {
+      "member_id": "ke-ding",
+      "source_filename": "丁可.jpg",
+      "source_sha256": "e97201d1d3a97dc1b48fc02f5a80b04368b99f1f05d4bd5dd205158c0ee3a0ae",
+      "source_width": 1834,
+      "source_height": 2568,
+      "exif_orientation": 1,
+      "transform": "EXIF orientation, square portrait crop, downsize up to 640 px without upscaling; no retouching or generated content",
+      "crop_xyxy": [
+        50,
+        60,
+        1784,
+        1794
+      ],
+      "identity_source": "User-provided name and filename mapping, authorized to add to Members.",
+      "output": {
+        "file": "assets/members/ke-ding.webp",
+        "width": 640,
+        "height": 640,
+        "format": "WebP",
+        "quality": 86,
+        "metadata_removed": true,
+        "bytes": 35736,
+        "sha256": "407dc7446b0fe760306a30f197c2b1fd968fe9860d2882c51371ca110496c4be"
+      }
+    },
+    {
+      "member_id": "yuandi-wen",
+      "source_filename": "温媛迪.jpg",
+      "source_sha256": "bca1944c68b2dd1ce14c70bd5355ef54237c9265f8e0beb949a5084f39e94014",
+      "source_width": 1024,
+      "source_height": 1434,
+      "exif_orientation": 1,
+      "transform": "EXIF orientation, square portrait crop, downsize up to 640 px without upscaling; no retouching or generated content",
+      "crop_xyxy": [
+        15,
+        25,
+        1009,
+        1019
+      ],
+      "identity_source": "User-provided name and filename mapping, authorized to add to Members.",
+      "output": {
+        "file": "assets/members/yuandi-wen.webp",
+        "width": 640,
+        "height": 640,
+        "format": "WebP",
+        "quality": 86,
+        "metadata_removed": true,
+        "bytes": 21520,
+        "sha256": "4f2ec9d564b20e6780cb4b365ddb46a8775245962a35f896b30914c92fb8ff93"
+      }
+    },
+    {
+      "member_id": "fangyuan-xing",
+      "source_filename": "fangyuanxing.jpg",
+      "source_sha256": "733ef63969a0fd1b20a6b40190dcd03ce73add46f5eb38e750a9c79917a70b0b",
+      "source_width": 1279,
+      "source_height": 1706,
+      "exif_orientation": 1,
+      "transform": "EXIF orientation, square portrait crop, downsize up to 640 px without upscaling; no retouching or generated content",
+      "crop_xyxy": [
+        430,
+        430,
+        1279,
+        1279
+      ],
+      "identity_source": "User-provided name and filename mapping, authorized to add to Members.",
+      "output": {
+        "file": "assets/members/fangyuan-xing.webp",
+        "width": 640,
+        "height": 640,
+        "format": "WebP",
+        "quality": 86,
+        "metadata_removed": true,
+        "bytes": 45636,
+        "sha256": "65fbf08f64f566ec3b3300ba839fea3c3106484268d2e7e3c244be5c3c38bc1d"
+      }
     }
   ]
 }

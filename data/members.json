@@ -33,7 +33,8 @@
       "role": "PhD student",
       "group": "phd",
       "status": "current",
-      "admission_year": 2025
+      "admission_year": 2025,
+      "photo": "assets/members/yiran-shi.webp"
     },
     {
       "id": "jialu-han",
@@ -172,7 +173,8 @@
       "role": "Master's student",
       "group": "master",
       "status": "current",
-      "admission_year": 2025
+      "admission_year": 2025,
+      "photo": "assets/members/haolun-ban.webp"
     },
     {
       "id": "fangyuan-xing",
@@ -180,7 +182,8 @@
       "role": "Master's student",
       "group": "master",
       "status": "current",
-      "admission_year": 2025
+      "admission_year": 2025,
+      "photo": "assets/members/fangyuan-xing.webp"
     },
     {
       "id": "yufeng-zhou",
@@ -196,7 +199,8 @@
       "role": "Master's student",
       "group": "master",
       "status": "current",
-      "admission_year": 2025
+      "admission_year": 2025,
+      "photo": "assets/members/yanpeng-zhang.webp"
     },
     {
       "id": "xinyuan-zhao",
@@ -213,7 +217,8 @@
       "role": "Master's student",
       "group": "master",
       "status": "current",
-      "admission_year": 2026
+      "admission_year": 2026,
+      "photo": "assets/members/jie-zhu.webp"
     },
     {
       "id": "qiu-wang",
@@ -221,7 +226,8 @@
       "role": "Master's student",
       "group": "master",
       "status": "current",
-      "admission_year": 2026
+      "admission_year": 2026,
+      "photo": "assets/members/qiu-wang.webp"
     },
     {
       "id": "ke-ding",
@@ -229,7 +235,8 @@
       "role": "Master's student",
       "group": "master",
       "status": "current",
-      "admission_year": 2027
+      "admission_year": 2027,
+      "photo": "assets/members/ke-ding.webp"
     },
     {
       "id": "yuandi-wen",
@@ -237,7 +244,8 @@
       "role": "Master's student",
       "group": "master",
       "status": "current",
-      "admission_year": 2027
+      "admission_year": 2027,
+      "photo": "assets/members/yuandi-wen.webp"
     },
     {
       "id": "zixuan-li",
