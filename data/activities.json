@@ -7,6 +7,248 @@
   ],
   "photos": [
     {
+      "id": "upload-004",
+      "category": "together",
+      "title": "Together on the basketball court",
+      "thumbnail": {
+        "src": "assets/activities/upload-004-thumb.webp",
+        "width": 720,
+        "height": 540
+      },
+      "image": "assets/activities/upload-004-full.webp"
+    },
+    {
+      "id": "upload-007",
+      "category": "academic",
+      "title": "Biomolecular structure prediction and simulation conference",
+      "thumbnail": {
+        "src": "assets/activities/upload-007-thumb.webp",
+        "width": 720,
+        "height": 540
+      },
+      "image": "assets/activities/upload-007-full.webp"
+    },
+    {
+      "id": "upload-005",
+      "category": "together",
+      "title": "A meal with the group",
+      "thumbnail": {
+        "src": "assets/activities/upload-005-thumb.webp",
+        "width": 720,
+        "height": 540
+      },
+      "image": "assets/activities/upload-005-full.webp"
+    },
+    {
+      "id": "upload-002",
+      "category": "together",
+      "title": "Running together on campus",
+      "thumbnail": {
+        "src": "assets/activities/upload-002-thumb.webp",
+        "width": 720,
+        "height": 960
+      },
+      "image": "assets/activities/upload-002-full.webp"
+    },
+    {
+      "id": "upload-003",
+      "category": "together",
+      "title": "A selfie on the basketball court",
+      "thumbnail": {
+        "src": "assets/activities/upload-003-thumb.webp",
+        "width": 720,
+        "height": 540
+      },
+      "image": "assets/activities/upload-003-full.webp"
+    },
+    {
+      "id": "upload-006",
+      "category": "together",
+      "title": "An evening by the water",
+      "thumbnail": {
+        "src": "assets/activities/upload-006-thumb.webp",
+        "width": 720,
+        "height": 540
+      },
+      "image": "assets/activities/upload-006-full.webp"
+    },
+    {
+      "id": "upload-008",
+      "category": "academic",
+      "title": "A moment at the conference",
+      "thumbnail": {
+        "src": "assets/activities/upload-008-thumb.webp",
+        "width": 720,
+        "height": 540
+      },
+      "image": "assets/activities/upload-008-full.webp"
+    },
+    {
+      "id": "upload-009",
+      "category": "together",
+      "title": "A group outing",
+      "thumbnail": {
+        "src": "assets/activities/upload-009-thumb.webp",
+        "width": 720,
+        "height": 540
+      },
+      "image": "assets/activities/upload-009-full.webp"
+    },
+    {
+      "id": "upload-010",
+      "category": "together",
+      "title": "A gathering around the table",
+      "thumbnail": {
+        "src": "assets/activities/upload-010-thumb.webp",
+        "width": 720,
+        "height": 540
+      },
+      "image": "assets/activities/upload-010-full.webp"
+    },
+    {
+      "id": "upload-011",
+      "category": "together",
+      "title": "A graduation selfie on campus",
+      "thumbnail": {
+        "src": "assets/activities/upload-011-thumb.webp",
+        "width": 720,
+        "height": 540
+      },
+      "image": "assets/activities/upload-011-full.webp"
+    },
+    {
+      "id": "upload-012",
+      "category": "together",
+      "title": "Celebrating a graduation together",
+      "thumbnail": {
+        "src": "assets/activities/upload-012-thumb.webp",
+        "width": 720,
+        "height": 540
+      },
+      "image": "assets/activities/upload-012-full.webp"
+    },
+    {
+      "id": "upload-013",
+      "category": "together",
+      "title": "Graduation memories in the sunshine",
+      "thumbnail": {
+        "src": "assets/activities/upload-013-thumb.webp",
+        "width": 720,
+        "height": 540
+      },
+      "image": "assets/activities/upload-013-full.webp"
+    },
+    {
+      "id": "upload-014",
+      "category": "together",
+      "title": "An evening gathering with friends",
+      "thumbnail": {
+        "src": "assets/activities/upload-014-thumb.webp",
+        "width": 720,
+        "height": 540
+      },
+      "image": "assets/activities/upload-014-full.webp"
+    },
+    {
+      "id": "upload-015",
+      "category": "together",
+      "title": "A group photo by the floral display",
+      "thumbnail": {
+        "src": "assets/activities/upload-015-thumb.webp",
+        "width": 720,
+        "height": 540
+      },
+      "image": "assets/activities/upload-015-full.webp"
+    },
+    {
+      "id": "upload-016",
+      "category": "together",
+      "title": "Dinner and songs together",
+      "thumbnail": {
+        "src": "assets/activities/upload-016-thumb.webp",
+        "width": 720,
+        "height": 960
+      },
+      "image": "assets/activities/upload-016-full.webp"
+    },
+    {
+      "id": "upload-017",
+      "category": "together",
+      "title": "Sharing a picnic",
+      "thumbnail": {
+        "src": "assets/activities/upload-017-thumb.webp",
+        "width": 720,
+        "height": 960
+      },
+      "image": "assets/activities/upload-017-full.webp"
+    },
+    {
+      "id": "upload-018",
+      "category": "together",
+      "title": "A toast around the table",
+      "thumbnail": {
+        "src": "assets/activities/upload-018-thumb.webp",
+        "width": 720,
+        "height": 960
+      },
+      "image": "assets/activities/upload-018-full.webp"
+    },
+    {
+      "id": "upload-019",
+      "category": "together",
+      "title": "Festive spring couplets",
+      "thumbnail": {
+        "src": "assets/activities/upload-019-thumb.webp",
+        "width": 720,
+        "height": 960
+      },
+      "image": "assets/activities/upload-019-full.webp"
+    },
+    {
+      "id": "upload-020",
+      "category": "together",
+      "title": "An indoor curling game",
+      "thumbnail": {
+        "src": "assets/activities/upload-020-thumb.webp",
+        "width": 720,
+        "height": 960
+      },
+      "image": "assets/activities/upload-020-full.webp"
+    },
+    {
+      "id": "upload-021",
+      "category": "together",
+      "title": "Watching an indoor curling game",
+      "thumbnail": {
+        "src": "assets/activities/upload-021-thumb.webp",
+        "width": 720,
+        "height": 960
+      },
+      "image": "assets/activities/upload-021-full.webp"
+    },
+    {
+      "id": "upload-022",
+      "category": "together",
+      "title": "A cheerful moment at the group activity",
+      "thumbnail": {
+        "src": "assets/activities/upload-022-thumb.webp",
+        "width": 720,
+        "height": 960
+      },
+      "image": "assets/activities/upload-022-full.webp"
+    },
+    {
+      "id": "upload-023",
+      "category": "together",
+      "title": "A group visit to an exhibition",
+      "thumbnail": {
+        "src": "assets/activities/upload-023-thumb.webp",
+        "width": 720,
+        "height": 480
+      },
+      "image": "assets/activities/upload-023-full.webp"
+    },
+    {
       "id": "upload-001",
       "category": "academic",
       "title": "Academic forum presentation",
