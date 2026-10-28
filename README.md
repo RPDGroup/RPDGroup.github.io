@@ -22,6 +22,7 @@ remain readable and navigation uses native anchors.
 - `index.html`: research, people, publication, news, contact, and resource content.
 - `assets/site.css`: responsive styles and reduced-motion support.
 - `assets/site.js`: hash navigation, accessible mobile disclosure, resource search.
+- `assets/photos/`: selected photographs from the supplied presentation, with source metadata.
 - `assets/README.md`: image sources and scientific illustration provenance.
 
 Keep project descriptions and publication metadata grounded in their owning
@@ -37,3 +38,6 @@ git diff --check
 
 Before publishing, inspect desktop and narrow-screen rendering, open each route,
 and check search, category combinations, an empty result, and clearing filters.
+Check the photo wall, the full team photo's orientation, and photo/architecture
+previews. The previews should close with either their close button or Escape,
+restore keyboard focus, and retain working image links without JavaScript.

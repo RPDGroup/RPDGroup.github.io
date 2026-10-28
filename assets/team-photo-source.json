@@ -1,0 +1,24 @@
+{
+  "source": "https://raw.githubusercontent.com/RPDGroup/.github/main/profile/codex-clipboard-0e00ee94-61ae-4924-8c5d-4394a72ec271.jpg",
+  "source_sha256": "ccf187eadf55feb1a318771d2c7ef3c38f5cc413f448a6bb441bf01f62c1fa74",
+  "original_exif_orientation": 5,
+  "method": "Apply the original EXIF orientation before web encoding. No crop or generative editing.",
+  "upright_dimensions": [
+    4896,
+    3672
+  ],
+  "outputs": [
+    {
+      "file": "assets/team-upright-800.webp",
+      "width": 800,
+      "height": 600,
+      "sha256": "d75535d454acd2040207c67882787ac54365554c299ff951c57cd85a9827a84b"
+    },
+    {
+      "file": "assets/team-upright-1600.webp",
+      "width": 1600,
+      "height": 1200,
+      "sha256": "a48af0e044394069700b309b55e1dd520f70ee3beb9a88d9ce76fea1b1200da7"
+    }
+  ]
+}

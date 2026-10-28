@@ -1,0 +1,140 @@
+{
+  "source_pptx_sha256": "775f3a15476cc29e3ea5c2453366f7852b04bbfa7edb994396bf2d6fbde687d2",
+  "photos": [
+    {
+      "name": "research-discussion",
+      "caption": "Research discussions",
+      "object_position": "50% 60%",
+      "source_presentation": "photos-2026(2).pptx",
+      "source_media": "ppt/media/image1.png",
+      "source_slides": [
+        1
+      ],
+      "source_sha256": "0fab87e2faa00970cce5dbceaa98c166f9af612298b53e3006e35a19c6812e72",
+      "outputs": [
+        {
+          "file": "assets/photos/research-discussion-640.webp",
+          "width": 640,
+          "height": 480,
+          "bytes": 38380,
+          "sha256": "08e84d57497a18059390260e67e031de73945506b65287962d8190bcc840b718"
+        },
+        {
+          "file": "assets/photos/research-discussion-1280.webp",
+          "width": 1280,
+          "height": 960,
+          "bytes": 104864,
+          "sha256": "851fef108f110d4c2dfa2c0e0d4cb8c09bedcb3ce361c505fd23c9b4fb7c8fd8"
+        }
+      ]
+    },
+    {
+      "name": "conference-group",
+      "caption": "Conference group photo",
+      "object_position": "50% 50%",
+      "source_presentation": "photos-2026(2).pptx",
+      "source_media": "ppt/media/image42.jpg",
+      "source_slides": [
+        6
+      ],
+      "source_sha256": "3d8079073724bc95d6b0d210e40d2ff615397722285f95d78404199308f421c9",
+      "outputs": [
+        {
+          "file": "assets/photos/conference-group-640.webp",
+          "width": 640,
+          "height": 427,
+          "bytes": 61064,
+          "sha256": "a7848101928cb58366b15b5603c7c8423999ed727c030abfea26be6bbf8f66b5"
+        },
+        {
+          "file": "assets/photos/conference-group-1280.webp",
+          "width": 1280,
+          "height": 853,
+          "bytes": 177274,
+          "sha256": "536b998e50cc9996eaa74fb23ea4d86bd346622fe1b15371af7d209bff578193"
+        }
+      ]
+    },
+    {
+      "name": "group-gathering",
+      "caption": "Time together",
+      "object_position": "50% 50%",
+      "source_presentation": "photos-2026(2).pptx",
+      "source_media": "ppt/media/image27.jpeg",
+      "source_slides": [
+        4
+      ],
+      "source_sha256": "99cdfcce6852c0bf019763b06f7fbbb085c4cb56925235afc5131cfa3e8a9f2c",
+      "outputs": [
+        {
+          "file": "assets/photos/group-gathering-640.webp",
+          "width": 640,
+          "height": 480,
+          "bytes": 40840,
+          "sha256": "163bf4269a4cfe9cb5111be91c0ad4454d292bb359c84b552e6153dd94e9cbe3"
+        },
+        {
+          "file": "assets/photos/group-gathering-1280.webp",
+          "width": 1280,
+          "height": 960,
+          "bytes": 107930,
+          "sha256": "6c4b8645b6dbcd038a9db4b888056c0dcdf467a55230d6e46676233d22729827"
+        }
+      ]
+    },
+    {
+      "name": "working-together",
+      "caption": "Working together",
+      "object_position": "50% 50%",
+      "source_presentation": "photos-2026(2).pptx",
+      "source_media": "ppt/media/image36.jpeg",
+      "source_slides": [
+        6
+      ],
+      "source_sha256": "aba0f28dd6f0a819214083e351d70baed643ece60dfa5d8b53fac40cec91fd4b",
+      "outputs": [
+        {
+          "file": "assets/photos/working-together-640.webp",
+          "width": 640,
+          "height": 854,
+          "bytes": 66676,
+          "sha256": "87c532a2e9cfbec608c49c331dd4ad30b2fea06312290632873957197a1b586c"
+        },
+        {
+          "file": "assets/photos/working-together-1280.webp",
+          "width": 1280,
+          "height": 1707,
+          "bytes": 206984,
+          "sha256": "4f118a4061bd78aa78e207467c7205d6c8f6b2b505cdd3f8c7b2e98c4d027ad1"
+        }
+      ]
+    },
+    {
+      "name": "research-presentation",
+      "caption": "Research presentation",
+      "object_position": "50% 50%",
+      "source_presentation": "photos-2026(2).pptx",
+      "source_media": "ppt/media/image31.png",
+      "source_slides": [
+        5
+      ],
+      "source_sha256": "bb9ad016c0a7f2bf5cc9a47008dede39596cade87b2566a353754261a305cc87",
+      "outputs": [
+        {
+          "file": "assets/photos/research-presentation-640.webp",
+          "width": 640,
+          "height": 853,
+          "bytes": 45596,
+          "sha256": "0570b24c2ee554c917a9758e5bd0eb224ecfcab55e7ab835b56422fb3c95fd3d"
+        },
+        {
+          "file": "assets/photos/research-presentation-1280.webp",
+          "width": 1280,
+          "height": 1707,
+          "bytes": 122758,
+          "sha256": "54df0b034f3d62095b2098889f9cf05efac825c910359cd30c9c56ff8c8a343a"
+        }
+      ]
+    }
+  ]
+}

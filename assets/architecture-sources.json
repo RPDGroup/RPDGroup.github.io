@@ -1,0 +1,65 @@
+[
+  {
+    "project": "DynoM",
+    "source": "https://github.com/RPDGroup/DynoM/blob/main/model.jpg",
+    "git_blob_sha": "9d5bcac867b538244e206b2352a5f7cb33c006af",
+    "source_sha256": "52408762df18126047699bf31b82682d631c8b895dbd57c636c3f5d6f0e52d87",
+    "source_dimensions": [
+      2108,
+      500
+    ],
+    "source_crop_pixels": null,
+    "panel": "complete architecture figure",
+    "file": "assets/dynom-model.webp",
+    "dimensions": [
+      2108,
+      500
+    ]
+  },
+  {
+    "project": "ABUS",
+    "source": "https://github.com/RPDGroup/ABUS/blob/main/figures/Figure1.png",
+    "git_blob_sha": "76099cbf43e16287c3cd5431a12ca4d18b7d6099",
+    "source_sha256": "b8e3e1c4c071e917d0c0fd0473d2eb24da958d6680165d8addc1987ec953ddc1",
+    "source_dimensions": [
+      2454,
+      3451
+    ],
+    "source_crop_pixels": [
+      0,
+      400,
+      2454,
+      984
+    ],
+    "panel": "b",
+    "file": "assets/abus-architecture.webp",
+    "dimensions": [
+      2200,
+      524
+    ],
+    "bytes": 147970
+  },
+  {
+    "project": "CodonBERT",
+    "source": "https://github.com/RPDGroup/CodonBERT/blob/main/figures/2024.01.24-figure1.jpg",
+    "git_blob_sha": "0176aa7bc88b5f9f79d5963798b3f83974ebec7e",
+    "source_sha256": "31f51f01c3ca13eb4de77cb1fff461e702a508d464832074f1a194c31dd09f1f",
+    "source_dimensions": [
+      4961,
+      7141
+    ],
+    "source_crop_pixels": [
+      0,
+      2030,
+      4961,
+      3830
+    ],
+    "panel": "b",
+    "file": "assets/codonbert-architecture.webp",
+    "dimensions": [
+      2400,
+      871
+    ],
+    "bytes": 69894
+  }
+]
