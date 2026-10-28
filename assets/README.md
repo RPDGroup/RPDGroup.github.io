@@ -8,7 +8,7 @@ selected again by the user for the homepage. The original stores a 3672 × 4896
 image with EXIF orientation 5. Apply that orientation before web encoding: the
 upright image is 4896 × 3672. `team-upright-800.webp` and
 `team-upright-1600.webp` preserve the complete photograph at its correct aspect
-ratio. The People and About sections share these corrected assets.
+ratio. The homepage, People, and About sections share these corrected assets.
 `team-photo-source.json` records the input hash, orientation, and output sizes.
 
 Five earlier wall photographs were extracted directly from the user-supplied
@@ -17,7 +17,7 @@ slide text, certificates, and original media files are not website assets.
 The original presentation remains unchanged. `photos/sources.json` records the
 selected embedded media, slide numbers, input hashes, and web encodings.
 
-The current homepage rotates all 81 activity photographs in 27 sets of three.
+The current homepage rotates all 79 activity photographs in 27 sets of up to three.
 The activity generator derives the wall directly from `data/activities.json`,
 so future additions and removals automatically update the rotation. Optional
 `homepage_focal_points` set supporting-tile focal points. Desktop places one complete large
@@ -32,10 +32,10 @@ with earlier revisions; current pages use only `team-upright-*`.
 
 ## Activity photo journal
 
-The Activities page contains 81 photographs: 47 from `photos-2026(2).pptx`,
-13 graduation photographs selected by the user from Photos, and 21 directly
+The Activities page contains 79 photographs: 44 from `photos-2026(2).pptx`,
+13 graduation photographs selected by the user from Photos, and 22 directly
 supplied photographs of academic exchanges and group activities.
-It reuses five earlier homepage photo encodings where possible and adds 42 pairs
+It reuses five earlier homepage photo encodings where possible and adds 39 pairs
 of web-sized images in `activities/`. A small 166 × 163 thumbnail and the
 presentation's award/administrative document images are outside this photo
 journal. The original presentation and extracted source media remain unchanged.
@@ -74,6 +74,12 @@ Conference photographs are under Academic exchange; the other photographs
 are under Group moments. Input filenames, hashes, dimensions, and output
 metadata for the current selection are recorded in the same manifest. Original local paths and embedded
 camera metadata are not published.
+
+`upload-024` is the lab group selfie supplied again for the homepage. It uses
+the existing `team-upright-800.webp` and `team-upright-1600.webp` encodings,
+preserving the complete frame and adding no duplicate image files. It appears
+first in the homepage rotation and in the activity journal. Its supplied PNG
+hash and the reused asset hashes are recorded in `upload-sources.json`.
 
 ## Original model architecture figures
 

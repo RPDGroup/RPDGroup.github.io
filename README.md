@@ -69,8 +69,8 @@ validates image paths and external links before changing the page.
 
 ## Activity photographs
 
-The Activities page uses 81 photographs: 47 from the supplied presentation,
-13 graduation photographs selected by the user from Photos, and 21 directly
+The Activities page uses 79 photographs: 44 from the supplied presentation,
+13 graduation photographs selected by the user from Photos, and 22 directly
 supplied photographs of academic exchanges and group activities. They are
 organized as Lab life, Academic exchange, and Group moments. Below the rotating
 wall, the homepage shows three selections. The gallery preserves complete image proportions;
@@ -90,7 +90,8 @@ original inputs remain outside the website.
 
 The homepage wall automatically includes every photograph in the activity
 data, in the same order, grouped into sets of up to three with no omissions
-or duplicates. Adding or removing a gallery entry updates the wall when the
+or duplicates. The supplied lab group selfie opens the first set, using its
+existing compressed web assets. Adding or removing a gallery entry updates the wall when the
 generator runs. Optional `homepage_focal_points` percentages control the crop
 in supporting tiles. The large photograph keeps its complete frame. The wall
 rotates every eight seconds and supports previous/next buttons, a set chooser, left/right
@@ -98,7 +99,7 @@ keys, and a pause/play control. Manual navigation or keyboard focus pauses
 rotation until Play is selected. Hovering over photos, leaving the homepage,
 scrolling past the wall, or hiding the tab suspends automatic changes.
 Reduced-motion preferences start the wall paused. Image previews pause the
-wall and browse the three visible photographs. Without JavaScript, the first
+wall and browse the currently visible photographs. Without JavaScript, the first
 set remains visible with native full-image links. Run the activity generator
 after changing selections; it renders all photo blocks and refreshes cache
 versions for the frontend files.
