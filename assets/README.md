@@ -32,13 +32,19 @@ with earlier revisions; current pages use only `team-upright-*`.
 
 ## Member portraits
 
-`members/xinyuan-zhao.webp` is the portrait supplied by the user for Xinyuan
-Zhao, a master's student in the 2025 intake. It is a 640 × 640 square
-head-and-shoulders excerpt for the circular directory portrait and profile
-dialog, encoded as WebP at quality 86. No retouching is applied. Embedded
-metadata is removed, and the supplied photograph remains unchanged.
-`members/sources.json` records the input filename and hash, original dimensions,
-crop rectangle, and output encoding and hash.
+`members/` contains 17 portraits supplied by the user: the Leader, seven PhD
+students, seven master's students (including Xinyuan Zhao), and two alumni,
+Chunxiao Shi and Yongbing Chen. Original filenames and explicit attachment
+labels supplied by the user identify each person; the portraits accompany
+their existing member profiles. Zilin Ren uses the supplied illustration.
+
+Square portrait excerpts are encoded as WebP at quality 86, with dimensions
+up to 640 × 640 and no upscaling. The directory and profile dialog display them
+in circular frames. EXIF orientation is applied, embedded metadata is removed,
+and transparent pixels are composited onto white. No retouching is applied,
+and the supplied photographs remain unchanged. `members/sources.json` records
+each input filename and hash, original dimensions, crop rectangle, and output
+encoding and hash.
 
 ## Activity photo journal
 

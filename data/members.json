@@ -6,7 +6,8 @@
       "name": "Zilin Ren",
       "role": "Group leader",
       "group": "leader",
-      "status": "current"
+      "status": "current",
+      "photo": "assets/members/zilin-ren.webp"
     },
     {
       "id": "yixiang-zhang",
@@ -14,7 +15,8 @@
       "role": "PhD student",
       "group": "phd",
       "status": "current",
-      "admission_year": 2024
+      "admission_year": 2024,
+      "photo": "assets/members/yixiang-zhang.webp"
     },
     {
       "id": "qiantong-jin",
@@ -22,7 +24,8 @@
       "role": "PhD student",
       "group": "phd",
       "status": "current",
-      "admission_year": 2025
+      "admission_year": 2025,
+      "photo": "assets/members/qiantong-jin.webp"
     },
     {
       "id": "yiran-shi",
@@ -38,7 +41,8 @@
       "role": "PhD student",
       "group": "phd",
       "status": "current",
-      "admission_year": 2026
+      "admission_year": 2026,
+      "photo": "assets/members/jialu-han.webp"
     },
     {
       "id": "xianyu-wang",
@@ -46,7 +50,8 @@
       "role": "PhD student",
       "group": "phd",
       "status": "current",
-      "admission_year": 2026
+      "admission_year": 2026,
+      "photo": "assets/members/xianyu-wang.webp"
     },
     {
       "id": "luyao-han",
@@ -54,7 +59,8 @@
       "role": "PhD student",
       "group": "phd",
       "status": "current",
-      "admission_year": 2026
+      "admission_year": 2026,
+      "photo": "assets/members/luyao-han.webp"
     },
     {
       "id": "ziyao-jin",
@@ -62,7 +68,8 @@
       "role": "PhD student",
       "group": "phd",
       "status": "current",
-      "admission_year": 2026
+      "admission_year": 2026,
+      "photo": "assets/members/ziyao-jin.webp"
     },
     {
       "id": "yuan-cheng",
@@ -70,7 +77,8 @@
       "role": "PhD student",
       "group": "phd",
       "status": "current",
-      "admission_year": 2027
+      "admission_year": 2027,
+      "photo": "assets/members/yuan-cheng.webp"
     },
     {
       "id": "pengjia-ma",
@@ -78,7 +86,8 @@
       "role": "Master's student",
       "group": "master",
       "status": "current",
-      "admission_year": 2024
+      "admission_year": 2024,
+      "photo": "assets/members/pengjia-ma.webp"
     },
     {
       "id": "songyang-diao",
@@ -86,7 +95,8 @@
       "role": "Master's student",
       "group": "master",
       "status": "current",
-      "admission_year": 2024
+      "admission_year": 2024,
+      "photo": "assets/members/songyang-diao.webp"
     },
     {
       "id": "xin-yang",
@@ -102,7 +112,8 @@
       "role": "Master's student",
       "group": "master",
       "status": "current",
-      "admission_year": 2024
+      "admission_year": 2024,
+      "photo": "assets/members/ying-hu.webp"
     },
     {
       "id": "zhixiang-sui",
@@ -126,7 +137,8 @@
       "role": "Master's student",
       "group": "master",
       "status": "current",
-      "admission_year": 2024
+      "admission_year": 2024,
+      "photo": "assets/members/yubin-liu.webp"
     },
     {
       "id": "yuxue-xia",
@@ -134,7 +146,8 @@
       "role": "Master's student",
       "group": "master",
       "status": "current",
-      "admission_year": 2024
+      "admission_year": 2024,
+      "photo": "assets/members/yuxue-xia.webp"
     },
     {
       "id": "duo-liu",
@@ -142,7 +155,8 @@
       "role": "Master's student",
       "group": "master",
       "status": "current",
-      "admission_year": 2025
+      "admission_year": 2025,
+      "photo": "assets/members/duo-liu.webp"
     },
     {
       "id": "qianyi-jia",
@@ -253,7 +267,8 @@
       "name": "Yongbing Chen",
       "role": "Alumni",
       "group": "alumni",
-      "status": "previous"
+      "status": "previous",
+      "photo": "assets/members/yongbing-chen.webp"
     },
     {
       "id": "lili-jiang",
@@ -267,7 +282,8 @@
       "name": "Chunxiao Shi",
       "role": "Alumni",
       "group": "alumni",
-      "status": "previous"
+      "status": "previous",
+      "photo": "assets/members/chunxiao-shi.webp"
     }
   ]
 }
