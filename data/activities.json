@@ -40,17 +40,6 @@
       "image": "assets/activities/upload-005-full.webp"
     },
     {
-      "id": "upload-002",
-      "category": "together",
-      "title": "Running together on campus",
-      "thumbnail": {
-        "src": "assets/activities/upload-002-thumb.webp",
-        "width": 720,
-        "height": 960
-      },
-      "image": "assets/activities/upload-002-full.webp"
-    },
-    {
       "id": "upload-003",
       "category": "together",
       "title": "A selfie on the basketball court",
@@ -214,17 +203,6 @@
         "height": 960
       },
       "image": "assets/activities/upload-020-full.webp"
-    },
-    {
-      "id": "upload-021",
-      "category": "together",
-      "title": "Watching an indoor curling game",
-      "thumbnail": {
-        "src": "assets/activities/upload-021-thumb.webp",
-        "width": 720,
-        "height": 960
-      },
-      "image": "assets/activities/upload-021-full.webp"
     },
     {
       "id": "upload-022",
@@ -832,17 +810,6 @@
       "image": "assets/activities/photo-037-full.webp"
     },
     {
-      "id": "photo-038",
-      "category": "lab",
-      "title": "An exchange of ideas",
-      "thumbnail": {
-        "src": "assets/activities/photo-038-thumb.webp",
-        "width": 720,
-        "height": 540
-      },
-      "image": "assets/activities/photo-038-full.webp"
-    },
-    {
       "id": "photo-039",
       "category": "academic",
       "title": "Conference memories",
@@ -930,5 +897,39 @@
       },
       "image": "assets/activities/photo-049-full.webp"
     }
-  ]
+  ],
+  "homepage_focal_points": {
+    "upload-004": [
+      50,
+      75
+    ],
+    "upload-005": [
+      50,
+      55
+    ],
+    "upload-001": [
+      50,
+      65
+    ],
+    "photo-037": [
+      50,
+      55
+    ],
+    "album-003": [
+      50,
+      65
+    ],
+    "album-007": [
+      50,
+      65
+    ],
+    "upload-006": [
+      50,
+      60
+    ],
+    "upload-023": [
+      50,
+      70
+    ]
+  }
 }

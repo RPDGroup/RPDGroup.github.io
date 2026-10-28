@@ -1267,41 +1267,6 @@
       ]
     },
     {
-      "id": "photo-038",
-      "source_presentation": "photos-2026(2).pptx",
-      "source_media": "ppt/media/image38.jpeg",
-      "source_slides": [
-        6
-      ],
-      "source_sha256": "8fba8033de325a46f6efaadbd3bdc9aa211d36b714d69d289621873086bb0b25",
-      "source_dimensions": [
-        3301,
-        2475
-      ],
-      "source_exif_orientation": null,
-      "powerpoint_transform": {},
-      "upright_dimensions": [
-        3301,
-        2475
-      ],
-      "outputs": [
-        {
-          "file": "assets/activities/photo-038-thumb.webp",
-          "width": 720,
-          "height": 540,
-          "bytes": 39706,
-          "sha256": "f8a6c680785317653b11f48908d318e42166989e9b0b1d1d5243a13b7e94ee05"
-        },
-        {
-          "file": "assets/activities/photo-038-full.webp",
-          "width": 1800,
-          "height": 1350,
-          "bytes": 175288,
-          "sha256": "426014fdd267e1e9bf806ff8e0d451b1dd0a08ca698bf959e312a8b959086699"
-        }
-      ]
-    },
-    {
       "id": "photo-039",
       "source_presentation": "photos-2026(2).pptx",
       "source_media": "ppt/media/image39.jpeg",

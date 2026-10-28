@@ -2,35 +2,40 @@
 
 ## Homepage photo wall
 
-The main photograph is the existing group photograph from the organization's
+The original group photograph is from the organization's
 [profile repository](https://raw.githubusercontent.com/RPDGroup/.github/main/profile/codex-clipboard-0e00ee94-61ae-4924-8c5d-4394a72ec271.jpg),
 selected again by the user for the homepage. The original stores a 3672 × 4896
 image with EXIF orientation 5. Apply that orientation before web encoding: the
 upright image is 4896 × 3672. `team-upright-800.webp` and
 `team-upright-1600.webp` preserve the complete photograph at its correct aspect
-ratio. The homepage, People, and About sections share these corrected assets.
+ratio. The People and About sections share these corrected assets.
 `team-photo-source.json` records the input hash, orientation, and output sizes.
 
-The five other photographs were extracted directly from the user-supplied
+Five earlier wall photographs were extracted directly from the user-supplied
 `photos-2026(2).pptx`. Only selected photographs are served; the presentation,
 slide text, certificates, and original media files are not website assets.
 The original presentation remains unchanged. `photos/sources.json` records the
 selected embedded media, slide numbers, input hashes, and web encodings.
 
-The desktop wall balances six photographs across two rows. The narrow-screen
-wall places the complete main photograph above a compact supporting collage.
-Clicking a photograph opens its complete web version. CSS may crop supporting
-tiles to fit their frames; image files themselves are not cropped.
+The current homepage rotates all 81 activity photographs in 27 sets of three.
+The activity generator derives the wall directly from `data/activities.json`,
+so future additions and removals automatically update the rotation. Optional
+`homepage_focal_points` set supporting-tile focal points. Desktop places one complete large
+photograph beside two supporting frames. Phones place the complete large
+photograph above two smaller frames. CSS may crop supporting tiles, while
+image files remain complete. Clicking a photograph opens its full web version.
+All assets are reused from the existing photo journal; the rotation creates
+no duplicate image files.
 
 The older `team-800.webp` and `team-1600.webp` encodings remain for compatibility
 with earlier revisions; current pages use only `team-upright-*`.
 
 ## Activity photo journal
 
-The Activities page contains 84 photographs: 48 from `photos-2026(2).pptx`,
-13 graduation photographs selected by the user from Photos, and 23 directly
+The Activities page contains 81 photographs: 47 from `photos-2026(2).pptx`,
+13 graduation photographs selected by the user from Photos, and 21 directly
 supplied photographs of academic exchanges and group activities.
-It reuses the five homepage photo encodings where possible and adds 43 pairs
+It reuses five earlier homepage photo encodings where possible and adds 42 pairs
 of web-sized images in `activities/`. A small 166 × 163 thumbnail and the
 presentation's award/administrative document images are outside this photo
 journal. The original presentation and extracted source media remain unchanged.
@@ -59,7 +64,7 @@ is included in the homepage selection.
 80. Embedded metadata is removed, and the supplied source image is preserved.
 It appears under Academic exchange.
 
-`upload-002` through `upload-023` add 22 directly supplied photographs of
+The 20 other selected direct uploads contain photographs of
 sports, gatherings, graduation, a conference, and group outings. A repeated
 conference selfie in the message is included once. The same quality settings
 apply, with thumbnails bounded by 720 × 960 and full views by 1600 × 1600.
@@ -67,7 +72,7 @@ EXIF rotations and mirrored orientations are applied before encoding, while
 the complete frame, any visible watermarks, and all source files are preserved.
 Conference photographs are under Academic exchange; the other photographs
 are under Group moments. Input filenames, hashes, dimensions, and output
-metadata are recorded in the same manifest. Original local paths and embedded
+metadata for the current selection are recorded in the same manifest. Original local paths and embedded
 camera metadata are not published.
 
 ## Original model architecture figures

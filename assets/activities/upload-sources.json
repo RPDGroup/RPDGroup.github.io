@@ -36,39 +36,6 @@
       ]
     },
     {
-      "id": "upload-002",
-      "source_filename": "7188f393281f1697636d2e15f29cce57.jpg",
-      "source_sha256": "6e9dee942eeae1ff2a80bd11149e8f584e60768aeec29ce8277ce445773e02c8",
-      "source_bytes": 7534095,
-      "source_dimensions": [
-        5712,
-        4284
-      ],
-      "source_exif_orientation": 6,
-      "upright_dimensions": [
-        4284,
-        5712
-      ],
-      "outputs": [
-        {
-          "file": "assets/activities/upload-002-thumb.webp",
-          "width": 720,
-          "height": 960,
-          "quality": 74,
-          "bytes": 88092,
-          "sha256": "f11991f2038bf801e057e65d4c4d7ce4dbf47af455c0befae726d553a747e139"
-        },
-        {
-          "file": "assets/activities/upload-002-full.webp",
-          "width": 1200,
-          "height": 1600,
-          "quality": 80,
-          "bytes": 310854,
-          "sha256": "bee578419fc4c62304c0708ea33b402e0678ba8c0f30460378ca1d795ce53698"
-        }
-      ]
-    },
-    {
       "id": "upload-003",
       "source_filename": "08b0bff91211e210532f1e8ab1c3d9c1.jpg",
       "source_sha256": "8863edad9df258c0fc28e51828143f5daafd1b9239b105d522f24148a9e37169",
@@ -659,39 +626,6 @@
           "quality": 80,
           "bytes": 91698,
           "sha256": "3383b444d66b1445ad15431466dfcf9f0be9c09ed6e9c81b3606c683ee02b5ef"
-        }
-      ]
-    },
-    {
-      "id": "upload-021",
-      "source_filename": "97c4bdc3d915cf539de58b1da41277c3.jpg",
-      "source_sha256": "692dd6262e39e1855cb637f3a0493f76336f806ca2c1c799d4f919362e7cbeee",
-      "source_bytes": 200219,
-      "source_dimensions": [
-        1280,
-        1707
-      ],
-      "source_exif_orientation": null,
-      "upright_dimensions": [
-        1280,
-        1707
-      ],
-      "outputs": [
-        {
-          "file": "assets/activities/upload-021-thumb.webp",
-          "width": 720,
-          "height": 960,
-          "quality": 74,
-          "bytes": 44948,
-          "sha256": "6cc2edbda173d6d7a0c32b17aecd6cbeaad30b47e46fa3b6d53f293d55c19e52"
-        },
-        {
-          "file": "assets/activities/upload-021-full.webp",
-          "width": 1200,
-          "height": 1600,
-          "quality": 80,
-          "bytes": 110874,
-          "sha256": "f9dc94f427cdd1544896056de4bc291bf0d1bdd90b510aaa27027c6327f79c3e"
         }
       ]
     },

@@ -85,6 +85,35 @@ em { font-family: inherit; font-weight: inherit; font-style: normal; }
 .wall-6 img { object-position: 66% 65%; }
 .photo-caption { position: absolute; bottom: 0; inset-inline: 0; padding: 30px 15px 12px; display: flex; justify-content: space-between; gap: 10px; background: linear-gradient(transparent, #111e30bc); color: white; font-size: 12px; opacity: 0; transition: opacity .2s ease; }
 .wall-photo:hover .photo-caption, .wall-photo:focus-visible .photo-caption { opacity: 1; }
+[data-photo-carousel] .photo-wall { position: relative; display: block; height: auto; min-height: 0; aspect-ratio: 16 / 7; max-width: 1600px; background: #17233a; }
+[data-photo-carousel] .photo-slide { position: absolute; inset: 0; display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); grid-template-rows: repeat(2, minmax(0, 1fr)); gap: 5px; }
+[data-photo-carousel] .photo-slide[hidden], .photo-controls[hidden] { display: none; }
+[data-photo-carousel] .wall-1 { grid-column: 1 / span 7; grid-row: 1 / span 2; }
+[data-photo-carousel] .wall-2 { grid-column: 8 / span 5; grid-row: 1; }
+[data-photo-carousel] .wall-3 { grid-column: 8 / span 5; grid-row: 2; }
+[data-photo-carousel] .is-single .wall-1 { grid-column: 1 / -1; }
+[data-photo-carousel] .is-pair .wall-2 { grid-row: 1 / span 2; }
+[data-photo-carousel] .wall-photo { background: #17233a; }
+[data-photo-carousel] .wall-photo img { object-position: var(--photo-focus, center); }
+[data-photo-carousel] .wall-1 img { object-fit: contain; }
+[data-photo-carousel] .photo-caption { opacity: 1; font-size: 12px; padding: 36px 18px 12px; align-items: end; }
+[data-photo-carousel] .wall-1 .photo-caption { font-size: 15px; padding: 50px 24px 20px; }
+.photo-slide.is-entering { animation: photo-set-in .45s ease both; }
+@keyframes photo-set-in { from { opacity: .35; } to { opacity: 1; } }
+.photo-controls { max-width: 1600px; margin-inline: auto; min-height: 76px; display: flex; align-items: center; justify-content: space-between; gap: 20px; padding: 13px 26px; background: white; border-bottom: 1px solid var(--line); }
+.photo-set-name { display: flex; align-items: center; gap: 18px; font-size: 14px; font-weight: 600; }
+.photo-set-count { font-size: 11px; font-weight: 400; color: var(--muted); white-space: nowrap; font-variant-numeric: tabular-nums; }
+.photo-control-actions { display: flex; align-items: center; gap: 8px; }
+.photo-controls button { color: var(--ink); border: 1px solid transparent; background: transparent; min-height: 42px; border-radius: 24px; }
+.photo-controls button:hover { color: var(--blue); background: var(--blue-pale); }
+.photo-play { display: inline-flex; align-items: center; gap: 8px; padding: 7px 13px; font-size: 12px; }
+[data-photo-play-icon] { width: 14px; text-align: center; }
+.photo-arrow { width: 42px; font-size: 20px; padding: 0; }
+.photo-select { font: inherit; font-size: 12px; color: var(--ink); background: white; border: 1px solid var(--line); border-radius: 20px; min-height: 42px; width: 92px; padding: 7px 10px; cursor: pointer; font-variant-numeric: tabular-nums; }
+.photo-select:focus-visible { outline: 3px solid #8fa8ee; outline-offset: 3px; }
+.photo-all { font-size: 12px; text-decoration: none; white-space: nowrap; }
+.photo-all span { margin-left: 8px; }
+.photo-announcement { position: absolute; width: 1px; height: 1px; padding: 0; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
 .mission-band { background: var(--gradient); color: white; text-align: center; margin-top: 28px; padding: 66px var(--gutter) 70px; }
 .mission-kicker { font-size: 12px; text-transform: uppercase; letter-spacing: .14em; color: #e1e4f1; margin-bottom: 19px; }
 .mission-band h1 { font-size: clamp(36px, 4.2vw, 54px); font-weight: 500; line-height: 1.18; letter-spacing: -.025em; }
@@ -366,6 +395,8 @@ body.has-member-viewer { overflow: hidden; }
   .nav-github { justify-content: center; }
   .info-links { right: auto; left: 0; top: 100%; z-index: 1; }
   .photo-wall { height: 51vw; min-height: 360px; }
+  .photo-controls { flex-wrap: wrap; gap: 8px 16px; }
+  .photo-set-name { flex-basis: 100%; justify-content: space-between; }
   .home-projects { gap: 39px 32px; }
   .project-figure, .dataset-cover { height: 210px; }
   .project-figure { padding: 17px 15px; }
@@ -393,6 +424,22 @@ body.has-member-viewer { overflow: hidden; }
   .wall-5 { grid-column: 3; grid-row: 3; }
   .wall-6 { grid-column: 4; grid-row: 3; }
   .photo-caption { font-size: 10px; padding: 25px 9px 9px; }
+  [data-photo-carousel] .photo-wall { aspect-ratio: auto; }
+  [data-photo-carousel] .photo-slide { position: relative; grid-template-columns: repeat(4, minmax(0, 1fr)); grid-template-rows: auto min(35vw, 175px); gap: 4px; }
+  [data-photo-carousel] .wall-1 { grid-column: 1 / -1; grid-row: 1; }
+  [data-photo-carousel] .wall-2 { grid-column: 1 / span 2; grid-row: 2; }
+  [data-photo-carousel] .wall-3 { grid-column: 3 / span 2; grid-row: 2; }
+  [data-photo-carousel] .is-single { grid-template-rows: auto; }
+  [data-photo-carousel] .is-pair .wall-2 { grid-column: 1 / -1; grid-row: 2; }
+  [data-photo-carousel] .wall-1 img { height: auto; aspect-ratio: 4 / 3; }
+  [data-photo-carousel] .photo-caption { font-size: 10px; padding: 25px 10px 9px; }
+  [data-photo-carousel] .wall-1 .photo-caption { font-size: 12px; padding: 35px 15px 12px; }
+  .photo-controls { flex-wrap: wrap; gap: 7px 12px; padding: 12px 16px; }
+  .photo-set-name { width: 100%; justify-content: space-between; font-size: 13px; }
+  .photo-control-actions { gap: 2px; }
+  .photo-play { padding-inline: 7px; gap: 6px; }
+  .photo-arrow { width: 32px; }
+  .photo-select { width: 83px; }
   .mission-band { margin-top: 20px; padding-block: 43px 47px; }
   .mission-kicker { font-size: 10px; margin-bottom: 16px; }
   .mission-band h1 { font-size: 38px; }
