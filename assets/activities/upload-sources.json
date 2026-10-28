@@ -1,0 +1,39 @@
+{
+  "source": "Photographs supplied directly by the user",
+  "method": "Apply EXIF orientation, preserve the complete frame, remove embedded metadata, and encode WebP thumbnails at quality 74 and full views at quality 80. Never upscale the supplied image or change its contents.",
+  "photographs": [
+    {
+      "id": "upload-001",
+      "source_filename": "codex-clipboard-fa6a4a9a-c8c9-4d26-9bc4-efe8021e48b1.jpg",
+      "source_sha256": "d48eb1a7e9dc7d2d43423e7120f5996df2b5c67d14510dd8914f0d7300e05139",
+      "source_bytes": 5807047,
+      "source_dimensions": [
+        4032,
+        3024
+      ],
+      "source_exif_orientation": null,
+      "upright_dimensions": [
+        4032,
+        3024
+      ],
+      "outputs": [
+        {
+          "file": "assets/activities/upload-001-thumb.webp",
+          "width": 720,
+          "height": 540,
+          "quality": 74,
+          "bytes": 49486,
+          "sha256": "d0010aa70cc0d98f2c85883cf2edf3e592398aaa4226d6104f629512d704534e"
+        },
+        {
+          "file": "assets/activities/upload-001-full.webp",
+          "width": 1600,
+          "height": 1200,
+          "quality": 80,
+          "bytes": 290148,
+          "sha256": "48f97604d2d39501b20f5f02ee8c3074b007b80a280bf055fe17e5dd5f86c3b6"
+        }
+      ]
+    }
+  ]
+}

@@ -7,6 +7,17 @@
   ],
   "photos": [
     {
+      "id": "upload-001",
+      "category": "academic",
+      "title": "Academic forum presentation",
+      "thumbnail": {
+        "src": "assets/activities/upload-001-thumb.webp",
+        "width": 720,
+        "height": 540
+      },
+      "image": "assets/activities/upload-001-full.webp"
+    },
+    {
       "id": "album-001",
       "category": "together",
       "title": "Celebrating graduation",
