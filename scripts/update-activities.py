@@ -88,7 +88,7 @@ def homepage_carousel(data, by_id):
             for output in photo['outputs']:
                 image_sizes[output['file']] = (output['width'], output['height'])
     esc = lambda value: escape(str(value), quote=True)
-    body = ['<section class="photo-hero" data-photo-carousel data-interval="8000" '
+    body = ['<section class="photo-hero" data-photo-carousel data-interval="3000" '
             'aria-label="Group photographs" aria-roledescription="carousel">',
             '<div class="photo-wall" id="home-photo-wall" aria-live="off">']
     options = []

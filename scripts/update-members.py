@@ -9,6 +9,7 @@ from urllib.parse import urlsplit
 
 ROOT = Path(__file__).resolve().parents[1]
 START, END = '<!-- MEMBERS:START -->', '<!-- MEMBERS:END -->'
+GROUPS = {'leader': 'Leader', 'phd': 'PhD students', 'master': "Master's students", 'alumni': 'Alumni', 'other': 'Other members'}
 
 
 def text(value, field):
@@ -37,7 +38,7 @@ def portrait(member):
 def normalize(record):
     if not isinstance(record, dict):
         raise ValueError('Every member must be an object')
-    allowed = {'id', 'name', 'name_local', 'role', 'status', 'photo', 'period', 'contact', 'education', 'research', 'bio', 'links'}
+    allowed = {'id', 'name', 'name_local', 'role', 'status', 'group', 'admission_year', 'photo', 'period', 'contact', 'education', 'research', 'bio', 'links'}
     unknown = set(record) - allowed
     if unknown:
         raise ValueError(f'Unknown member fields: {sorted(unknown)}')
@@ -49,6 +50,12 @@ def normalize(record):
     member['status'] = record.get('status', 'current')
     if member['status'] not in ('current', 'previous', 'future'):
         raise ValueError(f'{member["id"]}: invalid status')
+    member['group'] = record.get('group', 'alumni' if member['status'] == 'previous' else 'other')
+    if member['group'] not in GROUPS:
+        raise ValueError(f'{member["id"]}: invalid member group')
+    member['admission_year'] = record.get('admission_year')
+    if member['admission_year'] is not None and (type(member['admission_year']) is not int or not 1900 <= member['admission_year'] <= 2100):
+        raise ValueError(f'{member["id"]}: admission year must be an integer between 1900 and 2100')
     if member['photo']:
         path = Path(member['photo'])
         if path.is_absolute() or not path.parts or path.parts[0] != 'assets' or '..' in path.parts:
@@ -77,15 +84,19 @@ def normalize(record):
 def render_member(member):
     esc = lambda value: escape(value, quote=True)
     name = esc(member['name'])
-    parts = [f'<details class="member-profile" id="member-{member["id"]}" data-member-record data-member-status="{member["status"]}">',
+    parts = [f'<details class="member-profile" id="member-{member["id"]}" data-member-record data-member-status="{member["status"]}" data-member-group="{member["group"]}">',
              '<summary class="member-card">', portrait(member), f'<h3 class="member-name">{name}</h3>']
     if member['name_local']:
         parts.append(f'<p class="member-local">{esc(member["name_local"])}</p>')
     if member['role']:
         parts.append(f'<p class="member-role">{esc(member["role"])}</p>')
+    if member['admission_year'] is not None:
+        parts.append(f'<p class="member-intake">{member["admission_year"]} intake</p>')
     parts.append('<span class="member-hint">View profile <span aria-hidden="true">↗</span></span></summary><div class="member-details">')
     if member['period']:
         parts.append(f'<p class="member-period">{esc(member["period"])}</p>')
+    if member['admission_year'] is not None:
+        parts.append(f'<p class="member-period">Admission year: {member["admission_year"]}</p>')
     for paragraph in member['bio'].split('\n\n'):
         if paragraph.strip():
             parts.append(f'<p>{esc(paragraph.strip())}</p>')
@@ -96,7 +107,7 @@ def render_member(member):
         parts.append('<section><h4>Research</h4>' + ''.join(f'<p>{esc(paragraph.strip())}</p>' for paragraph in member['research'].split('\n\n') if paragraph.strip()) + '</section>')
     if member['links']:
         parts.append('<div class="member-links">' + ''.join(f'<a href="{esc(link["url"])}" target="_blank" rel="noopener">{esc(link["label"])} ↗</a>' for link in member['links']) + '</div>')
-    if not any(member[key] for key in ('period', 'bio', 'contact', 'education', 'research', 'links')):
+    if not any(member[key] for key in ('admission_year', 'period', 'bio', 'contact', 'education', 'research', 'links')):
         parts.append('<p>More about this member will be added soon.</p>')
     parts.append('</div></details>')
     return ''.join(parts)
@@ -106,7 +117,16 @@ def render_directory(records):
     members = [normalize(record) for record in records]
     if len({member['id'] for member in members}) != len(members):
         raise ValueError('Member ids must be unique')
-    output = ['<div class="members-grid" id="members-grid">', *(render_member(member) for member in members), '</div>']
+    output = ['<div class="member-sections" id="members-grid">']
+    for key, label in GROUPS.items():
+        group = [member for member in members if member['group'] == key]
+        if not group:
+            continue
+        quantity = f'{len(group)} ' + ('member' if len(group) == 1 else 'members')
+        output.extend([f'<section class="member-section" data-member-section aria-labelledby="member-group-{key}">',
+                       f'<div class="member-section-heading"><h2 id="member-group-{key}">{escape(label)}</h2><p data-member-section-count>{quantity}</p></div>',
+                       '<div class="members-grid">', *(render_member(member) for member in group), '</div></section>'])
+    output.append('</div>')
     output.append('<div class="members-empty" id="members-empty"' + (' hidden' if members else '') + '>')
     if not members:
         output.append('<div class="member-placeholder-grid" aria-hidden="true">' + '<span class="member-placeholder"><i></i></span>' * 6 + '</div>')
