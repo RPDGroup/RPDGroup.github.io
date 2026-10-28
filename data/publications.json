@@ -371,13 +371,7 @@
       "sources": [
         "https://www.nature.com/articles/s41597-026-07759-2"
       ],
-      "include": true,
-      "figure": {
-        "src": "assets/dynodb-workflow.webp",
-        "alt": "DynoDB dataset construction and simulation workflow",
-        "width": 1900,
-        "height": 1613
-      }
+      "include": true
     },
     {
       "title": "Genome-guided generative adversarial learning enables nanopore adaptive sequencing",

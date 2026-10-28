@@ -18,12 +18,9 @@ def render(data):
   if lead:roles.append(('Co-first authors: ' if len(first)>1 else 'First author: ')+', '.join(lead))
   if corr:roles.append('Corresponding author: '+', '.join(corr))
   assert roles and r['sources'] and r['doi']
-  figure=''
-  if r.get('figure'):
-   f=r['figure'];figure=f'<figure class="model-figure"><a class="architecture-link" href="{e(f["src"],quote=True)}" data-media data-title="{e(f["alt"],quote=True)}" target="_blank" rel="noopener"><img src="{e(f["src"],quote=True)}" alt="{e(f["alt"],quote=True)}" width="{f["width"]}" height="{f["height"]}" loading="lazy"><span class="figure-action">View complete figure ↗</span></a></figure>'
   authors=', '.join(r['authors'])
   note='<p>Author-name note: Zilin Ren is printed as “Zhuli Ren” in the original article.</p>' if r.get('identity_note') else '' 
-  out.append(f'<article class="citation"><div class="citation-year">{r["year"]}</div><div><span class="tag">{e(journal)} · {kind}</span><h2>{e(r["title"])}</h2><p>{e(authors)}</p><p>{e(" · ".join(x for x in info if x))}</p><p><strong>{e(" · ".join(roles))}</strong></p>{note}{figure}<div class="project-links"><a href="https://doi.org/{e(r["doi"],quote=True)}" target="_blank" rel="noopener">{"Preprint" if kind=="Preprint" else "Publisher page"} ↗</a></div></div></article>')
+  out.append(f'<article class="citation"><div class="citation-year">{r["year"]}</div><div><span class="tag">{e(journal)} · {kind}</span><h2>{e(r["title"])}</h2><p>{e(authors)}</p><p>{e(" · ".join(x for x in info if x))}</p><p><strong>{e(" · ".join(roles))}</strong></p>{note}<div class="project-links"><a href="https://doi.org/{e(r["doi"],quote=True)}" target="_blank" rel="noopener">{"Preprint" if kind=="Preprint" else "Publisher page"} ↗</a></div></div></article>')
  return '\n'.join(out)
 def main():
  ap=argparse.ArgumentParser();ap.add_argument('--check',action='store_true');args=ap.parse_args()
