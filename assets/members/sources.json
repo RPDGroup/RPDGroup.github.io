@@ -875,6 +875,32 @@
         "bytes": 20434,
         "sha256": "f6970cdc5e4435febe1da5eb54884f1b2c22e88a18ea840608424e03dcd79dbb"
       }
+    },
+    {
+      "member_id": "qianyi-jia",
+      "source_filename": "qianyijia.png",
+      "source_sha256": "233f89db08b74f5a963740f4a985afcc6637543b2b88875babb8f1fb1cbfb031",
+      "source_width": 192,
+      "source_height": 256,
+      "exif_orientation": 1,
+      "transform": "EXIF orientation, square portrait crop, downsize up to 640 px without upscaling; no retouching or generated content",
+      "crop_xyxy": [
+        0,
+        48,
+        192,
+        240
+      ],
+      "identity_source": "User-provided name and filename mapping, authorized to add to Members.",
+      "output": {
+        "file": "assets/members/qianyi-jia.webp",
+        "width": 192,
+        "height": 192,
+        "format": "WebP",
+        "quality": 86,
+        "metadata_removed": true,
+        "bytes": 6886,
+        "sha256": "1c44195926f5429108ae814668b8accbca7752c9a63943f929cc2007e95af41d"
+      }
     }
   ]
 }
