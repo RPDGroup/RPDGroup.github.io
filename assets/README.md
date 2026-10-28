@@ -27,9 +27,9 @@ with earlier revisions; current pages use only `team-upright-*`.
 
 ## Activity photo journal
 
-The Activities page contains 62 photographs: 48 from `photos-2026(2).pptx`,
-13 graduation photographs selected by the user from Photos, and one directly
-supplied academic forum photograph.
+The Activities page contains 84 photographs: 48 from `photos-2026(2).pptx`,
+13 graduation photographs selected by the user from Photos, and 23 directly
+supplied photographs of academic exchanges and group activities.
 It reuses the five homepage photo encodings where possible and adds 43 pairs
 of web-sized images in `activities/`. A small 166 × 163 thumbnail and the
 presentation's award/administrative document images are outside this photo
@@ -57,7 +57,18 @@ is included in the homepage selection.
 `upload-001` is an academic forum photograph, encoded as an uncropped
 720 × 540 WebP thumbnail at quality 74 and a 1600 × 1200 full view at quality
 80. Embedded metadata is removed, and the supplied source image is preserved.
-It appears first in the gallery and under Academic exchange.
+It appears under Academic exchange.
+
+`upload-002` through `upload-023` add 22 directly supplied photographs of
+sports, gatherings, graduation, a conference, and group outings. A repeated
+conference selfie in the message is included once. The same quality settings
+apply, with thumbnails bounded by 720 × 960 and full views by 1600 × 1600.
+EXIF rotations and mirrored orientations are applied before encoding, while
+the complete frame, any visible watermarks, and all source files are preserved.
+Conference photographs are under Academic exchange; the other photographs
+are under Group moments. Input filenames, hashes, dimensions, and output
+metadata are recorded in the same manifest. Original local paths and embedded
+camera metadata are not published.
 
 ## Original model architecture figures
 

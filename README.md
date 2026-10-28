@@ -68,9 +68,9 @@ validates image paths and external links before changing the page.
 
 ## Activity photographs
 
-The Activities page uses 62 photographs: 48 from the supplied presentation,
-13 graduation photographs selected by the user from Photos, and one directly
-supplied academic forum photograph. They are
+The Activities page uses 84 photographs: 48 from the supplied presentation,
+13 graduation photographs selected by the user from Photos, and 23 directly
+supplied photographs of academic exchanges and group activities. They are
 organized as Lab life, Academic exchange, and Group moments. The homepage
 shows three selections. The gallery preserves complete image proportions;
 homepage previews may crop a frame. Opening a photograph shows the complete
