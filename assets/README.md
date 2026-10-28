@@ -115,12 +115,16 @@ example outputs (`9R71_sample0.pdb` and `9R71_sample1.pdb`), common C-alpha atom
 Kabsch alignment, a shared projection, and display interpolation. It was a
 static illustration, not an MD trajectory or a quantitative comparison.
 
-## Official group logo
+## Group logo
 
-`brand-logo.png` is the official logo supplied by the user. It is an unchanged
-copy of the original PNG, used in the navigation and browser icons. Its colors,
-wording, proportions, and background are preserved. `brand-logo-source.json`
-records its dimensions and SHA256 hash.
+The user selected [dyno-hero.webp](https://github.com/SIITW/SIITW/blob/main/assets/dyno-hero.webp)
+as the replacement logo. `brand-logo.webp` is a 256-pixel navigation asset;
+`brand-icon-32.png` and `brand-touch-icon.png` provide browser and touch icons.
+All three resize the complete image onto a transparent square and preserve its
+colors and transparency. No part is cropped or redrawn. The source Git blob,
+input hash, dimensions, and output hashes are recorded in `brand-logo-source.json`.
+The earlier user-supplied `brand-logo.png` remains available for provenance and
+compatibility; current pages use the new logo and icons.
 
 ## Other graphics
 
