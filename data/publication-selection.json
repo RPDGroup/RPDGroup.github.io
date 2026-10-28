@@ -1,0 +1,182 @@
+{
+  "checked_on": "2026-10-28",
+  "scholar_profile": "https://scholar.google.com/citations?hl=zh-CN&user=xzW2DAgAAAAJ",
+  "included_dois": [
+    "10.1093/bioinformatics/btae330",
+    "10.1093/bioinformatics/btad646",
+    "10.1093/bib/bbae472",
+    "10.1093/bib/bbae579",
+    "10.1109/BIBM58861.2023.10385963",
+    "10.1142/S0219720025500209",
+    "10.3934/era.2023276",
+    "10.3934/era.2023253",
+    "10.1038/s41597-026-07759-2",
+    "10.1038/s41467-026-73785-8",
+    "10.1093/bioinformatics/btag196",
+    "10.21203/rs.3.rs-9549778/v1",
+    "10.21203/rs.3.rs-9629622/v1",
+    "10.1007/s00414-021-02604-0",
+    "10.1186/s12859-023-05141-2",
+    "10.1093/gigascience/giaf018",
+    "10.1016/j.virs.2026.03.015",
+    "10.3389/fmicb.2022.929241",
+    "10.1016/j.bpc.2024.107253",
+    "10.1371/journal.pone.0335520",
+    "10.1016/j.crmicr.2025.100457",
+    "10.1016/j.jhazmat.2025.137336"
+  ],
+  "excluded": [
+    {
+      "title": "CancerVar: An artificial intelligence–empowered platform for clinical interpretation of somatic mutations in cancer",
+      "year": 2022,
+      "doi": "10.1126/sciadv.abj1624",
+      "authors": [
+        "Quan Li",
+        "Zilin Ren",
+        "Kajia Cao",
+        "Marilyn M. Li",
+        "Kai Wang",
+        "Yunyun Zhou"
+      ],
+      "decision": "exclude",
+      "role_evidence": "PMC deposited publisher XML has second author Zilin Ren, no equal-contribution footnote; only Kai Wang and Yunyun Zhou corresponding.",
+      "sources": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9075800/fullTextXML"
+      ]
+    },
+    {
+      "title": "The self-assembled nanoparticle-based multi-epitope influenza mRNA vaccine elicits protective immunity against H1N1 and B influenza viruses in mice",
+      "year": 2024,
+      "doi": "10.3389/fimmu.2024.1483720",
+      "decision": "exclude",
+      "role_evidence": "PMC publisher XML Zilin Ren third author, no cofirst mark. Corresponding Xinyu Zhuang, Ningyi Jin, Mingyao Tian.",
+      "sources": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11497263/fullTextXML"
+      ]
+    },
+    {
+      "title": "Nanopore sequencing of forensic short tandem repeats using QNome of Qitan Technology",
+      "year": 2024,
+      "doi": "10.1002/elps.202300270",
+      "decision": "exclude",
+      "role_evidence": "Publisher lists Zi-Lin Ren fourth; corresponding Jiang-Wei Yan and Ming Ni; no first/cofirst evidence for Ren.",
+      "sources": [
+        "https://analyticalsciencejournals.onlinelibrary.wiley.com/doi/abs/10.1002/elps.202300270"
+      ]
+    },
+    {
+      "title": "CRISPR-Cas9-Targeted Nanopore Sequencing for STR Typing",
+      "year": 2026,
+      "journal": "Electrophoresis",
+      "volume": "47",
+      "issue": "1",
+      "pages": "57–67",
+      "doi": "10.1002/elps.70051",
+      "authors": [
+        "Ting-Ting Yang",
+        "Jia-Rong Zhang",
+        "Zi-Han Xie",
+        "Zi-Lin Ren",
+        "Meng-Yang Zhao",
+        "Wen-Jing Hu",
+        "Jiang-Wei Yan",
+        "Ming Ni"
+      ],
+      "decision": "exclude",
+      "role_evidence": "Publisher fourth author Ren, explicit Corresponding Author labels only Jiang-Wei Yan and Ming Ni; Ren has no cofirst marker.",
+      "sources": [
+        "https://analyticalsciencejournals.onlinelibrary.wiley.com/doi/10.1002/elps.70051"
+      ],
+      "metadata_note": "First online5 November2025; issue year2026."
+    },
+    {
+      "title": "Actual mutational research of 19 autosomal STRs based on restricted mutation model and big data",
+      "year": 2021,
+      "journal": "Hereditas (Beijing)",
+      "volume": "43",
+      "issue": "10",
+      "pages": "949–961",
+      "doi": "10.16288/j.yczz.21-197",
+      "authors": [
+        "Zhiyong Liu",
+        "He Ren",
+        "Chong Chen",
+        "Jingjing Zhang",
+        "Xiaomeng Zhang",
+        "Yan Shi",
+        "Linyu Shi",
+        "Ying Chen",
+        "Feng Cheng",
+        "Li Jia",
+        "Man Chen",
+        "Qingwei Fan",
+        "Jiarong Zhang",
+        "Wanting Li",
+        "Mengchun Wang",
+        "Zilin Ren",
+        "Yacheng Liu",
+        "Ming Ni",
+        "Hongyu Sun",
+        "Jiangwei Yan"
+      ],
+      "decision": "exclude",
+      "role_evidence": "Publisher lists Ren16th, no equal-contribution mark; contact author Jiangwei Yan.",
+      "sources": [
+        "https://www.chinagene.cn/EN/abstract/abstract5790.shtml"
+      ]
+    },
+    {
+      "title": "Elimination of Foreign Sequences in Eukaryotic Viral Reference Genomes Improves the Accuracy of Virome Analysis",
+      "year": 2022,
+      "journal": "mSystems",
+      "volume": "7",
+      "issue": "6",
+      "pages": "e00907-22",
+      "doi": "10.1128/msystems.00907-22",
+      "authors": [
+        "Junjie Chen",
+        "Yue Sun",
+        "Xiaomin Yan",
+        "Zilin Ren",
+        "Guoshuai Wang",
+        "Yuhang Liu",
+        "Zihan Zhao",
+        "Le Yi",
+        "Changchun Tu",
+        "Biao He"
+      ],
+      "decision": "exclude",
+      "role_evidence": "Publisher-deposited PMC article explicitly names only Junjie Chen and Yue Sun as equal contributors. Ren fourth has neither equal nor correspondence symbol; correspondence Changchun Tu and Biao He.",
+      "sources": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC9765019/"
+      ]
+    },
+    {
+      "title": "Rapid sequencing and identification for 18-STRs long amplicon panel using portable devices and nanopore sequencer",
+      "year": 2025,
+      "journal": "Genomics",
+      "volume": "117",
+      "issue": "1",
+      "pages": "110970",
+      "doi": "10.1016/j.ygeno.2024.110970",
+      "authors": [
+        "Jiarong Zhang",
+        "Tingting Yang",
+        "Zihan Xie",
+        "Zilin Ren",
+        "Linyu Shi",
+        "Jiang-Wei Yan",
+        "Ming Ni"
+      ],
+      "decision": "exclude",
+      "role_evidence": "PubMed publisher metadata Ren fourth; electronic correspondence only Jiang-Wei Yan and Ming Ni; no cofirst evidence.",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/39608738/"
+      ]
+    }
+  ],
+  "unresolved": [
+    "A472-SNP panel2018: second Ren; publisher author-frontmatter/cofirst footnote unavailable; PubMed supplies email for EVERY author and therefore is not correspondence evidence. Hold pending primary PDF."
+  ],
+  "deduplication": "NASTRA and CancerVar preprint versions are not repeated alongside final papers; incomplete CancerVar web-server record not treated as a separate publication."
+}
