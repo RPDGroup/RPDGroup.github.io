@@ -255,7 +255,8 @@
       "role": "Master's student",
       "group": "master",
       "status": "current",
-      "admission_year": 2027
+      "admission_year": 2027,
+      "photo": "assets/members/zixuan-li.webp"
     },
     {
       "id": "chuhan-tian",

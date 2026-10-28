@@ -745,6 +745,32 @@
         "bytes": 28676,
         "sha256": "cbb1353a5e7f97a2c15a457d737aff5369fb98082a609089ef9eb0ea443164a3"
       }
+    },
+    {
+      "member_id": "zixuan-li",
+      "source_filename": "zixuanli.jpg",
+      "source_sha256": "e2b186bf4e3eb86bfed4b755c3e57533c6cda7edc80f3fb9ce630da7b9526510",
+      "source_width": 1920,
+      "source_height": 1280,
+      "exif_orientation": 1,
+      "transform": "EXIF orientation, square portrait crop, downsize up to 640 px without upscaling; no retouching or generated content",
+      "crop_xyxy": [
+        500,
+        150,
+        1450,
+        1100
+      ],
+      "identity_source": "User-provided name and filename mapping, authorized to add to Members.",
+      "output": {
+        "file": "assets/members/zixuan-li.webp",
+        "width": 640,
+        "height": 640,
+        "format": "WebP",
+        "quality": 86,
+        "metadata_removed": true,
+        "bytes": 16060,
+        "sha256": "9752098c8f831e20ae9c69e6816bacbef6b6eb515592288dc631de1ddadc1cd0"
+      }
     }
   ]
 }
