@@ -5,7 +5,7 @@ repository root at <https://rpdgroup.github.io/>. No npm install, framework, or
 third-party runtime is required.
 
 The layout takes cues from Baker Lab's photo-led homepage: a blue-purple
-masthead, compact navigation, a balanced photo collage, and simple research
+masthead, compact navigation, a rotating photo collage, and simple research
 entries. Branding, photographs, project descriptions, and scientific figures
 belong to RPDGroup. Home, News, About, and Contact are grouped under Info; the
 logo also links home. Research, People, Publications, and Resources remain
@@ -30,10 +30,11 @@ remain readable and navigation uses native anchors.
 - `index.html`: research, people, publication, news, contact, and resource content.
 - `assets/site.css`: responsive styles and reduced-motion support.
 - `assets/site.js`: hash navigation, accessible mobile disclosure, resource search.
+- `assets/home-photos.js`: homepage photo rotation, pause, and manual navigation.
 - `data/members.json`: public member profiles, in display order.
 - `scripts/update-members.py`: generate static member HTML after editing the data.
 - `assets/members.js`: member search, category filters, and profile dialogs.
-- `data/activities.json`: activity photographs, categories, and homepage selections.
+- `data/activities.json`: activity photographs, categories, homepage previews, and photo focal points.
 - `scripts/update-activities.py`: render the photo journal and refresh frontend asset versions.
 - `assets/activities.js`: activity category filtering.
 - `assets/activities/`: web encodings and source metadata for the activity journal.
@@ -68,11 +69,11 @@ validates image paths and external links before changing the page.
 
 ## Activity photographs
 
-The Activities page uses 84 photographs: 48 from the supplied presentation,
-13 graduation photographs selected by the user from Photos, and 23 directly
+The Activities page uses 81 photographs: 47 from the supplied presentation,
+13 graduation photographs selected by the user from Photos, and 21 directly
 supplied photographs of academic exchanges and group activities. They are
-organized as Lab life, Academic exchange, and Group moments. The homepage
-shows three selections. The gallery preserves complete image proportions;
+organized as Lab life, Academic exchange, and Group moments. Below the rotating
+wall, the homepage shows three selections. The gallery preserves complete image proportions;
 homepage previews may crop a frame. Opening a photograph shows the complete
 web image. Previous/Next buttons and the left/right arrow keys browse only
 the current category; closing the viewer restores focus to its opening link.
@@ -87,6 +88,21 @@ name or the presentation's title. Source metadata is in
 `assets/activities/upload-sources.json`;
 original inputs remain outside the website.
 
+The homepage wall automatically includes every photograph in the activity
+data, in the same order, grouped into sets of up to three with no omissions
+or duplicates. Adding or removing a gallery entry updates the wall when the
+generator runs. Optional `homepage_focal_points` percentages control the crop
+in supporting tiles. The large photograph keeps its complete frame. The wall
+rotates every eight seconds and supports previous/next buttons, a set chooser, left/right
+keys, and a pause/play control. Manual navigation or keyboard focus pauses
+rotation until Play is selected. Hovering over photos, leaving the homepage,
+scrolling past the wall, or hiding the tab suspends automatic changes.
+Reduced-motion preferences start the wall paused. Image previews pause the
+wall and browse the three visible photographs. Without JavaScript, the first
+set remains visible with native full-image links. Run the activity generator
+after changing selections; it renders all photo blocks and refreshes cache
+versions for the frontend files.
+
 ## Checks
 
 ```sh
@@ -95,6 +111,7 @@ node --check assets/members.js
 python3 scripts/update-members.py --check
 python3 scripts/update-activities.py --check
 node --check assets/activities.js
+node --check assets/home-photos.js
 git diff --check
 ```
 
