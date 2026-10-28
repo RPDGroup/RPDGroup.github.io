@@ -823,6 +823,58 @@
         "bytes": 8360,
         "sha256": "77728dfce869cd87059a3782ba8c3bace18455994ce76f4142d8d2a867cd28eb"
       }
+    },
+    {
+      "member_id": "guofeng-yang",
+      "source_filename": "guofengyang.jpg",
+      "source_sha256": "81259dab9104dd6bc853a7145eb8badbe2c0e60d2fd30ffe05a95b1c5660e739",
+      "source_width": 515,
+      "source_height": 635,
+      "exif_orientation": 1,
+      "transform": "EXIF orientation, square portrait crop, downsize up to 640 px without upscaling; no retouching or generated content",
+      "crop_xyxy": [
+        12,
+        0,
+        507,
+        495
+      ],
+      "identity_source": "User-provided name and filename mapping, authorized to add to Members.",
+      "output": {
+        "file": "assets/members/guofeng-yang.webp",
+        "width": 495,
+        "height": 495,
+        "format": "WebP",
+        "quality": 86,
+        "metadata_removed": true,
+        "bytes": 11184,
+        "sha256": "0f4bd77807125849cccff5ff0d6e71b1d7bb2fcb5af687357436781a5e985d4a"
+      }
+    },
+    {
+      "member_id": "lili-jiang",
+      "source_filename": "lilijiang.jpg",
+      "source_sha256": "b02a23336f72970ea97a1978b2eb349a8d5819d8c5d0134c90a5c1688cfd8ab7",
+      "source_width": 1122,
+      "source_height": 1103,
+      "exif_orientation": 1,
+      "transform": "EXIF orientation, square portrait crop, downsize up to 640 px without upscaling; no retouching or generated content",
+      "crop_xyxy": [
+        9,
+        0,
+        1112,
+        1103
+      ],
+      "identity_source": "User-provided name and filename mapping, authorized to add to Members.",
+      "output": {
+        "file": "assets/members/lili-jiang.webp",
+        "width": 640,
+        "height": 640,
+        "format": "WebP",
+        "quality": 86,
+        "metadata_removed": true,
+        "bytes": 20434,
+        "sha256": "f6970cdc5e4435febe1da5eb54884f1b2c22e88a18ea840608424e03dcd79dbb"
+      }
     }
   ]
 }

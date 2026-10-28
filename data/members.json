@@ -132,7 +132,8 @@
       "role": "Master's student",
       "group": "master",
       "status": "current",
-      "admission_year": 2024
+      "admission_year": 2024,
+      "photo": "assets/members/guofeng-yang.webp"
     },
     {
       "id": "yubin-liu",
@@ -289,7 +290,8 @@
       "name": "Lili Jiang",
       "role": "Alumni",
       "group": "alumni",
-      "status": "previous"
+      "status": "previous",
+      "photo": "assets/members/lili-jiang.webp"
     },
     {
       "id": "chunxiao-shi",
