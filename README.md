@@ -8,7 +8,7 @@ The layout takes cues from Baker Lab's photo-led homepage: a blue-purple
 masthead, compact navigation, a rotating photo collage, and simple research
 entries. Branding, photographs, project descriptions, and scientific figures
 belong to RPDGroup. Home, News, About, and Contact are grouped under Info; the
-logo also links home. Research, People, Publications, and Resources remain
+logo also links home. Research, Members, Publications, and Resources remain
 direct navigation links. Activities has its own navigation entry and a
 three-photo preview on the homepage.
 
@@ -27,7 +27,7 @@ remain readable and navigation uses native anchors.
 
 ## Edit
 
-- `index.html`: research, people, publication, news, contact, and resource content.
+- `index.html`: research, member, publication, news, contact, and resource content.
 - `assets/site.css`: responsive styles and reduced-motion support.
 - `assets/site.js`: hash navigation, accessible mobile disclosure, resource search.
 - `assets/home-photos.js`: homepage photo rotation, pause, and manual navigation.
@@ -47,19 +47,26 @@ when adding or changing a project. Search indexes the resource cards themselves.
 
 ## Member profiles
 
-The People page follows the circular portrait directory and profile overlays of
-<https://wglab.org/members.html>. The roster starts empty because individual
-photographs and biographies will be supplied later. The public empty state
-does not imply that the group has no members.
+The Members page follows the circular portrait directory and profile overlays of
+<https://wglab.org/members.html>. It contains 33 confirmed names supplied by the
+group: one Leader, eight PhD students, twenty master's students, and four alumni.
+All five students with a 2027 intake have already joined and have `current`
+status. Intake years describe academic admission, not future group membership.
+Individual portraits and biographies can be supplied later; missing portraits
+use initials. The canonical route is `#members`; existing `#people` links still
+open the member directory.
 
 Add confirmed profiles to the `members` list in `data/members.json`, and place
 their web photographs inside `assets/members/`. Each entry requires a unique
 lowercase `id` and a `name`. Optional fields are `name_local`, `role`, `status`
-(`current`, `previous`, or `future`; defaults to `current`), `photo` (a local
+(`current`, `previous`, or `future`; defaults to `current`), `group` (`leader`,
+`phd`, `master`, `alumni`, or `other`), `admission_year` (an integer), `photo` (a local
 asset path), `period`, `bio`, `contact` (list of text entries), `education`
 (list of text entries), `research`, and `links` (list of `label` / HTTP(S) `url`
 objects). Only include information approved for public display. Missing photos
-use initials; missing fields are omitted. Entry order is preserved.
+use initials; missing fields are omitted. Entry order is preserved within each
+group. The public directory groups profiles by role and displays intake years
+on the cards; category and text filters hide sections without matching members.
 
 Run `python3 scripts/update-members.py` after updating the data and commit the
 generated `index.html` with it. Profiles are static HTML and remain available
@@ -99,7 +106,7 @@ or duplicates. The supplied lab group selfie opens the first set, using its
 existing compressed web assets. Adding or removing a gallery entry updates the wall when the
 generator runs. Optional `homepage_focal_points` percentages control the crop
 in supporting tiles. The large photograph keeps its complete frame. The wall
-rotates every eight seconds and supports previous/next buttons, a set chooser, left/right
+rotates every three seconds and supports previous/next buttons, a set chooser, left/right
 keys, and a pause/play control. Manual navigation or keyboard focus pauses
 rotation until Play is selected. Hovering over photos, leaving the homepage,
 scrolling past the wall, or hiding the tab suspends automatic changes.

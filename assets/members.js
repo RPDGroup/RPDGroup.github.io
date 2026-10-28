@@ -8,21 +8,27 @@
   const reset = document.getElementById('member-reset');
   const count = document.getElementById('member-count');
   const empty = document.getElementById('members-empty');
+  const sections = [...directory.querySelectorAll('[data-member-section]')];
   const index = records.map(record => ({ record, text: record.textContent.toLocaleLowerCase() }));
-  let category = 'current';
+  let category = 'all';
 
   function filterMembers() {
     const terms = search.value.trim().toLocaleLowerCase().split(/\s+/).filter(Boolean);
     let visible = 0;
     for (const item of index) {
-      const match = (category === 'all' || item.record.dataset.memberStatus === category)
+      const match = (category === 'all' || item.record.dataset.memberGroup === category)
         && terms.every(term => item.text.includes(term));
       item.record.hidden = !match;
       if (match) visible += 1;
     }
+    for (const section of sections) {
+      const total = [...section.querySelectorAll('[data-member-record]')].filter(record => !record.hidden).length;
+      section.hidden = total === 0;
+      section.querySelector('[data-member-section-count]').textContent = `${total} ${total === 1 ? 'member' : 'members'}`;
+    }
     for (const button of filters) button.setAttribute('aria-pressed', String(button.dataset.memberFilter === category));
     count.textContent = records.length ? `${visible} ${visible === 1 ? 'profile' : 'profiles'}` : '';
-    reset.hidden = category === 'current' && !terms.length;
+    reset.hidden = category === 'all' && !terms.length;
     empty.hidden = visible > 0;
   }
 
@@ -32,7 +38,7 @@
   });
   search.addEventListener('input', filterMembers);
   reset.addEventListener('click', () => {
-    category = 'current';
+    category = 'all';
     search.value = '';
     filterMembers();
     search.focus();

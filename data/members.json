@@ -1,4 +1,264 @@
 {
   "version": 1,
-  "members": []
+  "members": [
+    {
+      "id": "zilin-ren",
+      "name": "Zilin Ren",
+      "role": "Group leader",
+      "group": "leader",
+      "status": "current"
+    },
+    {
+      "id": "yixiang-zhang",
+      "name": "Yixiang Zhang",
+      "role": "PhD student",
+      "group": "phd",
+      "status": "current",
+      "admission_year": 2024
+    },
+    {
+      "id": "qiantong-jin",
+      "name": "Qiantong Jin",
+      "role": "PhD student",
+      "group": "phd",
+      "status": "current",
+      "admission_year": 2025
+    },
+    {
+      "id": "yiran-shi",
+      "name": "Yiran Shi",
+      "role": "PhD student",
+      "group": "phd",
+      "status": "current",
+      "admission_year": 2025
+    },
+    {
+      "id": "jialu-han",
+      "name": "Jialu Han",
+      "role": "PhD student",
+      "group": "phd",
+      "status": "current",
+      "admission_year": 2026
+    },
+    {
+      "id": "xianyu-wang",
+      "name": "Xianyu Wang",
+      "role": "PhD student",
+      "group": "phd",
+      "status": "current",
+      "admission_year": 2026
+    },
+    {
+      "id": "luyao-han",
+      "name": "Luyao Han",
+      "role": "PhD student",
+      "group": "phd",
+      "status": "current",
+      "admission_year": 2026
+    },
+    {
+      "id": "ziyao-jin",
+      "name": "Ziyao Jin",
+      "role": "PhD student",
+      "group": "phd",
+      "status": "current",
+      "admission_year": 2026
+    },
+    {
+      "id": "yuan-cheng",
+      "name": "Yuan Cheng",
+      "role": "PhD student",
+      "group": "phd",
+      "status": "current",
+      "admission_year": 2027
+    },
+    {
+      "id": "pengjia-ma",
+      "name": "Pengjia Ma",
+      "role": "Master's student",
+      "group": "master",
+      "status": "current",
+      "admission_year": 2024
+    },
+    {
+      "id": "songyang-diao",
+      "name": "Songyang Diao",
+      "role": "Master's student",
+      "group": "master",
+      "status": "current",
+      "admission_year": 2024
+    },
+    {
+      "id": "xin-yang",
+      "name": "Xin Yang",
+      "role": "Master's student",
+      "group": "master",
+      "status": "current",
+      "admission_year": 2024
+    },
+    {
+      "id": "ying-hu",
+      "name": "Ying Hu",
+      "role": "Master's student",
+      "group": "master",
+      "status": "current",
+      "admission_year": 2024
+    },
+    {
+      "id": "zhixiang-sui",
+      "name": "Zhixiang Sui",
+      "role": "Master's student",
+      "group": "master",
+      "status": "current",
+      "admission_year": 2024
+    },
+    {
+      "id": "guofeng-yang",
+      "name": "Guofeng Yang",
+      "role": "Master's student",
+      "group": "master",
+      "status": "current",
+      "admission_year": 2024
+    },
+    {
+      "id": "yubin-liu",
+      "name": "Yubin Liu",
+      "role": "Master's student",
+      "group": "master",
+      "status": "current",
+      "admission_year": 2024
+    },
+    {
+      "id": "yuxue-xia",
+      "name": "Yuxue Xia",
+      "role": "Master's student",
+      "group": "master",
+      "status": "current",
+      "admission_year": 2024
+    },
+    {
+      "id": "duo-liu",
+      "name": "Duo Liu",
+      "role": "Master's student",
+      "group": "master",
+      "status": "current",
+      "admission_year": 2025
+    },
+    {
+      "id": "qianyi-jia",
+      "name": "Qianyi Jia",
+      "role": "Master's student",
+      "group": "master",
+      "status": "current",
+      "admission_year": 2025
+    },
+    {
+      "id": "haolun-ban",
+      "name": "Haolun Ban",
+      "role": "Master's student",
+      "group": "master",
+      "status": "current",
+      "admission_year": 2025
+    },
+    {
+      "id": "fangyuan-xing",
+      "name": "Fangyuan Xing",
+      "role": "Master's student",
+      "group": "master",
+      "status": "current",
+      "admission_year": 2025
+    },
+    {
+      "id": "yufeng-zhou",
+      "name": "Yufeng Zhou",
+      "role": "Master's student",
+      "group": "master",
+      "status": "current",
+      "admission_year": 2025
+    },
+    {
+      "id": "yanpeng-zhang",
+      "name": "Yanpeng Zhang",
+      "role": "Master's student",
+      "group": "master",
+      "status": "current",
+      "admission_year": 2025
+    },
+    {
+      "id": "jie-zhu",
+      "name": "Jie Zhu",
+      "role": "Master's student",
+      "group": "master",
+      "status": "current",
+      "admission_year": 2026
+    },
+    {
+      "id": "qiu-wang",
+      "name": "Qiu Wang",
+      "role": "Master's student",
+      "group": "master",
+      "status": "current",
+      "admission_year": 2026
+    },
+    {
+      "id": "ke-ding",
+      "name": "Ke Ding",
+      "role": "Master's student",
+      "group": "master",
+      "status": "current",
+      "admission_year": 2027
+    },
+    {
+      "id": "yuandi-wen",
+      "name": "Yuandi Wen",
+      "role": "Master's student",
+      "group": "master",
+      "status": "current",
+      "admission_year": 2027
+    },
+    {
+      "id": "zixuan-li",
+      "name": "Zixuan Li",
+      "role": "Master's student",
+      "group": "master",
+      "status": "current",
+      "admission_year": 2027
+    },
+    {
+      "id": "chuhan-tian",
+      "name": "Chuhan Tian",
+      "role": "Master's student",
+      "group": "master",
+      "status": "current",
+      "admission_year": 2027
+    },
+    {
+      "id": "jianting-gong",
+      "name": "Jianting Gong",
+      "role": "Alumni",
+      "group": "alumni",
+      "status": "previous"
+    },
+    {
+      "id": "yongbing-chen",
+      "name": "Yongbing Chen",
+      "role": "Alumni",
+      "group": "alumni",
+      "status": "previous"
+    },
+    {
+      "id": "lili-jiang",
+      "name": "Lili Jiang",
+      "role": "Alumni",
+      "group": "alumni",
+      "status": "previous"
+    },
+    {
+      "id": "chunxiao-shi",
+      "name": "Chunxiao Shi",
+      "role": "Alumni",
+      "group": "alumni",
+      "status": "previous"
+    }
+  ]
 }

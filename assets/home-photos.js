@@ -12,7 +12,7 @@
   const label = controls.querySelector('[data-photo-label]');
   const announcement = root.querySelector('.photo-announcement');
   const motion = window.matchMedia('(prefers-reduced-motion: reduce)');
-  const interval = Math.max(5000, Number(root.dataset.interval) || 8000);
+  const interval = Math.max(3000, Number(root.dataset.interval) || 3000);
   const preparations = new Map();
   let index = 0;
   let paused = motion.matches;

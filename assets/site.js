@@ -41,7 +41,8 @@
     const [requestedPage, section] = nativeAnchor
       ? ['research', nativeAnchor[0]]
       : fragment.split('/');
-    const key = pageNames.has(requestedPage) ? requestedPage : 'home';
+    const canonicalPage = requestedPage === 'people' && pageNames.has('members') ? 'members' : requestedPage;
+    const key = pageNames.has(canonicalPage) ? canonicalPage : 'home';
     const currentPage = pages.find(page => page.dataset.page === key);
     for (const page of pages) page.hidden = page !== currentPage;
     for (const link of navLinks) {
