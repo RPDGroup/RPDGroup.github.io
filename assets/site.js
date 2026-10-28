@@ -122,6 +122,39 @@
     search.focus();
   });
 
+  const viewer = document.getElementById('media-viewer');
+  if (viewer && typeof viewer.showModal === 'function') {
+    const image = viewer.querySelector('.media-viewer-image');
+    const title = document.getElementById('media-viewer-title');
+    const source = viewer.querySelector('.media-viewer-source');
+    let trigger;
+    for (const link of document.querySelectorAll('[data-media]')) {
+      link.addEventListener('click', event => {
+        if (event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
+        event.preventDefault();
+        trigger = link;
+        image.src = link.href;
+        image.alt = link.querySelector('img')?.alt || link.dataset.title;
+        title.textContent = link.dataset.title;
+        source.href = link.dataset.source || link.href;
+        source.textContent = link.dataset.source ? 'Original figure on GitHub ↗' : 'Open photograph ↗';
+        document.body.classList.add('has-media-viewer');
+        viewer.showModal();
+      });
+    }
+    viewer.querySelector('.media-viewer-close').addEventListener('click', () => viewer.close());
+    viewer.addEventListener('click', event => {
+      if (event.target !== viewer) return;
+      const bounds = viewer.getBoundingClientRect();
+      if (event.clientX < bounds.left || event.clientX > bounds.right || event.clientY < bounds.top || event.clientY > bounds.bottom) viewer.close();
+    });
+    viewer.addEventListener('close', () => {
+      document.body.classList.remove('has-media-viewer');
+      image.removeAttribute('src');
+      trigger?.focus({ preventScroll: true });
+    });
+  }
+
   // All content is readable as native anchor sections if JavaScript is disabled.
   for (const page of pages) page.hidden = page.dataset.page !== 'home';
   document.body.classList.add('js');
