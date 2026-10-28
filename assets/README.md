@@ -17,11 +17,10 @@ slide text, certificates, and original media files are not website assets.
 The original presentation remains unchanged. `photos/sources.json` records the
 selected embedded media, slide numbers, input hashes, and web encodings.
 
-The desktop wall uses a complete main photograph with five supporting tiles.
-The narrow-screen wall preserves complete image proportions in a masonry layout,
-with the main photograph spanning both columns. Clicking a photograph opens its
-complete web version. CSS may crop supporting tiles on wider screens; image
-files themselves are not cropped.
+The desktop wall balances six photographs across two rows. The narrow-screen
+wall places the complete main photograph above a compact supporting collage.
+Clicking a photograph opens its complete web version. CSS may crop supporting
+tiles to fit their frames; image files themselves are not cropped.
 
 The older `team-800.webp` and `team-1600.webp` encodings remain for compatibility
 with earlier revisions; current pages use only `team-upright-*`.

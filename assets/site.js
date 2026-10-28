@@ -5,6 +5,7 @@
   const navigation = document.getElementById('navigation');
   const navLinks = [...navigation.querySelectorAll('a[href^="#"]')];
   const toggle = document.querySelector('.menu-toggle');
+  const infoMenu = document.querySelector('.nav-info');
   const main = document.getElementById('main');
   const researchAnchors = new Map([
     ['dynamics', 'research-dynamics'],
@@ -17,6 +18,7 @@
 
   function closeMenu(restoreFocus = false) {
     navigation.classList.remove('open');
+    infoMenu.open = false;
     toggle.setAttribute('aria-expanded', 'false');
     toggle.setAttribute('aria-label', 'Open navigation');
     if (restoreFocus) toggle.focus();
@@ -67,9 +69,14 @@
     toggle.setAttribute('aria-label', open ? 'Close navigation' : 'Open navigation');
   });
   document.addEventListener('keydown', event => {
-    if (event.key === 'Escape' && navigation.classList.contains('open')) closeMenu(true);
+    if (event.key !== 'Escape') return;
+    if (infoMenu.open) {
+      infoMenu.open = false;
+      infoMenu.querySelector('summary').focus();
+    } else if (navigation.classList.contains('open')) closeMenu(true);
   });
   document.addEventListener('click', event => {
+    if (!event.target.closest('.nav-info')) infoMenu.open = false;
     if (!event.target.closest('.site-header') && navigation.classList.contains('open')) closeMenu();
   });
   for (const link of navLinks) {
@@ -80,7 +87,7 @@
       }
     });
   }
-  window.matchMedia('(min-width: 901px)').addEventListener('change', event => {
+  window.matchMedia('(min-width: 1021px)').addEventListener('change', event => {
     if (event.matches) closeMenu();
   });
 
