@@ -1,7 +1,39 @@
 {
   "source": "Photographs supplied directly by the user",
-  "method": "Apply EXIF orientation, preserve the complete frame, remove embedded metadata, and encode WebP thumbnails at quality 74 and full views at quality 80. Never upscale the supplied image or change its contents.",
+  "method": "Apply EXIF orientation, preserve the complete frame, remove embedded metadata, and encode new WebP thumbnails at quality 74 and full views at quality 80. Existing web encodings may be reused when the supplied photograph matches. Never upscale the supplied image or change its contents.",
   "photographs": [
+    {
+      "id": "upload-024",
+      "source_filename": "codex-clipboard-3592e39f-384d-4557-aff1-057a6ea1fa30.png",
+      "source_sha256": "007c3ba77335ec74b6f4b615ba359b608a678753753d58422d22c535ed0d2a86",
+      "source_bytes": 20703449,
+      "source_dimensions": [
+        4896,
+        3672
+      ],
+      "source_exif_orientation": null,
+      "upright_dimensions": [
+        4896,
+        3672
+      ],
+      "reused_from": "assets/team-photo-source.json",
+      "outputs": [
+        {
+          "file": "assets/team-upright-800.webp",
+          "width": 800,
+          "height": 600,
+          "bytes": 87146,
+          "sha256": "d75535d454acd2040207c67882787ac54365554c299ff951c57cd85a9827a84b"
+        },
+        {
+          "file": "assets/team-upright-1600.webp",
+          "width": 1600,
+          "height": 1200,
+          "bytes": 237906,
+          "sha256": "a48af0e044394069700b309b55e1dd520f70ee3beb9a88d9ce76fea1b1200da7"
+        }
+      ]
+    },
     {
       "id": "upload-001",
       "source_filename": "codex-clipboard-fa6a4a9a-c8c9-4d26-9bc4-efe8021e48b1.jpg",

@@ -7,6 +7,17 @@
   ],
   "photos": [
     {
+      "id": "upload-024",
+      "category": "together",
+      "title": "Together in the lab",
+      "thumbnail": {
+        "src": "assets/team-upright-800.webp",
+        "width": 800,
+        "height": 600
+      },
+      "image": "assets/team-upright-1600.webp"
+    },
+    {
       "id": "upload-004",
       "category": "together",
       "title": "Together on the basketball court",
@@ -623,28 +634,6 @@
       "image": "assets/activities/photo-013-full.webp"
     },
     {
-      "id": "photo-014",
-      "category": "together",
-      "title": "Birthday celebration",
-      "thumbnail": {
-        "src": "assets/activities/photo-014-thumb.webp",
-        "width": 540,
-        "height": 960
-      },
-      "image": "assets/activities/photo-014-full.webp"
-    },
-    {
-      "id": "photo-015",
-      "category": "together",
-      "title": "Graduation memories",
-      "thumbnail": {
-        "src": "assets/activities/photo-015-thumb.webp",
-        "width": 720,
-        "height": 960
-      },
-      "image": "assets/activities/photo-015-full.webp"
-    },
-    {
       "id": "photo-017",
       "category": "together",
       "title": "Graduation day",
@@ -786,17 +775,6 @@
         "height": 540
       },
       "image": "assets/activities/photo-033-full.webp"
-    },
-    {
-      "id": "photo-034",
-      "category": "academic",
-      "title": "Research seminar",
-      "thumbnail": {
-        "src": "assets/activities/photo-034-thumb.webp",
-        "width": 720,
-        "height": 540
-      },
-      "image": "assets/activities/photo-034-full.webp"
     },
     {
       "id": "photo-037",
