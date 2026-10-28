@@ -29,6 +29,9 @@ remain readable and navigation uses native anchors.
 - `index.html`: research, people, publication, news, contact, and resource content.
 - `assets/site.css`: responsive styles and reduced-motion support.
 - `assets/site.js`: hash navigation, accessible mobile disclosure, resource search.
+- `data/members.json`: public member profiles, in display order.
+- `scripts/update-members.py`: generate static member HTML after editing the data.
+- `assets/members.js`: member search, category filters, and profile dialogs.
 - `assets/photos/`: selected photographs from the supplied presentation, with source metadata.
 - `assets/README.md`: image sources and scientific illustration provenance.
 
@@ -36,10 +39,34 @@ Keep project descriptions and publication metadata grounded in their owning
 repositories. Home project cards and resource cards are static HTML; update both
 when adding or changing a project. Search indexes the resource cards themselves.
 
+## Member profiles
+
+The People page follows the circular portrait directory and profile overlays of
+<https://wglab.org/members.html>. The roster starts empty because individual
+photographs and biographies will be supplied later. The public empty state
+does not imply that the group has no members.
+
+Add confirmed profiles to the `members` list in `data/members.json`, and place
+their web photographs inside `assets/members/`. Each entry requires a unique
+lowercase `id` and a `name`. Optional fields are `name_local`, `role`, `status`
+(`current`, `previous`, or `future`; defaults to `current`), `photo` (a local
+asset path), `period`, `bio`, `contact` (list of text entries), `education`
+(list of text entries), `research`, and `links` (list of `label` / HTTP(S) `url`
+objects). Only include information approved for public display. Missing photos
+use initials; missing fields are omitted. Entry order is preserved.
+
+Run `python3 scripts/update-members.py` after updating the data and commit the
+generated `index.html` with it. Profiles are static HTML and remain available
+as native expandable entries without JavaScript. JavaScript adds category and
+keyword filtering and a larger profile dialog. The generator escapes text and
+validates image paths and external links before changing the page.
+
 ## Checks
 
 ```sh
 node --check assets/site.js
+node --check assets/members.js
+python3 scripts/update-members.py --check
 git diff --check
 ```
 
@@ -48,3 +75,6 @@ and check search, category combinations, an empty result, and clearing filters.
 Check the photo wall, the full team photo's orientation, and photo/architecture
 previews. The previews should close with either their close button or Escape,
 restore keyboard focus, and retain working image links without JavaScript.
+For member-directory changes, check category plus keyword filtering, empty
+results and reset, optional fields and missing photos, native disclosures,
+and profile-dialog closing/focus behavior on desktop and a narrow screen.
