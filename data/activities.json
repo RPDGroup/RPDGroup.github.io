@@ -898,17 +898,6 @@
       "image": "assets/activities/photo-012-full.webp"
     },
     {
-      "id": "photo-013",
-      "category": "lab",
-      "title": "Working together",
-      "thumbnail": {
-        "src": "assets/activities/photo-013-thumb.webp",
-        "width": 720,
-        "height": 328
-      },
-      "image": "assets/activities/photo-013-full.webp"
-    },
-    {
       "id": "photo-017",
       "category": "together",
       "title": "Graduation day",
