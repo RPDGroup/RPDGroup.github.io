@@ -1585,6 +1585,37 @@
           "sha256": "2cdf98749b922ffe0a29a142bff119ef0bb3bcda392381fb5e5280b38d484a1c"
         }
       ]
+    },
+    {
+      "id": "group-evening",
+      "source_filename": "codex-clipboard-72054320-aed1-49d6-a7c8-28936d3c71e5.jpg",
+      "source_sha256": "1a6b31c5899b75ceabf94a66e0648da8cefd8ac1bbe4ba02ef6db528fae5473e",
+      "source_bytes": 3715678,
+      "source_dimensions": [
+        3672,
+        4896
+      ],
+      "source_exif_orientation": 5,
+      "upright_dimensions": [
+        4896,
+        3672
+      ],
+      "outputs": [
+        {
+          "file": "assets/activities/group-evening-thumb.webp",
+          "width": 720,
+          "height": 540,
+          "bytes": 28972,
+          "sha256": "72a7549c0cf0fabce47ed7300aa8e2060aa45ae912b5ac24f13eb9d27b6395c5"
+        },
+        {
+          "file": "assets/activities/group-evening-full.webp",
+          "width": 1600,
+          "height": 1200,
+          "bytes": 83992,
+          "sha256": "a5650de328a7c52c3b74a16f86959c443e65b41465e843f7fb3fb7dd447ea55e"
+        }
+      ]
     }
   ],
   "duplicate_sources": [

@@ -18,6 +18,17 @@
       "image": "assets/team-upright-1600.webp"
     },
     {
+      "id": "group-evening",
+      "category": "together",
+      "title": "A moment together",
+      "thumbnail": {
+        "src": "assets/activities/group-evening-thumb.webp",
+        "width": 720,
+        "height": 540
+      },
+      "image": "assets/activities/group-evening-full.webp"
+    },
+    {
       "id": "upload-004",
       "category": "together",
       "title": "Together on the basketball court",
