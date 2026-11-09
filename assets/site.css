@@ -116,9 +116,9 @@ em { font-family: inherit; font-weight: inherit; font-style: normal; }
 .photo-announcement { position: absolute; width: 1px; height: 1px; padding: 0; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
 .mission-band { background: var(--gradient); color: white; text-align: center; margin-top: 28px; padding: 66px var(--gutter) 70px; }
 .mission-kicker { font-size: 12px; text-transform: uppercase; letter-spacing: .14em; color: #e1e4f1; margin-bottom: 19px; }
-.mission-band h1 { font-size: clamp(36px, 4.2vw, 54px); font-weight: 500; line-height: 1.18; letter-spacing: -.025em; }
-.mission-values { margin: 25px auto 0; max-width: 36em; font-size: clamp(17px, 2vw, 23px); line-height: 1.8; text-wrap: balance; }
-.mission-values p + p { margin-top: 7px; }
+.mission-quote { font-size: clamp(20px, 2.3vw, 27px); font-weight: 500; line-height: 1.55; letter-spacing: -.015em; }
+.mission-values { margin: 22px auto 0; max-width: 36em; text-wrap: balance; }
+.mission-values > * + * { margin-top: 12px; }
 .mission-band > p:last-child { font-size: 17px; margin-top: 23px; color: #e7e8f2; }
 .home-overview { padding-block: 66px 76px; text-align: center; }
 .mission-copy { max-width: 810px; margin-inline: auto; text-align: left; font-size: 18px; line-height: 1.8; }
@@ -453,7 +453,7 @@ body.has-member-viewer { overflow: hidden; }
   .photo-select { width: 83px; }
   .mission-band { margin-top: 20px; padding-block: 43px 47px; }
   .mission-kicker { font-size: 10px; margin-bottom: 16px; }
-  .mission-band h1 { font-size: 38px; }
+  .mission-quote { font-size: 21px; }
   .mission-band > p:last-child { font-size: 14px; max-width: 290px; margin: 20px auto 0; }
   .home-overview { padding-block: 41px 48px; }
   .mission-copy { font-size: 16px; }
