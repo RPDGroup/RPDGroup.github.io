@@ -117,6 +117,8 @@ em { font-family: inherit; font-weight: inherit; font-style: normal; }
 .mission-band { background: var(--gradient); color: white; text-align: center; margin-top: 28px; padding: 66px var(--gutter) 70px; }
 .mission-kicker { font-size: 12px; text-transform: uppercase; letter-spacing: .14em; color: #e1e4f1; margin-bottom: 19px; }
 .mission-band h1 { font-size: clamp(36px, 4.2vw, 54px); font-weight: 500; line-height: 1.18; letter-spacing: -.025em; }
+.mission-values { margin: 25px auto 0; max-width: 36em; font-size: clamp(17px, 2vw, 23px); line-height: 1.8; text-wrap: balance; }
+.mission-values p + p { margin-top: 7px; }
 .mission-band > p:last-child { font-size: 17px; margin-top: 23px; color: #e7e8f2; }
 .home-overview { padding-block: 66px 76px; text-align: center; }
 .mission-copy { max-width: 810px; margin-inline: auto; text-align: left; font-size: 18px; line-height: 1.8; }
