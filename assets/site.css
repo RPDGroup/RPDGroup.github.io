@@ -509,13 +509,34 @@ body.has-member-viewer { overflow: hidden; }
   *, *::before, *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
 }
 
-.analects-text { max-width: 840px; }
-.analects-text article { padding: 30px 0 42px; border-bottom: 1px solid #d9dce4; }
-.analects-text article p { margin-top: 16px; line-height: 1.9; }
-.analects-text blockquote { margin: 25px 0; padding-left: 20px; border-left: 3px solid #6159a5; font-size: 1.4rem; font-weight: 600; }
+/* A quiet, book-like setting for the bilingual records. */
+#analects { background: #f5f3ee; }
+#analects .page-banner { background: #202b3c; color: #fff; padding-block: 76px 72px; }
+#analects .page-banner .eyebrow { color: #c6aa77; letter-spacing: .18em; }
+#analects .page-banner h1 { font-family: Georgia, "Times New Roman", serif; font-weight: 400; letter-spacing: -.025em; }
+#analects .page-banner p:last-child { color: #d9dee5; }
+.analects-text { max-width: 1100px; counter-reset: chapter; padding-block: 70px 90px; }
+.analects-text article { counter-increment: chapter; background: #fffefa; border: 1px solid #e8e2d7; border-radius: 4px; padding: clamp(28px, 5vw, 58px); margin-bottom: 28px; box-shadow: 0 12px 36px rgba(37, 43, 53, .045); }
+.analects-text article::before { content: "CHAPTER 0" counter(chapter); display: block; color: #a47b42; font-size: 11px; font-weight: 700; letter-spacing: .2em; margin-bottom: 16px; }
+.analects-text article h2 { font-family: Georgia, "Songti SC", serif; color: #253448; font-weight: 400; font-size: clamp(23px, 3vw, 32px); line-height: 1.4; padding-bottom: 24px; margin: 0 0 22px; border-bottom: 1px solid #e8e2d7; }
+.analects-pair { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 48px; align-items: start; }
+.analects-pair p { margin: 0 0 18px; line-height: 1.9; font-size: 15px; color: #35404e; }
+.analects-pair p[lang="zh-CN"] { font-family: "Songti SC", "STSong", serif; font-size: 16px; }
+.analects-pair p[lang="en"] { color: #68717a; }
+.analects-pair:has(blockquote) { margin: 12px 0 26px; padding: 25px 27px 8px; background: #f4f1e9; border-left: 3px solid #b39260; }
+.analects-pair blockquote { margin: 0 0 16px; color: #263b4e; font-family: Georgia, "Songti SC", serif; font-size: clamp(18px, 2vw, 23px); font-weight: 400; line-height: 1.65; }
+.analects-pair:last-child { border-top: 1px solid #ece8df; padding-top: 20px; margin-top: 3px; }
+.analects-pair:last-child p { font-size: 13px; color: #747b7d; line-height: 1.85; margin-bottom: 0; }
 .mission-values [hidden] { display: none; }
-
-.analects-pair { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 28px; align-items: start; }
-.analects-pair p[lang="en"] { color: #596273; }
-.analects-pair blockquote { line-height: 1.6; }
-@media (max-width: 700px) { .analects-pair { grid-template-columns: 1fr; gap: 0; } .analects-pair p[lang="en"] { margin-top: 6px; } .analects-pair blockquote { margin-block: 12px; } }
+@media (max-width: 700px) {
+  #analects .page-banner { padding-block: 48px; }
+  .analects-text { padding-block: 32px 48px; }
+  .analects-text article { padding: 26px 22px; margin-bottom: 18px; }
+  .analects-text article h2 { padding-bottom: 18px; margin-bottom: 19px; }
+  .analects-pair { grid-template-columns: 1fr; gap: 0; }
+  .analects-pair p { margin-bottom: 10px; }
+  .analects-pair p[lang="en"] { margin-bottom: 20px; }
+  .analects-pair:has(blockquote) { padding: 20px 18px 3px; margin-block: 6px 20px; }
+  .analects-pair:last-child p[lang="zh-CN"] { margin-bottom: 10px; }
+  .analects-pair:last-child p[lang="en"] { margin-bottom: 0; }
+}
