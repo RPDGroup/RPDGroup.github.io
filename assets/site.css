@@ -514,3 +514,8 @@ body.has-member-viewer { overflow: hidden; }
 .analects-text article p { margin-top: 16px; line-height: 1.9; }
 .analects-text blockquote { margin: 25px 0; padding-left: 20px; border-left: 3px solid #6159a5; font-size: 1.4rem; font-weight: 600; }
 .mission-values [hidden] { display: none; }
+
+.analects-pair { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 28px; align-items: start; }
+.analects-pair p[lang="en"] { color: #596273; }
+.analects-pair blockquote { line-height: 1.6; }
+@media (max-width: 700px) { .analects-pair { grid-template-columns: 1fr; gap: 0; } .analects-pair p[lang="en"] { margin-top: 6px; } .analects-pair blockquote { margin-block: 12px; } }
