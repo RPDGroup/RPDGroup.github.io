@@ -210,7 +210,7 @@
       mottoes[currentMotto].hidden = true;
       currentMotto = (currentMotto + 1) % mottoes.length;
       mottoes[currentMotto].hidden = false;
-    }, 4000);
+    }, 2000);
   }
 
   // All content is readable as native anchor sections if JavaScript is disabled.
