@@ -201,6 +201,18 @@
     });
   }
 
+  const mottoes = [...document.querySelectorAll('.mission-quote')];
+  if (mottoes.length && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    let currentMotto = 0;
+    mottoes.forEach((motto, index) => { motto.hidden = index !== 0; });
+    window.setInterval(() => {
+      if (document.hidden) return;
+      mottoes[currentMotto].hidden = true;
+      currentMotto = (currentMotto + 1) % mottoes.length;
+      mottoes[currentMotto].hidden = false;
+    }, 4000);
+  }
+
   // All content is readable as native anchor sections if JavaScript is disabled.
   for (const page of pages) page.hidden = page.dataset.page !== 'home';
   document.body.classList.add('js');
