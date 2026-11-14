@@ -38,9 +38,12 @@
       return;
     }
     const nativeAnchor = [...researchAnchors].find(([, id]) => id === fragment);
+    const analectsMatch = /^analects-\d+$/.test(fragment);
     const [requestedPage, section] = nativeAnchor
       ? ['research', nativeAnchor[0]]
-      : fragment.split('/');
+      : analectsMatch
+        ? ['analects', fragment]
+        : fragment.split('/');
     const canonicalPage = requestedPage === 'people' && pageNames.has('members') ? 'members' : requestedPage;
     const key = pageNames.has(canonicalPage) ? canonicalPage : 'home';
     const currentPage = pages.find(page => page.dataset.page === key);
@@ -55,6 +58,7 @@
     let target;
     if (fragment === 'highlights') target = document.getElementById('highlights');
     else if (key === 'research' && researchAnchors.has(section)) target = document.getElementById(researchAnchors.get(section));
+    else if (key === 'analects' && analectsMatch) target = document.getElementById(section);
     // Wait until the newly shown section has a layout before positioning it.
     requestAnimationFrame(() => {
       if (currentPage.hidden) return;
@@ -211,6 +215,45 @@
       currentMotto = (currentMotto + 1) % mottoes.length;
       mottoes[currentMotto].hidden = false;
     }, 2000);
+  }
+
+  const localClock = document.getElementById('contact-local-time');
+  if (localClock) {
+    const tz = localClock.dataset.tz || 'Asia/Shanghai';
+    const fmt = new Intl.DateTimeFormat('en-GB', {
+      timeZone: tz,
+      weekday: 'short',
+      hour: '2-digit',
+      minute: '2-digit',
+      second: '2-digit',
+      hour12: false,
+    });
+    const updateClock = () => {
+      const now = new Date();
+      localClock.dateTime = now.toISOString();
+      localClock.textContent = `${fmt.format(now)} · UTC+8 (${tz})`;
+    };
+    updateClock();
+    window.setInterval(updateClock, 1000);
+  }
+
+  for (const copyBtn of document.querySelectorAll('[data-copy-email]')) {
+    copyBtn.addEventListener('click', async () => {
+      const email = copyBtn.dataset.copyEmail;
+      const status = copyBtn.closest('.contact-box')?.querySelector('.contact-copy-status');
+      const original = copyBtn.textContent;
+      try {
+        await navigator.clipboard.writeText(email);
+        copyBtn.textContent = 'Copied ✓';
+        if (status) status.textContent = `Copied ${email} to clipboard.`;
+      } catch {
+        copyBtn.textContent = email;
+        if (status) status.textContent = `Email address: ${email}`;
+      }
+      window.setTimeout(() => {
+        copyBtn.textContent = original;
+      }, 2200);
+    });
   }
 
   // All content is readable as native anchor sections if JavaScript is disabled.

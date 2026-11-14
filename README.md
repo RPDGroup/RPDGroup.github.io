@@ -1,168 +1,76 @@
 # Ren Protein Design Group website
 
-A buildless GitHub Pages website. The `main` branch is published from the
-repository root at <https://rpdgroup.github.io/>. No npm install, framework, or
-third-party runtime is required.
-
-The layout takes cues from Baker Lab's photo-led homepage: a blue-purple
-masthead, compact navigation, a rotating photo collage, and simple research
-entries. Branding, photographs, project descriptions, and scientific figures
-belong to RPDGroup. Home, News, About, and Contact are grouped under Info; the
-logo also links home. Research, Members, Publications, and Resources remain
-direct navigation links. Activities has its own navigation entry and a
-three-photo preview on the homepage.
+Static site for the Ren Protein Design Group, live at <https://rpdgroup.github.io/>.
+No build step: `main` is served from the repository root, and the site runs on
+plain HTML, CSS, and JavaScript with no third-party runtime.
 
 ## Preview
-
-From the repository root:
 
 ```sh
 python3 -m http.server 8766 --bind 127.0.0.1
 ```
 
-Open <http://127.0.0.1:8766/>. Check the homepage, the nine navigation destinations,
-the `#research/dynamics` deep link, resource search and category filters, the
-Info dropdown, and the mobile menu. JavaScript enhances routing and search; without it, all sections
-remain readable and navigation uses native anchors.
+Open <http://127.0.0.1:8766/>. Sections work as plain anchors, so every page
+stays readable without JavaScript.
 
-## Edit
+## Layout
 
-- `index.html`: research, member, publication, news, contact, and resource content.
-- `assets/site.css`: responsive styles and reduced-motion support.
-- `assets/site.js`: hash navigation, accessible mobile disclosure, resource search.
-- `assets/home-photos.js`: homepage photo rotation, pause, and manual navigation.
-- `data/members.json`: public member profiles, in display order.
-- `scripts/update-members.py`: generate static member HTML after editing the data.
-- `assets/members.js`: member search, category filters, and profile dialogs.
-- `data/activities.json`: activity photographs, categories, homepage previews, and photo focal points.
-- `scripts/update-activities.py`: render the photo journal and refresh frontend asset versions.
-- `assets/activities.js`: activity category filtering.
-- `assets/activities/`: web encodings and source metadata for the activity journal.
-- `assets/photos/`: selected photographs from the supplied presentation, with source metadata.
-- `assets/README.md`: image sources and scientific illustration provenance.
+| Path | Purpose |
+| --- | --- |
+| `index.html` | All page content: home, research, members, publications, activities, news, resources, analects, about, contact |
+| `assets/site.css` | Global styles, responsive layout, reduced-motion support |
+| `assets/site.js` | Hash navigation, mobile menu, resource search and filters |
+| `assets/home-photos.js` | Homepage photo wall: rotation, pause, manual navigation |
+| `assets/members.js` | Member directory filters and profile dialogs |
+| `assets/activities.js` | Activity gallery filters |
+| `data/members.json` | Member profiles, in display order |
+| `data/activities.json` | Activity photographs and homepage selections |
+| `data/publications.json` | Curated publication metadata |
+| `scripts/update-members.py` | Regenerates member markup from the data |
+| `scripts/update-activities.py` | Regenerates the gallery and homepage wall |
+| `scripts/update-publications.py` | Regenerates the publication lists |
+| `assets/README.md` | Image sources and figure provenance |
 
-Keep project descriptions and publication metadata grounded in their owning
-repositories. Home project cards and resource cards are static HTML; update both
-when adding or changing a project. Search indexes the resource cards themselves.
+## Editing content
 
-The DynoDB database website at <https://ai4scenter-dynodb.nenu.edu.cn/> has a
-dedicated resource card for protein-complex MD trajectories and analysis
-results, alongside the existing DynoDB small-protein ensemble dataset and code
-links. The homepage DynoDB card and Research page also link to the database.
-Database scope is based on the website's public homepage and the group's
-supplied URL; no dataset counts are duplicated on this site.
+- **Copy and page structure** live in `index.html`.
+- **Members**: edit `data/members.json`, put portraits in `assets/members/`,
+  then run `python3 scripts/update-members.py`. Each entry needs a unique
+  lowercase `id` and a `name`; everything else is optional. Only publish
+  information approved for public display.
+- **Activities**: edit `data/activities.json`, then run
+  `python3 scripts/update-activities.py`. Do not infer event names, dates,
+  places, or identities from a file name; keep source metadata in
+  `assets/activities/*-sources.json`.
+- **Publications**: edit `data/publications.json`, then run
+  `python3 scripts/update-publications.py`. Keep citation text verbatim from
+  the source, including original spellings, and record roles only for group
+  members.
 
-## Member profiles
-
-The Members page follows the circular portrait directory and profile overlays of
-<https://wglab.org/members.html>. It contains 34 confirmed names supplied by the
-group: one Leader, eight PhD students, twenty-one master's students, and four alumni.
-All five students with a 2027 intake have already joined and have `current`
-status. Intake years describe academic admission, not future group membership.
-Seventeen members have supplied portraits: the Leader, seven PhD students,
-seven master's students (including Xinyuan Zhao), and two alumni.
-Additional portraits and biographies can be supplied later; missing portraits
-use initials. The canonical route is `#members`; existing `#people` links still
-open the member directory.
-
-Add confirmed profiles to the `members` list in `data/members.json`, and place
-their web photographs inside `assets/members/`. Each entry requires a unique
-lowercase `id` and a `name`. Optional fields are `name_local`, `role`, `status`
-(`current`, `previous`, or `future`; defaults to `current`), `group` (`leader`,
-`phd`, `master`, `alumni`, or `other`), `admission_year` (an integer), `photo` (a local
-asset path), `period`, `bio`, `contact` (list of text entries), `education`
-(list of text entries), `research`, and `links` (list of `label` / HTTP(S) `url`
-objects). Only include information approved for public display. Missing photos
-use initials; missing fields are omitted. Entry order is preserved within each
-group. The public directory groups profiles by role and displays intake years
-on the cards; category and text filters hide sections without matching members.
-
-Run `python3 scripts/update-members.py` after updating the data and commit the
-generated `index.html` with it. Profiles are static HTML and remain available
-as native expandable entries without JavaScript. JavaScript adds category and
-keyword filtering and a larger profile dialog. The generator escapes text and
-validates image paths and external links before changing the page.
-
-## Activity photographs
-
-The Activities page uses 105 images: 44 from the supplied presentation,
-13 graduation photographs selected by the user from Photos, and 48 directly
-supplied images of academic exchanges, group activities, and related keepsakes. They are
-organized as Lab life, Academic exchange, and Group moments. Below the rotating
-wall, the homepage shows three selections. The gallery preserves complete image proportions;
-homepage previews may crop a frame. Opening a photograph shows the complete
-web image. Previous/Next buttons and the left/right arrow keys browse only
-the current category; closing the viewer restores focus to its opening link.
-
-Add photographs and their web-image paths to `data/activities.json`. Run
-`python3 scripts/update-activities.py` to regenerate the gallery and homepage
-selection. This also gives frontend CSS/JS content-based version URLs, so new
-HTML loads its matching assets. Run it after frontend asset edits as well.
-Do not invent event names, dates, places, or identities from a photo's file
-name or the presentation's title. Source metadata is in
-`assets/activities/sources.json`, `assets/activities/album-sources.json`, and
-`assets/activities/upload-sources.json`;
-original inputs remain outside the website.
-
-The latest 27 supplied files add 26 images. The whiteboard photograph already
-listed as `photo-009` appears once; its additional source is recorded in the
-upload manifest. The appointment letter is rotated upright, and the supplied
-group sketch is included. The new batch follows the opening homepage collage.
-
-The homepage wall automatically includes every photograph in the activity
-data, in the same order, grouped into sets of up to three with no omissions
-or duplicates. The supplied lab group selfie opens the first set, using its
-existing compressed web assets. Adding or removing a gallery entry updates the wall when the
-generator runs. Optional `homepage_focal_points` percentages control the crop
-in supporting tiles. The large photograph keeps its complete frame. The wall
-rotates every three seconds and supports previous/next buttons, a set chooser, left/right
-keys, and a pause/play control. Manual navigation or keyboard focus pauses
-rotation until Play is selected. Hovering over photos, leaving the homepage,
-scrolling past the wall, or hiding the tab suspends automatic changes.
-Reduced-motion preferences start the wall paused. Image previews pause the
-wall and browse the currently visible photographs. Without JavaScript, the first
-set remains visible with native full-image links. Run the activity generator
-after changing selections; it renders all photo blocks and refreshes cache
-versions for the frontend files.
+The generators also refresh the `?v=` version strings on the frontend assets,
+so run them after editing CSS or JavaScript as well.
 
 ## Checks
 
 ```sh
 node --check assets/site.js
 node --check assets/members.js
-python3 scripts/update-members.py --check
-python3 scripts/update-activities.py --check
 node --check assets/activities.js
 node --check assets/home-photos.js
+python3 scripts/update-members.py --check
+python3 scripts/update-activities.py --check
+python3 scripts/update-publications.py --check
 git diff --check
 ```
 
-Before publishing, inspect desktop and narrow-screen rendering, open each route,
-and check search, category combinations, an empty result, and clearing filters.
-Check the photo wall, the full team photo's orientation, and photo/architecture
-previews. The previews should close with either their close button or Escape,
-restore keyboard focus, and retain working image links without JavaScript.
-For member-directory changes, check category plus keyword filtering, empty
-results and reset, optional fields and missing photos, native disclosures,
-and profile-dialog closing/focus behavior on desktop and a narrow screen.
-For Activities changes, check every category, full-image preview, Previous/Next
-and arrow-key navigation, wrapping at the gallery ends, and focus after closing.
-Check that research figures still open without photograph-navigation controls.
-
-### Publications
-
-`data/publications.json` stores curated metadata, original-source role evidence, and source links, checked on 2026-10-28 against the user-provided Scholar profile. Include group-member first/co-first authorship or explicitly designated correspondence; do not infer correspondence from last author position. Peer-reviewed versions replace duplicate preprints; distinct preprints are labeled. Roles shown on the page refer to group members only. The original Rapid PCR paper spells Zilin Ren as “Zhuli Ren”; the user confirmed this spelling error on 2026-10-28, and the original printed author list is retained in the citation metadata. The BMC SGAN article uses the publisher's corrected volume/article number alongside its 2023 publication date.
-
-Regenerate after editing metadata:
-
-```sh
-python3 scripts/update-publications.py
-python3 scripts/update-publications.py --check
-```
-
-The homepage “From the group” shows three publication milestones selected by `home_news_dois`; News lists formal publications, with year-only dates when an exact publication date is not stored. Both sections are generated by `update-publications.py`. Research/About copy follows the user's enzyme/PPI, design, structure-prediction, and MD scope; SIITW's profile was a reference for AI/bioinformatics/software wording, not evidence that every personal project is a group project. The Contact email was explicitly supplied for publication by the user.
-
+Then open every route in a desktop and a narrow window, and check search,
+filters, photo previews, and profile dialogs (they should close with Escape and
+restore keyboard focus).
 
 ## Publishing
 
-Automatic deployment is intentionally disabled. Repository changes, including logo updates, require a manual publication before they appear on the live website. After an authorized release, restore the Pages source to GitHub Actions without adding a push-triggered workflow.
+Automatic deployment is intentionally disabled: the Pages source is set to
+GitHub Actions without a push-triggered workflow, so a push alone does not
+update the live site. To release, switch the repository Pages source to
+*Deploy from a branch* (`main`, `/`), wait for the deployment to succeed, and
+then restore the source to *GitHub Actions*.
